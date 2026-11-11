@@ -10,7 +10,7 @@ import json
 import re
 from pathlib import Path
 
-JAZYKY = ("sk", "cs", "pl")
+JAZYKY = ("sk", "cs", "pl", "en", "hu")
 root = Path(__file__).resolve().parent.parent
 src = root / "data" / "produkty.json"
 dst = root / "data" / "produkty.js"

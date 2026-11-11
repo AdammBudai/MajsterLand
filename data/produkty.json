@@ -5,12 +5,16 @@
       "nazov": {
         "sk": "Podobkladové systémy",
         "cs": "Systémy pod obklad",
-        "pl": "Systemy pod płytki"
+        "pl": "Systemy pod płytki",
+        "en": "Under-tile systems",
+        "hu": "Burkolat alatti rendszerek"
       },
       "popis": {
         "sk": "Zásuvky, vypínače, revízne dvierka, ventilácia",
         "cs": "Zásuvky, vypínače, revizní dvířka, ventilace",
-        "pl": "Gniazdka, włączniki, drzwiczki rewizyjne, wentylacja"
+        "pl": "Gniazdka, włączniki, drzwiczki rewizyjne, wentylacja",
+        "en": "Sockets, switches, access panels, ventilation",
+        "hu": "Konnektorok, kapcsolók, revíziós ajtók, szellőzés"
       }
     },
     {
@@ -18,12 +22,16 @@
       "nazov": {
         "sk": "Šablóny",
         "cs": "Šablony",
-        "pl": "Szablony"
+        "pl": "Szablony",
+        "en": "Templates",
+        "hu": "Sablonok"
       },
       "popis": {
         "sk": "Presné vŕtanie krabíc a prestupov",
         "cs": "Přesné vrtání krabic a prostupů",
-        "pl": "Precyzyjne wiercenie puszek i przepustów"
+        "pl": "Precyzyjne wiercenie puszek i przepustów",
+        "en": "Accurate drilling for back boxes and pipe holes",
+        "hu": "Pontos fúrás dobozokhoz és átvezetésekhez"
       }
     },
     {
@@ -31,38 +39,16 @@
       "nazov": {
         "sk": "Prípravky a držiaky",
         "cs": "Přípravky a držáky",
-        "pl": "Przyrządy i uchwyty"
+        "pl": "Przyrządy i uchwyty",
+        "en": "Jigs and holders",
+        "hu": "Segédeszközök és tartók"
       },
       "popis": {
         "sk": "45° skosenie, pravé uhly, Jolly hrany",
         "cs": "Zkosení 45°, pravé úhly, Jolly hrany",
-        "pl": "Szlif 45°, kąty proste, narożniki Jolly"
-      }
-    },
-    {
-      "id": "doplnky",
-      "nazov": {
-        "sk": "Doplnky z dlažby",
-        "cs": "Doplňky z dlažby",
-        "pl": "Dodatki z płytek"
-      },
-      "popis": {
-        "sk": "Kúpeľňové doplnky ručne z dlažby",
-        "cs": "Koupelnové doplňky ručně z dlažby",
-        "pl": "Dodatki łazienkowe ręcznie z płytek"
-      }
-    },
-    {
-      "id": "prislusenstvo",
-      "nazov": {
-        "sk": "Príslušenstvo",
-        "cs": "Příslušenství",
-        "pl": "Akcesoria"
-      },
-      "popis": {
-        "sk": "Pásky, pištole, drobnosti do kufra",
-        "cs": "Pásky, pistole, drobnosti do kufru",
-        "pl": "Taśmy, pistolety, drobiazgi do skrzynki"
+        "pl": "Szlif 45°, kąty proste, narożniki Jolly",
+        "en": "45° mitres, right angles, Jolly edges",
+        "hu": "45°-os gérelés, derékszögek, Jolly élek"
       }
     }
   ],
@@ -75,22 +61,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/3d-tlaciaren-milan-gorol-3855f496-d561-4f4c-a306-cefeefc1322d?offerId=18480112063",
         "cs": "https://allegro.cz/nabidka/18480112063",
-        "pl": "https://allegro.pl/oferta/18480112063"
+        "pl": "https://allegro.pl/oferta/18480112063",
+        "en": "https://allegro.sk/produkt/3d-tlaciaren-milan-gorol-3855f496-d561-4f4c-a306-cefeefc1322d?offerId=18480112063",
+        "hu": "https://allegro.hu/ajanlat/18480112063"
       },
       "nazov": {
         "sk": "Skryté tlačidlo pre Geberit a iné značky",
         "cs": "Skryté tlačítko pro Geberit a jiné značky",
-        "pl": "Ukryty przycisk do Geberit i innych marek"
+        "pl": "Ukryty przycisk do Geberit i innych marek",
+        "en": "Hidden flush button for Geberit and other brands",
+        "hu": "Rejtett öblítőgomb Geberithez és más márkákhoz"
       },
       "kratky": {
         "sk": "Splachovanie schované pod obkladom. Na stene nie je žiadny plastový panel.",
         "cs": "Splachování schované pod obkladem. Na stěně není žádný plastový panel.",
-        "pl": "Spłukiwanie ukryte pod płytkami. Na ścianie nie ma plastikowego panelu."
+        "pl": "Spłukiwanie ukryte pod płytkami. Na ścianie nie ma plastikowego panelu.",
+        "en": "Flush control hidden under the tiles. No plastic plate on the wall.",
+        "hu": "Az öblítés a burkolat alatt van elrejtve. Nincs műanyag panel a falon."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na skryté ovládanie splachovania. Funguje s bežnými podomietkovými modulmi, nielen s Geberitom. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro skryté ovládání splachování. Funguje s běžnými podomítkovými moduly, nejen s Geberitem. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do ukrytego przycisku spłukiwania. Pasuje do popularnych stelaży podtynkowych, nie tylko Geberit. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do ukrytego przycisku spłukiwania. Pasuje do popularnych stelaży podtynkowych, nie tylko Geberit. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The set has every part you need for a hidden flush control. It works with common concealed cistern frames, not only Geberit. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett öblítéshez. Nemcsak Geberittel, hanem a gyakori falba építhető tartályokkal is működik. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -110,6 +104,18 @@
           "Materiał: PETG, druk 3D",
           "Kolor: czarny lub szary",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Fits: Geberit Delta, Sigma, TECE, Omega, Alcaplast, Jomo, OLI, Viega",
+          "Material: PETG, 3D printed",
+          "Colour: black or grey",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Kompatibilis: Geberit Delta, Sigma, TECE, Omega, Alcaplast, Jomo, OLI, Viega",
+          "Anyag: PETG, 3D nyomtatás",
+          "Szín: fekete vagy szürke",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -121,22 +127,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/push-up-system-pre-revizne-dvierka-a02f3b93-65be-400b-97fb-1c4113f13268?offerId=18489687339",
         "cs": "https://allegro.cz/nabidka/18489687339",
-        "pl": "https://allegro.pl/oferta/18489687339"
+        "pl": "https://allegro.pl/oferta/18489687339",
+        "en": "https://allegro.sk/produkt/push-up-system-pre-revizne-dvierka-a02f3b93-65be-400b-97fb-1c4113f13268?offerId=18489687339",
+        "hu": "https://allegro.hu/ajanlat/18489687339"
       },
       "nazov": {
         "sk": "Push-to-open systém pre skryté revízne dvierka",
         "cs": "Push-to-open systém pro skrytá revizní dvířka",
-        "pl": "System push-to-open do ukrytych drzwiczek rewizyjnych"
+        "pl": "System push-to-open do ukrytych drzwiczek rewizyjnych",
+        "en": "Push-to-open system for hidden access panels",
+        "hu": "Push-to-open rendszer rejtett revíziós ajtóhoz"
       },
       "kratky": {
         "sk": "Revízne dvierka z obkladu bez kľučky. Zatlačíš a vyskočia.",
         "cs": "Revizní dvířka z obkladu bez kliky. Zatlačíš a vyskočí.",
-        "pl": "Drzwiczki rewizyjne z płytki bez uchwytu. Naciskasz i się otwierają."
+        "pl": "Drzwiczki rewizyjne z płytki bez uchwytu. Naciskasz i się otwierają.",
+        "en": "A tiled access panel with no handle. Push it and it pops out.",
+        "hu": "Csempézett revíziós ajtó fogantyú nélkül. Megnyomod, és kiugrik."
       },
       "popis": {
         "sk": "Štyri rohové diely sa nalepia dovnútra otvoru. Hore je push mechanizmus, dole magnety. Na zadnú stranu dlaždice sa nalepia protikusy. Keď zatlačíš na hornú časť, dvierka sa vysunú a dajú sa vybrať.",
         "cs": "Čtyři rohové díly se nalepí dovnitř otvoru. Nahoře je push mechanismus, dole magnety. Na zadní stranu dlaždice se nalepí protikusy. Když zatlačíš na horní část, dvířka se vysunou a dají se vyndat.",
-        "pl": "Cztery narożniki przykleja się wewnątrz otworu. Na górze jest mechanizm push, na dole magnesy. Na tył płytki przykleja się elementy przeciwne. Gdy naciśniesz górną część, drzwiczki się wysuną i można je wyjąć."
+        "pl": "Cztery narożniki przykleja się wewnątrz otworu. Na górze jest mechanizm push, na dole magnesy. Na tył płytki przykleja się elementy przeciwne. Gdy naciśniesz górną część, drzwiczki się wysuną i można je wyjąć.",
+        "en": "The four corner pieces are glued inside the opening. The push latch goes at the top, magnets at the bottom. The matching pieces are glued to the back of the tile. Press the top edge and the panel slides out so you can lift it off.",
+        "hu": "A négy sarokelemet a nyílás belsejébe kell ragasztani. Felül van a push mechanizmus, alul a mágnesek. A csempe hátoldalára kerülnek az ellendarabok. Ha megnyomod a felső részt, az ajtó kicsúszik és kivehető."
       },
       "parametre": {
         "sk": [
@@ -156,6 +170,18 @@
           "Kolor: szary",
           "Materiał: tworzywo, druk 3D",
           "Klej nie jest w zestawie"
+        ],
+        "en": [
+          "Pack: 4 corner pieces (push latch + magnets)",
+          "Colour: grey",
+          "Material: plastic, 3D printed",
+          "Adhesive not included"
+        ],
+        "hu": [
+          "Csomag: 4 sarokelem (push + mágnesek)",
+          "Szín: szürke",
+          "Anyag: műanyag, 3D nyomtatás",
+          "Ragasztó nem tartozék"
         ]
       }
     },
@@ -167,22 +193,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18510831098",
         "cs": "https://allegro.cz/nabidka/18510831098",
-        "pl": "https://allegro.pl/oferta/18510831098"
+        "pl": "https://allegro.pl/oferta/18510831098",
+        "en": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18510831098",
+        "hu": "https://allegro.hu/ajanlat/18510831098"
       },
       "nazov": {
         "sk": "Skrytá zásuvka pod obklad – biela",
         "cs": "Skrytá zásuvka pod obklad – bílá",
-        "pl": "Ukryte gniazdko pod płytki – białe"
+        "pl": "Ukryte gniazdko pod płytki – białe",
+        "en": "Hidden under-tile socket – white",
+        "hu": "Rejtett konnektor burkolat alá – fehér"
       },
       "kratky": {
         "sk": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
         "cs": "Zásuvka osazená pod obkladem. Kompletní sada i s přístrojem Schneider Asfora.",
-        "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora."
+        "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora.",
+        "en": "A socket set under the tiles. Complete kit including the Schneider Asfora socket.",
+        "hu": "A burkolat alá süllyesztett konnektor. Teljes készlet Schneider Asfora szerelvénnyel."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky včetně elektrické části Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden socket, including the Schneider Asfora electrical unit. Works in bathrooms, kitchens and living rooms. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett konnektor beépítéséhez, a Schneider Asfora szerelvénnyel együtt. Fürdőszobába, konyhába és nappaliba is jó. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -202,6 +236,18 @@
           "Środek gniazdka: biały",
           "Materiał: tworzywo, druk 3D",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Socket centre: white",
+          "Material: plastic, 3D printed",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Konnektor közepe: fehér",
+          "Anyag: műanyag, 3D nyomtatás",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -213,22 +259,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863147932",
         "cs": "https://allegro.cz/nabidka/18863147932",
-        "pl": "https://allegro.pl/oferta/18863147932"
+        "pl": "https://allegro.pl/oferta/18863147932",
+        "en": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863147932",
+        "hu": "https://allegro.hu/ajanlat/18863147932"
       },
       "nazov": {
         "sk": "Skrytá zásuvka pod obklad – sivá",
         "cs": "Skrytá zásuvka pod obklad – šedá",
-        "pl": "Ukryte gniazdko pod płytki – szare"
+        "pl": "Ukryte gniazdko pod płytki – szare",
+        "en": "Hidden under-tile socket – grey",
+        "hu": "Rejtett konnektor burkolat alá – szürke"
       },
       "kratky": {
         "sk": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
         "cs": "Zásuvka osazená pod obkladem. Kompletní sada i s přístrojem Schneider Asfora.",
-        "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora."
+        "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora.",
+        "en": "A socket set under the tiles. Complete kit including the Schneider Asfora socket.",
+        "hu": "A burkolat alá süllyesztett konnektor. Teljes készlet Schneider Asfora szerelvénnyel."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky včetně elektrické části Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden socket, including the Schneider Asfora electrical unit. Works in bathrooms, kitchens and living rooms. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett konnektor beépítéséhez, a Schneider Asfora szerelvénnyel együtt. Fürdőszobába, konyhába és nappaliba is jó. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -248,6 +302,18 @@
           "Środek gniazdka: szary",
           "Materiał: tworzywo, druk 3D",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Socket centre: grey",
+          "Material: plastic, 3D printed",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Konnektor közepe: szürke",
+          "Anyag: műanyag, 3D nyomtatás",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -259,22 +325,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863155026",
         "cs": "https://allegro.cz/nabidka/18863155026",
-        "pl": "https://allegro.pl/oferta/18863155026"
+        "pl": "https://allegro.pl/oferta/18863155026",
+        "en": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863155026",
+        "hu": "https://allegro.hu/ajanlat/18863155026"
       },
       "nazov": {
         "sk": "Skrytá zásuvka pod obklad – čierna",
         "cs": "Skrytá zásuvka pod obklad – černá",
-        "pl": "Ukryte gniazdko pod płytki – czarne"
+        "pl": "Ukryte gniazdko pod płytki – czarne",
+        "en": "Hidden under-tile socket – black",
+        "hu": "Rejtett konnektor burkolat alá – fekete"
       },
       "kratky": {
         "sk": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
         "cs": "Zásuvka osazená pod obkladem. Kompletní sada i s přístrojem Schneider Asfora.",
-        "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora."
+        "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora.",
+        "en": "A socket set under the tiles. Complete kit including the Schneider Asfora socket.",
+        "hu": "A burkolat alá süllyesztett konnektor. Teljes készlet Schneider Asfora szerelvénnyel."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky včetně elektrické části Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden socket, including the Schneider Asfora electrical unit. Works in bathrooms, kitchens and living rooms. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett konnektor beépítéséhez, a Schneider Asfora szerelvénnyel együtt. Fürdőszobába, konyhába és nappaliba is jó. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -294,6 +368,18 @@
           "Środek gniazdka: czarny",
           "Materiał: tworzywo, druk 3D",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Socket centre: black",
+          "Material: plastic, 3D printed",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Konnektor közepe: fekete",
+          "Anyag: műanyag, 3D nyomtatás",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -305,22 +391,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18475919161",
         "cs": "https://allegro.cz/nabidka/18475919161",
-        "pl": "https://allegro.pl/oferta/18475919161"
+        "pl": "https://allegro.pl/oferta/18475919161",
+        "en": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18475919161",
+        "hu": "https://allegro.hu/ajanlat/18475919161"
       },
       "nazov": {
         "sk": "Skrytá dvojzásuvka pod obklad – sivá",
         "cs": "Skrytá dvojzásuvka pod obklad – šedá",
-        "pl": "Ukryte gniazdko podwójne pod płytki – szare"
+        "pl": "Ukryte gniazdko podwójne pod płytki – szare",
+        "en": "Hidden double socket under tiles – grey",
+        "hu": "Rejtett dupla konnektor burkolat alá – szürke"
       },
       "kratky": {
         "sk": "Dve zásuvky vedľa seba, schované pod jednou dlaždicou.",
         "cs": "Dvě zásuvky vedle sebe, schované pod jednou dlaždicí.",
-        "pl": "Dwa gniazdka obok siebie, ukryte pod jedną płytką."
+        "pl": "Dwa gniazdka obok siebie, ukryte pod jedną płytką.",
+        "en": "Two sockets side by side, hidden under one tile.",
+        "hu": "Két konnektor egymás mellett, egy csempe alatt elrejtve."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytej dvojzásuvky vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skryté dvojzásuvky včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka podwójnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka podwójnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden double socket, including the Schneider Asfora electrical unit. The PVC template for marking the cut-out comes in square and round versions. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett dupla konnektor beépítéséhez, a Schneider Asfora szerelvénnyel együtt. A kivágás bejelöléséhez való PVC sablon szögletes és kerek változatban is megvan. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -340,6 +434,18 @@
           "Środek gniazdek: szary",
           "Szablon PVC: kwadratowy i okrągły",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Socket centres: grey",
+          "PVC template: square and round",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Konnektorok közepe: szürke",
+          "PVC sablon: szögletes és kerek",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -351,22 +457,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryta-podobkladova-zasuvka-s-vypinacom-pre-keramicke-obklady-e28f74a9-e0ea-4dc9-b5a7-05729d5a6264?offerId=18510847461",
         "cs": "https://allegro.cz/nabidka/18510847461",
-        "pl": "https://allegro.pl/oferta/18510847461"
+        "pl": "https://allegro.pl/oferta/18510847461",
+        "en": "https://allegro.sk/produkt/skryta-podobkladova-zasuvka-s-vypinacom-pre-keramicke-obklady-e28f74a9-e0ea-4dc9-b5a7-05729d5a6264?offerId=18510847461",
+        "hu": "https://allegro.hu/ajanlat/18510847461"
       },
       "nazov": {
         "sk": "Skrytá zásuvka s vypínačom pod obklad – sivá",
         "cs": "Skrytá zásuvka s vypínačem pod obklad – šedá",
-        "pl": "Ukryte gniazdko z włącznikiem pod płytki – szare"
+        "pl": "Ukryte gniazdko z włącznikiem pod płytki – szare",
+        "en": "Hidden socket with switch under tiles – grey",
+        "hu": "Rejtett konnektor kapcsolóval burkolat alá – szürke"
       },
       "kratky": {
         "sk": "Zásuvka a vypínač v jednom ráme, obe schované pod obkladom.",
         "cs": "Zásuvka a vypínač v jednom rámečku, obojí schované pod obkladem.",
-        "pl": "Gniazdko i włącznik w jednej ramce, oba ukryte pod płytką."
+        "pl": "Gniazdko i włącznik w jednej ramce, oba ukryte pod płytką.",
+        "en": "Socket and switch in one frame, both hidden under the tiles.",
+        "hu": "Konnektor és kapcsoló egy keretben, mindkettő a burkolat alatt."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky s vypínačom vrátane elektrických častí Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky s vypínačem včetně elektrických částí Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka z włącznikiem razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka z włącznikiem razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden socket with switch, including the Schneider Asfora electrical units. Works in bathrooms, kitchens and living rooms. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett kapcsolós konnektor beépítéséhez, a Schneider Asfora szerelvényekkel együtt. Fürdőszobába, konyhába és nappaliba is jó. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -386,6 +500,18 @@
           "Środek gniazdka: szary",
           "Materiał: tworzywo, druk 3D",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical units: Schneider Asfora",
+          "Socket centre: grey",
+          "Material: plastic, 3D printed",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvények: Schneider Asfora",
+          "Konnektor közepe: szürke",
+          "Anyag: műanyag, 3D nyomtatás",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -397,22 +523,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510732693",
         "cs": "https://allegro.cz/nabidka/18510732693",
-        "pl": "https://allegro.pl/oferta/18510732693"
+        "pl": "https://allegro.pl/oferta/18510732693",
+        "en": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510732693",
+        "hu": "https://allegro.hu/ajanlat/18510732693"
       },
       "nazov": {
         "sk": "Skrytý vypínač pod obklad",
         "cs": "Skrytý vypínač pod obklad",
-        "pl": "Ukryty włącznik pod płytki"
+        "pl": "Ukryty włącznik pod płytki",
+        "en": "Hidden under-tile switch",
+        "hu": "Rejtett kapcsoló burkolat alá"
       },
       "kratky": {
         "sk": "Jednoduchý vypínač schovaný pod dlaždicou.",
         "cs": "Jednoduchý vypínač schovaný pod dlaždicí.",
-        "pl": "Pojedynczy włącznik ukryty pod płytką."
+        "pl": "Pojedynczy włącznik ukryty pod płytką.",
+        "en": "A single switch hidden under a tile.",
+        "hu": "Egyszerű kapcsoló a csempe alatt elrejtve."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytého vypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skrytého vypínače včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden switch, including the Schneider Asfora electrical unit. The PVC template for marking the cut-out comes in square and round versions. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett kapcsoló beépítéséhez, a Schneider Asfora szerelvénnyel együtt. A kivágás bejelöléséhez való PVC sablon szögletes és kerek változatban is megvan. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -432,6 +566,18 @@
           "Kolor: czarny lub szary",
           "Szablon PVC: kwadratowy i okrągły",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Colour: black or grey",
+          "PVC template: square and round",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Szín: fekete vagy szürke",
+          "PVC sablon: szögletes és kerek",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -443,22 +589,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510794683",
         "cs": "https://allegro.cz/nabidka/18510794683",
-        "pl": "https://allegro.pl/oferta/18510794683"
+        "pl": "https://allegro.pl/oferta/18510794683",
+        "en": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510794683",
+        "hu": "https://allegro.hu/ajanlat/18510794683"
       },
       "nazov": {
         "sk": "Skrytý dvojpáčkový vypínač pod obklad",
         "cs": "Skrytý dvojitý vypínač pod obklad",
-        "pl": "Ukryty włącznik podwójny pod płytki"
+        "pl": "Ukryty włącznik podwójny pod płytki",
+        "en": "Hidden double switch under tiles",
+        "hu": "Rejtett dupla kapcsoló burkolat alá"
       },
       "kratky": {
         "sk": "Dvojpáčkový vypínač pod dlaždicou. Dve svetlá, jeden výrez.",
         "cs": "Dvojitý vypínač pod dlaždicí. Dvě světla, jeden výřez.",
-        "pl": "Włącznik podwójny pod płytką. Dwa światła, jedno wycięcie."
+        "pl": "Włącznik podwójny pod płytką. Dwa światła, jedno wycięcie.",
+        "en": "A double switch under a tile. Two lights, one cut-out.",
+        "hu": "Dupla kapcsoló a csempe alatt. Két lámpa, egy kivágás."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytého dvojvypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skrytého dvojitého vypínače včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika podwójnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika podwójnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden double switch, including the Schneider Asfora electrical unit. The PVC template for marking the cut-out comes in square and round versions. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett dupla kapcsoló beépítéséhez, a Schneider Asfora szerelvénnyel együtt. A kivágás bejelöléséhez való PVC sablon szögletes és kerek változatban is megvan. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -478,6 +632,18 @@
           "Kolor: czarny lub szary",
           "Szablon PVC: kwadratowy i okrągły",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Colour: black or grey",
+          "PVC template: square and round",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Szín: fekete vagy szürke",
+          "PVC sablon: szögletes és kerek",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -489,22 +655,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510838202",
         "cs": "https://allegro.cz/nabidka/18510838202",
-        "pl": "https://allegro.pl/oferta/18510838202"
+        "pl": "https://allegro.pl/oferta/18510838202",
+        "en": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510838202",
+        "hu": "https://allegro.hu/ajanlat/18510838202"
       },
       "nazov": {
         "sk": "Skrytý vypínač v dvojráme pod obklad",
         "cs": "Skrytý vypínač ve dvojrámečku pod obklad",
-        "pl": "Ukryty włącznik w ramce podwójnej pod płytki"
+        "pl": "Ukryty włącznik w ramce podwójnej pod płytki",
+        "en": "Hidden switch in a double frame under tiles",
+        "hu": "Rejtett kapcsoló dupla keretben burkolat alá"
       },
       "kratky": {
         "sk": "Dva vypínače vedľa seba v jednom ráme pod obkladom.",
         "cs": "Dva vypínače vedle sebe v jednom rámečku pod obkladem.",
-        "pl": "Dwa włączniki obok siebie w jednej ramce pod płytką."
+        "pl": "Dwa włączniki obok siebie w jednej ramce pod płytką.",
+        "en": "Two switches side by side in one frame under the tiles.",
+        "hu": "Két kapcsoló egymás mellett, egy keretben a burkolat alatt."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytého vypínača v dvojráme vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skrytého vypínače ve dvojrámečku včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika w ramce podwójnej razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika w ramce podwójnej razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden switch in a double frame, including the Schneider Asfora electrical unit. The PVC template for marking the cut-out comes in square and round versions. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a dupla keretes rejtett kapcsoló beépítéséhez, a Schneider Asfora szerelvénnyel együtt. A kivágás bejelöléséhez való PVC sablon szögletes és kerek változatban is megvan. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -524,6 +698,18 @@
           "Kolor: czarny lub szary",
           "Szablon PVC: kwadratowy i okrągły",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Colour: black or grey",
+          "PVC template: square and round",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Szín: fekete vagy szürke",
+          "PVC sablon: szögletes és kerek",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -535,22 +721,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-vypinac-stvorvypinac-podobkladovy-stvornasobny-vypinac-pre-obklady-a26a052b-fd35-4b18-a846-eca41e3a0e2d?offerId=19075230280",
         "cs": "https://allegro.cz/nabidka/19075230280",
-        "pl": "https://allegro.pl/oferta/19075230280"
+        "pl": "https://allegro.pl/oferta/19075230280",
+        "en": "https://allegro.sk/produkt/skryty-vypinac-stvorvypinac-podobkladovy-stvornasobny-vypinac-pre-obklady-a26a052b-fd35-4b18-a846-eca41e3a0e2d?offerId=19075230280",
+        "hu": "https://allegro.hu/ajanlat/19075230280"
       },
       "nazov": {
         "sk": "Skrytý štvorvypínač pod obklad",
         "cs": "Skrytý čtyřnásobný vypínač pod obklad",
-        "pl": "Ukryty włącznik poczwórny pod płytki"
+        "pl": "Ukryty włącznik poczwórny pod płytki",
+        "en": "Hidden quadruple switch under tiles",
+        "hu": "Rejtett négyes kapcsoló burkolat alá"
       },
       "kratky": {
         "sk": "Štyri okruhy svetla z jedného miesta, celé schované pod obkladom.",
         "cs": "Čtyři okruhy světla z jednoho místa, celé schované pod obkladem.",
-        "pl": "Cztery obwody światła z jednego miejsca, całość ukryta pod płytką."
+        "pl": "Cztery obwody światła z jednego miejsca, całość ukryta pod płytką.",
+        "en": "Four lighting circuits from one spot, all hidden under the tiles.",
+        "hu": "Négy világítási kör egy helyről, teljesen a burkolat alatt."
       },
       "popis": {
         "sk": "Set obsahuje všetky diely na montáž skrytého štvornásobného vypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
         "cs": "Sada obsahuje všechny díly pro montáž skrytého čtyřnásobného vypínače včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
-        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika poczwórnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+        "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika poczwórnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek.",
+        "en": "The kit has every part for fitting a hidden quadruple switch, including the Schneider Asfora electrical unit. The PVC template for marking the cut-out comes in square and round versions. It should be fitted by a tiler with tile cutting tools.",
+        "hu": "A készlet minden alkatrészt tartalmaz a rejtett négyes kapcsoló beépítéséhez, a Schneider Asfora szerelvénnyel együtt. A kivágás bejelöléséhez való PVC sablon szögletes és kerek változatban is megvan. A szerelést burkoló végezze, akinek vannak csempevágó szerszámai."
       },
       "parametre": {
         "sk": [
@@ -570,6 +764,18 @@
           "Kolor: czarny lub szary",
           "Szablon PVC: kwadratowy i okrągły",
           "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+        ],
+        "en": [
+          "Electrical unit: Schneider Asfora",
+          "Colour: black or grey",
+          "PVC template: square and round",
+          "Cutting tools, adhesive and diamond drill bits are not included"
+        ],
+        "hu": [
+          "Szerelvény: Schneider Asfora",
+          "Szín: fekete vagy szürke",
+          "PVC sablon: szögletes és kerek",
+          "Vágószerszám, ragasztó és gyémántfúró nem tartozék"
         ]
       }
     },
@@ -581,22 +787,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19057891771",
         "cs": "https://allegro.cz/nabidka/19057891771",
-        "pl": "https://allegro.pl/oferta/19057891771"
+        "pl": "https://allegro.pl/oferta/19057891771",
+        "en": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19057891771",
+        "hu": "https://allegro.hu/ajanlat/19057891771"
       },
       "nazov": {
         "sk": "Skrytý ventilátor pod obklad – hranatý 100 mm",
         "cs": "Skrytý ventilátor pod obklad – hranatý 100 mm",
-        "pl": "Ukryty wentylator pod płytki – kwadratowy 100 mm"
+        "pl": "Ukryty wentylator pod płytki – kwadratowy 100 mm",
+        "en": "Hidden under-tile fan – square 100 mm",
+        "hu": "Rejtett ventilátor burkolat alá – szögletes 100 mm"
       },
       "kratky": {
         "sk": "Ventilátor za obkladom. Na stene ostane len úzka štrbina.",
         "cs": "Ventilátor za obkladem. Na stěně zůstane jen úzká štěrbina.",
-        "pl": "Wentylator za płytkami. Na ścianie zostaje tylko wąska szczelina."
+        "pl": "Wentylator za płytkami. Na ścianie zostaje tylko wąska szczelina.",
+        "en": "A fan behind the tiles. Only a thin gap shows on the wall.",
+        "hu": "Ventilátor a burkolat mögött. A falon csak egy keskeny rés látszik."
       },
       "popis": {
         "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
         "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
-        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem.",
+        "en": "The duct fan is built straight into the tiling, so there is no grille in the bathroom or toilet. Air leaves through a thin gap around the tile. It can go on a wall or ceiling and runs from a light switch.",
+        "hu": "A csőventilátor közvetlenül a burkolatba kerül, így se a fürdőben, se a WC-ben nem látszik rács. A levegő a csempe körüli keskeny résen távozik. Falra és mennyezetre is szerelhető, kapcsolóval működik."
       },
       "parametre": {
         "sk": [
@@ -616,6 +830,18 @@
           "Otwór montażowy: 19 × 19 cm",
           "Głębokość: 9,5 cm",
           "Materiał: czarny PETG (szary lub biały na zamówienie)"
+        ],
+        "en": [
+          "Duct diameter: 100 mm",
+          "Mounting opening: 19 × 19 cm",
+          "Depth: 9.5 cm",
+          "Material: black PETG (grey or white to order)"
+        ],
+        "hu": [
+          "Csőátmérő: 100 mm",
+          "Beépítési nyílás: 19 × 19 cm",
+          "Mélység: 9,5 cm",
+          "Anyag: fekete PETG (szürke vagy fehér rendelésre)"
         ]
       }
     },
@@ -627,22 +853,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-100mm-big-box-ce54da8b-64ad-495e-bb55-520c72473e9c?offerId=19057999417",
         "cs": "https://allegro.cz/nabidka/19057999417",
-        "pl": "https://allegro.pl/oferta/19057999417"
+        "pl": "https://allegro.pl/oferta/19057999417",
+        "en": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-100mm-big-box-ce54da8b-64ad-495e-bb55-520c72473e9c?offerId=19057999417",
+        "hu": "https://allegro.hu/ajanlat/19057999417"
       },
       "nazov": {
         "sk": "Skrytý ventilátor pod obklad – hranatý 100 mm (BIG BOX)",
         "cs": "Skrytý ventilátor pod obklad – hranatý 100 mm (BIG BOX)",
-        "pl": "Ukryty wentylator pod płytki – kwadratowy 100 mm (BIG BOX)"
+        "pl": "Ukryty wentylator pod płytki – kwadratowy 100 mm (BIG BOX)",
+        "en": "Hidden under-tile fan – square 100 mm (BIG BOX)",
+        "hu": "Rejtett ventilátor burkolat alá – szögletes 100 mm (BIG BOX)"
       },
       "kratky": {
         "sk": "Väčší box pre 100 mm ventilátor. Na stene ostane len úzka štrbina.",
         "cs": "Větší box pro 100 mm ventilátor. Na stěně zůstane jen úzká štěrbina.",
-        "pl": "Większy box na wentylator 100 mm. Na ścianie zostaje tylko wąska szczelina."
+        "pl": "Większy box na wentylator 100 mm. Na ścianie zostaje tylko wąska szczelina.",
+        "en": "A bigger box for a 100 mm fan. Only a thin gap shows on the wall.",
+        "hu": "Nagyobb doboz 100 mm-es ventilátorhoz. A falon csak egy keskeny rés látszik."
       },
       "popis": {
         "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
         "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
-        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem.",
+        "en": "The duct fan is built straight into the tiling, so there is no grille in the bathroom or toilet. Air leaves through a thin gap around the tile. It can go on a wall or ceiling and runs from a light switch.",
+        "hu": "A csőventilátor közvetlenül a burkolatba kerül, így se a fürdőben, se a WC-ben nem látszik rács. A levegő a csempe körüli keskeny résen távozik. Falra és mennyezetre is szerelhető, kapcsolóval működik."
       },
       "parametre": {
         "sk": [
@@ -662,6 +896,18 @@
           "Otwór montażowy: 24 × 24 cm",
           "Głębokość: 11,5 cm",
           "Materiał: czarny PETG (szary lub biały na zamówienie)"
+        ],
+        "en": [
+          "Duct diameter: 100 mm",
+          "Mounting opening: 24 × 24 cm",
+          "Depth: 11.5 cm",
+          "Material: black PETG (grey or white to order)"
+        ],
+        "hu": [
+          "Csőátmérő: 100 mm",
+          "Beépítési nyílás: 24 × 24 cm",
+          "Mélység: 11,5 cm",
+          "Anyag: fekete PETG (szürke vagy fehér rendelésre)"
         ]
       }
     },
@@ -673,22 +919,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19055464954",
         "cs": "https://allegro.cz/nabidka/19055464954",
-        "pl": "https://allegro.pl/oferta/19055464954"
+        "pl": "https://allegro.pl/oferta/19055464954",
+        "en": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19055464954",
+        "hu": "https://allegro.hu/ajanlat/19055464954"
       },
       "nazov": {
         "sk": "Skrytý ventilátor pod obklad – hranatý 125 mm",
         "cs": "Skrytý ventilátor pod obklad – hranatý 125 mm",
-        "pl": "Ukryty wentylator pod płytki – kwadratowy 125 mm"
+        "pl": "Ukryty wentylator pod płytki – kwadratowy 125 mm",
+        "en": "Hidden under-tile fan – square 125 mm",
+        "hu": "Rejtett ventilátor burkolat alá – szögletes 125 mm"
       },
       "kratky": {
         "sk": "Ventilátor za obkladom pre 125 mm potrubie.",
         "cs": "Ventilátor za obkladem pro potrubí 125 mm.",
-        "pl": "Wentylator za płytkami do kanału 125 mm."
+        "pl": "Wentylator za płytkami do kanału 125 mm.",
+        "en": "A fan behind the tiles for a 125 mm duct.",
+        "hu": "Ventilátor a burkolat mögött 125 mm-es csőhöz."
       },
       "popis": {
         "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
         "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
-        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem.",
+        "en": "The duct fan is built straight into the tiling, so there is no grille in the bathroom or toilet. Air leaves through a thin gap around the tile. It can go on a wall or ceiling and runs from a light switch.",
+        "hu": "A csőventilátor közvetlenül a burkolatba kerül, így se a fürdőben, se a WC-ben nem látszik rács. A levegő a csempe körüli keskeny résen távozik. Falra és mennyezetre is szerelhető, kapcsolóval működik."
       },
       "parametre": {
         "sk": [
@@ -708,6 +962,18 @@
           "Otwór montażowy: 24 × 24 cm",
           "Głębokość: 10 cm",
           "Materiał: czarny PETG (szary lub biały na zamówienie)"
+        ],
+        "en": [
+          "Duct diameter: 125 mm",
+          "Mounting opening: 24 × 24 cm",
+          "Depth: 10 cm",
+          "Material: black PETG (grey or white to order)"
+        ],
+        "hu": [
+          "Csőátmérő: 125 mm",
+          "Beépítési nyílás: 24 × 24 cm",
+          "Mélység: 10 cm",
+          "Anyag: fekete PETG (szürke vagy fehér rendelésre)"
         ]
       }
     },
@@ -719,22 +985,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-ea689521-0fa5-4e15-a2b9-96466e105ce1?offerId=19057934977",
         "cs": "https://allegro.cz/nabidka/19057934977",
-        "pl": "https://allegro.pl/oferta/19057934977"
+        "pl": "https://allegro.pl/oferta/19057934977",
+        "en": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-ea689521-0fa5-4e15-a2b9-96466e105ce1?offerId=19057934977",
+        "hu": "https://allegro.hu/ajanlat/19057934977"
       },
       "nazov": {
         "sk": "Skrytý ventilátor pod obklad – oblý 100 mm",
         "cs": "Skrytý ventilátor pod obklad – oblý 100 mm",
-        "pl": "Ukryty wentylator pod płytki – okrągły 100 mm"
+        "pl": "Ukryty wentylator pod płytki – okrągły 100 mm",
+        "en": "Hidden under-tile fan – round 100 mm",
+        "hu": "Rejtett ventilátor burkolat alá – kerek 100 mm"
       },
       "kratky": {
         "sk": "Ventilátor za obkladom, oblé prevedenie. Na stene ostane len štrbina.",
         "cs": "Ventilátor za obkladem, oblé provedení. Na stěně zůstane jen štěrbina.",
-        "pl": "Wentylator za płytkami, wersja okrągła. Na ścianie zostaje tylko szczelina."
+        "pl": "Wentylator za płytkami, wersja okrągła. Na ścianie zostaje tylko szczelina.",
+        "en": "A fan behind the tiles, round version. Only a gap shows on the wall.",
+        "hu": "Ventilátor a burkolat mögött, kerek kivitel. A falon csak egy rés látszik."
       },
       "popis": {
         "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
         "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
-        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem.",
+        "en": "The duct fan is built straight into the tiling, so there is no grille in the bathroom or toilet. Air leaves through a thin gap around the tile. It can go on a wall or ceiling and runs from a light switch.",
+        "hu": "A csőventilátor közvetlenül a burkolatba kerül, így se a fürdőben, se a WC-ben nem látszik rács. A levegő a csempe körüli keskeny résen távozik. Falra és mennyezetre is szerelhető, kapcsolóval működik."
       },
       "parametre": {
         "sk": [
@@ -754,6 +1028,18 @@
           "Otwór montażowy: 19 × 19 cm",
           "Głębokość: 9,5 cm",
           "Materiał: czarny PETG (szary lub biały na zamówienie)"
+        ],
+        "en": [
+          "Duct diameter: 100 mm",
+          "Mounting opening: 19 × 19 cm",
+          "Depth: 9.5 cm",
+          "Material: black PETG (grey or white to order)"
+        ],
+        "hu": [
+          "Csőátmérő: 100 mm",
+          "Beépítési nyílás: 19 × 19 cm",
+          "Mélység: 9,5 cm",
+          "Anyag: fekete PETG (szürke vagy fehér rendelésre)"
         ]
       }
     },
@@ -765,22 +1051,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-big-ff9f8dd3-9526-44d9-a1d8-6e95e6c79b17?offerId=19057985518",
         "cs": "https://allegro.cz/nabidka/19057985518",
-        "pl": "https://allegro.pl/oferta/19057985518"
+        "pl": "https://allegro.pl/oferta/19057985518",
+        "en": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-big-ff9f8dd3-9526-44d9-a1d8-6e95e6c79b17?offerId=19057985518",
+        "hu": "https://allegro.hu/ajanlat/19057985518"
       },
       "nazov": {
         "sk": "Skrytý ventilátor pod obklad – oblý 100 mm (BIG BOX)",
         "cs": "Skrytý ventilátor pod obklad – oblý 100 mm (BIG BOX)",
-        "pl": "Ukryty wentylator pod płytki – okrągły 100 mm (BIG BOX)"
+        "pl": "Ukryty wentylator pod płytki – okrągły 100 mm (BIG BOX)",
+        "en": "Hidden under-tile fan – round 100 mm (BIG BOX)",
+        "hu": "Rejtett ventilátor burkolat alá – kerek 100 mm (BIG BOX)"
       },
       "kratky": {
         "sk": "Väčší oblý box pre 100 mm ventilátor.",
         "cs": "Větší oblý box pro 100 mm ventilátor.",
-        "pl": "Większy okrągły box na wentylator 100 mm."
+        "pl": "Większy okrągły box na wentylator 100 mm.",
+        "en": "A bigger round box for a 100 mm fan.",
+        "hu": "Nagyobb kerek doboz 100 mm-es ventilátorhoz."
       },
       "popis": {
         "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
         "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
-        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem.",
+        "en": "The duct fan is built straight into the tiling, so there is no grille in the bathroom or toilet. Air leaves through a thin gap around the tile. It can go on a wall or ceiling and runs from a light switch.",
+        "hu": "A csőventilátor közvetlenül a burkolatba kerül, így se a fürdőben, se a WC-ben nem látszik rács. A levegő a csempe körüli keskeny résen távozik. Falra és mennyezetre is szerelhető, kapcsolóval működik."
       },
       "parametre": {
         "sk": [
@@ -800,6 +1094,18 @@
           "Otwór montażowy: 24 × 24 cm",
           "Głębokość: 11,5 cm",
           "Materiał: czarny PETG (szary lub biały na zamówienie)"
+        ],
+        "en": [
+          "Duct diameter: 100 mm",
+          "Mounting opening: 24 × 24 cm",
+          "Depth: 11.5 cm",
+          "Material: black PETG (grey or white to order)"
+        ],
+        "hu": [
+          "Csőátmérő: 100 mm",
+          "Beépítési nyílás: 24 × 24 cm",
+          "Mélység: 11,5 cm",
+          "Anyag: fekete PETG (szürke vagy fehér rendelésre)"
         ]
       }
     },
@@ -811,22 +1117,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-125mm-6f4e6222-76db-4fd5-a71b-408fa2ee7e30?offerId=18950725137",
         "cs": "https://allegro.cz/nabidka/18950725137",
-        "pl": "https://allegro.pl/oferta/18950725137"
+        "pl": "https://allegro.pl/oferta/18950725137",
+        "en": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-125mm-6f4e6222-76db-4fd5-a71b-408fa2ee7e30?offerId=18950725137",
+        "hu": "https://allegro.hu/ajanlat/18950725137"
       },
       "nazov": {
         "sk": "Skrytý ventilátor pod obklad – oblý 125 mm",
         "cs": "Skrytý ventilátor pod obklad – oblý 125 mm",
-        "pl": "Ukryty wentylator pod płytki – okrągły 125 mm"
+        "pl": "Ukryty wentylator pod płytki – okrągły 125 mm",
+        "en": "Hidden under-tile fan – round 125 mm",
+        "hu": "Rejtett ventilátor burkolat alá – kerek 125 mm"
       },
       "kratky": {
         "sk": "Oblý ventilátor za obkladom pre 125 mm potrubie.",
         "cs": "Oblý ventilátor za obkladem pro potrubí 125 mm.",
-        "pl": "Okrągły wentylator za płytkami do kanału 125 mm."
+        "pl": "Okrągły wentylator za płytkami do kanału 125 mm.",
+        "en": "A round fan behind the tiles for a 125 mm duct.",
+        "hu": "Kerek ventilátor a burkolat mögött 125 mm-es csőhöz."
       },
       "popis": {
         "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
         "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
-        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+        "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem.",
+        "en": "The duct fan is built straight into the tiling, so there is no grille in the bathroom or toilet. Air leaves through a thin gap around the tile. It can go on a wall or ceiling and runs from a light switch.",
+        "hu": "A csőventilátor közvetlenül a burkolatba kerül, így se a fürdőben, se a WC-ben nem látszik rács. A levegő a csempe körüli keskeny résen távozik. Falra és mennyezetre is szerelhető, kapcsolóval működik."
       },
       "parametre": {
         "sk": [
@@ -846,6 +1160,18 @@
           "Otwór montażowy: 24 × 24 cm",
           "Głębokość: 10 cm",
           "Materiał: czarny PETG (szary lub biały na zamówienie)"
+        ],
+        "en": [
+          "Duct diameter: 125 mm",
+          "Mounting opening: 24 × 24 cm",
+          "Depth: 10 cm",
+          "Material: black PETG (grey or white to order)"
+        ],
+        "hu": [
+          "Csőátmérő: 125 mm",
+          "Beépítési nyílás: 24 × 24 cm",
+          "Mélység: 10 cm",
+          "Anyag: fekete PETG (szürke vagy fehér rendelésre)"
         ]
       }
     },
@@ -857,22 +1183,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/sablona-na-vrtanie-otvorov-pre-geberit-30bade73-64af-4089-b490-cf84cb93abc4?offerId=18475826529",
         "cs": "https://allegro.cz/nabidka/18475826529",
-        "pl": "https://allegro.pl/oferta/18475826529"
+        "pl": "https://allegro.pl/oferta/18475826529",
+        "en": "https://allegro.sk/produkt/sablona-na-vrtanie-otvorov-pre-geberit-30bade73-64af-4089-b490-cf84cb93abc4?offerId=18475826529",
+        "hu": "https://allegro.hu/ajanlat/18475826529"
       },
       "nazov": {
         "sk": "Šablóna na vŕtanie otvorov pre Geberit",
         "cs": "Šablona na vrtání otvorů pro Geberit",
-        "pl": "Szablon do wiercenia otworów pod Geberit"
+        "pl": "Szablon do wiercenia otworów pod Geberit",
+        "en": "Drilling template for Geberit",
+        "hu": "Fúrósablon Geberithez"
       },
       "kratky": {
         "sk": "Otvory pre podomietkové WC trafíš na prvý raz.",
         "cs": "Otvory pro podomítkové WC trefíš napoprvé.",
-        "pl": "Otwory pod stelaż WC trafisz za pierwszym razem."
+        "pl": "Otwory pod stelaż WC trafisz za pierwszym razem.",
+        "en": "Get the holes for a concealed WC frame right first time.",
+        "hu": "A falba épített WC furatait elsőre eltalálod."
       },
       "popis": {
         "sk": "Šablóna ukáže presné miesta otvorov v obklade alebo greste pre podomietkový WC modul Geberit. Priložíš, obkreslíš, vŕtaš.",
         "cs": "Šablona ukáže přesná místa otvorů v obkladu nebo gresu pro podomítkový WC modul Geberit. Přiložíš, obkreslíš, vrtáš.",
-        "pl": "Szablon pokazuje dokładne miejsca otworów w płytce lub gresie pod stelaż podtynkowy WC Geberit. Przykładasz, obrysowujesz, wiercisz."
+        "pl": "Szablon pokazuje dokładne miejsca otworów w płytce lub gresie pod stelaż podtynkowy WC Geberit. Przykładasz, obrysowujesz, wiercisz.",
+        "en": "The template shows exactly where the holes go in tile or porcelain for a Geberit concealed WC frame. Hold it up, trace, drill.",
+        "hu": "A sablon megmutatja a furatok pontos helyét a csempén vagy gresen a Geberit falba építhető WC-modulhoz. Odateszed, körberajzolod, fúrsz."
       },
       "parametre": {
         "sk": [
@@ -889,6 +1223,16 @@
           "Do: stelaż podtynkowy WC Geberit",
           "Materiał: tworzywo, druk 3D",
           "Kolor zależny od dostępnego materiału"
+        ],
+        "en": [
+          "For: Geberit concealed WC frame",
+          "Material: plastic, 3D printed",
+          "Colour depends on available material"
+        ],
+        "hu": [
+          "Ehhez: Geberit falba építhető WC-modul",
+          "Anyag: műanyag, 3D nyomtatás",
+          "A szín a rendelkezésre álló anyagtól függ"
         ]
       }
     },
@@ -900,22 +1244,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/sablona-pre-elektroinstalacne-krabicky-4c46c928-9d2b-4099-916b-66378a351979?offerId=18475856716",
         "cs": "https://allegro.cz/nabidka/18475856716",
-        "pl": "https://allegro.pl/oferta/18475856716"
+        "pl": "https://allegro.pl/oferta/18475856716",
+        "en": "https://allegro.sk/produkt/sablona-pre-elektroinstalacne-krabicky-4c46c928-9d2b-4099-916b-66378a351979?offerId=18475856716",
+        "hu": "https://allegro.hu/ajanlat/18475856716"
       },
       "nazov": {
         "sk": "Šablóna pre elektroinštalačné krabičky",
         "cs": "Šablona pro elektroinstalační krabice",
-        "pl": "Szablon do puszek elektrycznych"
+        "pl": "Szablon do puszek elektrycznych",
+        "en": "Template for electrical back boxes",
+        "hu": "Sablon szerelvénydobozokhoz"
       },
       "kratky": {
         "sk": "Vyznačí otvory pre krabičky rovno a na milimeter. Dve libely priamo v šablóne.",
         "cs": "Vyznačí otvory pro krabice rovně a na milimetr. Dvě libely přímo v šabloně.",
-        "pl": "Wyznacza otwory pod puszki prosto i co do milimetra. Dwie libelki w szablonie."
+        "pl": "Wyznacza otwory pod puszki prosto i co do milimetra. Dwie libelki w szablonie.",
+        "en": "Marks back box holes straight and to the millimetre. Two spirit levels built in.",
+        "hu": "Egyenesen és milliméterre jelöli a dobozok helyét. Két libella van benne."
       },
       "popis": {
         "sk": "Šablóna na vyznačenie otvorov pre elektroinštalačné krabice. Má zabudované libely aj značky pre laserovú vodováhu, takže krabice sedia v rade a vo vodováhe. Hodí sa pre elektrikárov aj obkladačov.",
         "cs": "Šablona pro vyznačení otvorů pro elektroinstalační krabice. Má zabudované libely i značky pro laserovou vodováhu, takže krabice sedí v řadě a ve vodováze. Hodí se pro elektrikáře i obkladače.",
-        "pl": "Szablon do wyznaczania otworów pod puszki elektryczne. Ma wbudowane libelki i znaczniki pod poziomicę laserową, więc puszki są w jednej linii i w poziomie. Przyda się elektrykom i glazurnikom."
+        "pl": "Szablon do wyznaczania otworów pod puszki elektryczne. Ma wbudowane libelki i znaczniki pod poziomicę laserową, więc puszki są w jednej linii i w poziomie. Przyda się elektrykom i glazurnikom.",
+        "en": "A template for marking holes for electrical back boxes. It has built-in spirit levels and marks for a laser level, so the boxes sit in line and level. Useful for electricians and tilers.",
+        "hu": "Sablon a szerelvénydobozok helyének bejelöléséhez. Beépített libellák és lézeres szintezőhöz való jelek vannak rajta, így a dobozok egy vonalban és vízszintben lesznek. Villanyszerelőknek és burkolóknak is jó."
       },
       "parametre": {
         "sk": [
@@ -935,6 +1287,18 @@
           "Znaczniki osi pionowej i poziomej pod laser",
           "Znacznik środka otworu",
           "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+        ],
+        "en": [
+          "2 built-in spirit levels",
+          "Vertical and horizontal marks for a laser level",
+          "Hole centre mark",
+          "Material: plastic, 3D printed, colour depends on available material"
+        ],
+        "hu": [
+          "2 beépített libella",
+          "Függőleges és vízszintes jelek lézerhez",
+          "Furatközép jelölés",
+          "Anyag: műanyag, 3D nyomtatás, a szín a rendelkezésre álló anyagtól függ"
         ]
       }
     },
@@ -946,22 +1310,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475987051",
         "cs": "https://allegro.cz/nabidka/18475987051",
-        "pl": "https://allegro.pl/oferta/18475987051"
+        "pl": "https://allegro.pl/oferta/18475987051",
+        "en": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475987051",
+        "hu": "https://allegro.hu/ajanlat/18475987051"
       },
       "nazov": {
         "sk": "Šablóna pre tri elektroinštalačné krabičky",
         "cs": "Šablona pro tři elektroinstalační krabice",
-        "pl": "Szablon do trzech puszek elektrycznych"
+        "pl": "Szablon do trzech puszek elektrycznych",
+        "en": "Template for three electrical back boxes",
+        "hu": "Sablon három szerelvénydobozhoz"
       },
       "kratky": {
         "sk": "Tri krabičky vedľa seba v presnom rozostupe a vo vodováhe.",
         "cs": "Tři krabice vedle sebe v přesném rozestupu a ve vodováze.",
-        "pl": "Trzy puszki obok siebie w równym rozstawie i w poziomie."
+        "pl": "Trzy puszki obok siebie w równym rozstawie i w poziomie.",
+        "en": "Three boxes side by side, evenly spaced and level.",
+        "hu": "Három doboz egymás mellett, pontos távolságban és vízszintben."
       },
       "popis": {
         "sk": "Šablóna na vyznačenie troch otvorov pre elektroinštalačné krabice. Má libelu aj značky pre laserovú vodováhu, takže krabice sedia v rade.",
         "cs": "Šablona pro vyznačení tří otvorů pro elektroinstalační krabice. Má libelu i značky pro laserovou vodováhu, takže krabice sedí v řadě.",
-        "pl": "Szablon do wyznaczania trzech otworów pod puszki elektryczne. Ma libelkę i znaczniki pod poziomicę laserową, więc puszki są w jednej linii."
+        "pl": "Szablon do wyznaczania trzech otworów pod puszki elektryczne. Ma libelkę i znaczniki pod poziomicę laserową, więc puszki są w jednej linii.",
+        "en": "A template for marking three holes for electrical back boxes. It has a spirit level and marks for a laser level, so the boxes sit in line.",
+        "hu": "Sablon három szerelvénydoboz helyének bejelöléséhez. Van rajta libella és lézeres szintezőhöz való jel, így a dobozok egy vonalban lesznek."
       },
       "parametre": {
         "sk": [
@@ -981,6 +1353,18 @@
           "Znaczniki osi pionowej i poziomej pod laser",
           "Znacznik środka otworu",
           "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+        ],
+        "en": [
+          "1 built-in spirit level",
+          "Vertical and horizontal marks for a laser level",
+          "Hole centre mark",
+          "Material: plastic, 3D printed, colour depends on available material"
+        ],
+        "hu": [
+          "1 beépített libella",
+          "Függőleges és vízszintes jelek lézerhez",
+          "Furatközép jelölés",
+          "Anyag: műanyag, 3D nyomtatás, a szín a rendelkezésre álló anyagtól függ"
         ]
       }
     },
@@ -992,22 +1376,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475895054",
         "cs": "https://allegro.cz/nabidka/18475895054",
-        "pl": "https://allegro.pl/oferta/18475895054"
+        "pl": "https://allegro.pl/oferta/18475895054",
+        "en": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475895054",
+        "hu": "https://allegro.hu/ajanlat/18475895054"
       },
       "nazov": {
         "sk": "Šablóna pre štyri elektroinštalačné krabičky",
         "cs": "Šablona pro čtyři elektroinstalační krabice",
-        "pl": "Szablon do czterech puszek elektrycznych"
+        "pl": "Szablon do czterech puszek elektrycznych",
+        "en": "Template for four electrical back boxes",
+        "hu": "Sablon négy szerelvénydobozhoz"
       },
       "kratky": {
         "sk": "Štyri krabičky v rade naraz, bez merania medzi nimi.",
         "cs": "Čtyři krabice v řadě najednou, bez měření mezi nimi.",
-        "pl": "Cztery puszki w rzędzie naraz, bez mierzenia między nimi."
+        "pl": "Cztery puszki w rzędzie naraz, bez mierzenia między nimi.",
+        "en": "Four boxes in a row at once, no measuring between them.",
+        "hu": "Négy doboz egy sorban egyszerre, köztük mérés nélkül."
       },
       "popis": {
         "sk": "Šablóna na vyznačenie štyroch otvorov pre elektroinštalačné krabice. Má libelu aj značky pre laserovú vodováhu, takže krabice sedia v rade.",
         "cs": "Šablona pro vyznačení čtyř otvorů pro elektroinstalační krabice. Má libelu i značky pro laserovou vodováhu, takže krabice sedí v řadě.",
-        "pl": "Szablon do wyznaczania czterech otworów pod puszki elektryczne. Ma libelkę i znaczniki pod poziomicę laserową, więc puszki są w jednej linii."
+        "pl": "Szablon do wyznaczania czterech otworów pod puszki elektryczne. Ma libelkę i znaczniki pod poziomicę laserową, więc puszki są w jednej linii.",
+        "en": "A template for marking four holes for electrical back boxes. It has a spirit level and marks for a laser level, so the boxes sit in line.",
+        "hu": "Sablon négy szerelvénydoboz helyének bejelöléséhez. Van rajta libella és lézeres szintezőhöz való jel, így a dobozok egy vonalban lesznek."
       },
       "parametre": {
         "sk": [
@@ -1027,6 +1419,18 @@
           "Znaczniki osi pionowej i poziomej pod laser",
           "Znacznik środka otworu",
           "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+        ],
+        "en": [
+          "1 built-in spirit level",
+          "Vertical and horizontal marks for a laser level",
+          "Hole centre mark",
+          "Material: plastic, 3D printed, colour depends on available material"
+        ],
+        "hu": [
+          "1 beépített libella",
+          "Függőleges és vízszintes jelek lézerhez",
+          "Furatközép jelölés",
+          "Anyag: műanyag, 3D nyomtatás, a szín a rendelkezésre álló anyagtól függ"
         ]
       }
     },
@@ -1038,22 +1442,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/fixacna-svorka-na-jolly-hrany-90-medzerniky-0-8-2mm-f593c6a4-4107-477b-80c1-d268e93d6b0e?offerId=19082053794",
         "cs": "https://allegro.cz/nabidka/19082053794",
-        "pl": "https://allegro.pl/oferta/19082053794"
+        "pl": "https://allegro.pl/oferta/19082053794",
+        "en": "https://allegro.sk/produkt/fixacna-svorka-na-jolly-hrany-90-medzerniky-0-8-2mm-f593c6a4-4107-477b-80c1-d268e93d6b0e?offerId=19082053794",
+        "hu": "https://allegro.hu/ajanlat/19082053794"
       },
       "nazov": {
         "sk": "Fixačná svorka na Jolly hrany 90° + medzerníky",
         "cs": "Fixační svorka na Jolly hrany 90° + distanční podložky",
-        "pl": "Ścisk do narożników Jolly 90° + dystanse"
+        "pl": "Ścisk do narożników Jolly 90° + dystanse",
+        "en": "90° clamp for Jolly edges + spacers",
+        "hu": "Rögzítő szorító 90°-os Jolly élekhez + távtartók"
       },
       "kratky": {
         "sk": "Drží zrezané hrany v 90° a nechá v spoji miesto na lepidlo.",
         "cs": "Drží seříznuté hrany v 90° a nechá ve spoji místo na lepidlo.",
-        "pl": "Trzyma szlifowane krawędzie pod kątem 90° i zostawia w spoinie miejsce na klej."
+        "pl": "Trzyma szlifowane krawędzie pod kątem 90° i zostawia w spoinie miejsce na klej.",
+        "en": "Holds mitred edges at 90° and leaves room for adhesive in the joint.",
+        "hu": "A gérelt éleket 90°-ban tartja, és helyet hagy a ragasztónak a fugában."
       },
       "popis": {
         "sk": "Bežná svorka pritlačí dlaždice natvrdo a lepidlo zo spoja vytlačí. Potom vznikajú bubliny a rohy sa odlamujú. Táto svorka má vymeniteľné medzerníky, takže spoj ostane rovnaký po celej dĺžke, kým lepidlo nevytvrdne. Plastové telo nepoškriabe glazúru, gres ani kameň.",
         "cs": "Běžná svorka přitlačí dlaždice natvrdo a lepidlo ze spoje vytlačí. Pak vznikají bubliny a rohy se odlamují. Tato svorka má vyměnitelné distanční podložky, takže spoj zůstane stejný po celé délce, dokud lepidlo nevytvrdne. Plastové tělo nepoškrábe glazuru, gres ani kámen.",
-        "pl": "Zwykły ścisk dociska płytki na sztywno i wypycha klej ze spoiny. Potem powstają pęcherze, a narożniki się odłamują. Ten ścisk ma wymienne dystanse, więc spoina jest równa na całej długości, dopóki klej nie zwiąże. Plastikowy korpus nie porysuje szkliwa, gresu ani kamienia."
+        "pl": "Zwykły ścisk dociska płytki na sztywno i wypycha klej ze spoiny. Potem powstają pęcherze, a narożniki się odłamują. Ten ścisk ma wymienne dystanse, więc spoina jest równa na całej długości, dopóki klej nie zwiąże. Plastikowy korpus nie porysuje szkliwa, gresu ani kamienia.",
+        "en": "A normal clamp presses the tiles hard together and squeezes the adhesive out of the joint. That leaves air pockets and the corners chip off. This clamp has swappable spacers, so the joint stays even along its length until the adhesive sets. The plastic body won't scratch glaze, porcelain or stone.",
+        "hu": "Egy sima szorító keményen összenyomja a lapokat, és kinyomja a ragasztót a fugából. Ettől buborékok keletkeznek, és a sarkok letörnek. Ennek a szorítónak cserélhető távtartói vannak, így a fuga a teljes hosszon egyforma marad, amíg a ragasztó meg nem köt. A műanyag test nem karcolja meg a mázat, a greslapot és a követ."
       },
       "parametre": {
         "sk": [
@@ -1073,6 +1485,18 @@
           "0,8 i 1 mm do cienkich spoin epoksydowych, 1,5 i 2 mm do klejów elastycznych",
           "Zestaw: 2 ściski + 4 dystanse",
           "Materiał: tworzywo, druk 3D, kolory mogą się różnić"
+        ],
+        "en": [
+          "Spacers: 0.8 / 1.0 / 1.5 / 2.0 mm",
+          "0.8 and 1 mm for thin epoxy joints, 1.5 and 2 mm for flexible adhesives",
+          "Pack: 2 clamps + 4 spacers",
+          "Material: plastic, 3D printed, colours may vary"
+        ],
+        "hu": [
+          "Távtartók: 0,8 / 1,0 / 1,5 / 2,0 mm",
+          "0,8 és 1 mm vékony epoxi fugához, 1,5 és 2 mm flexibilis ragasztóhoz",
+          "Csomag: 2 szorító + 4 távtartó",
+          "Anyag: műanyag, 3D nyomtatás, a színek eltérhetnek"
         ]
       }
     },
@@ -1084,22 +1508,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18585178853",
         "cs": "https://allegro.cz/nabidka/18585178853",
-        "pl": "https://allegro.pl/oferta/18585178853"
+        "pl": "https://allegro.pl/oferta/18585178853",
+        "en": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18585178853",
+        "hu": "https://allegro.hu/ajanlat/18585178853"
       },
       "nazov": {
         "sk": "Držiak na lepenie dlažby pod uhlom 90°",
         "cs": "Držák na lepení dlažby pod úhlem 90°",
-        "pl": "Uchwyt do klejenia płytek pod kątem 90°"
+        "pl": "Uchwyt do klejenia płytek pod kątem 90°",
+        "en": "Holder for gluing tiles at 90°",
+        "hu": "Tartó lapok 90°-os ragasztásához"
       },
       "kratky": {
         "sk": "Podrží dve dlaždice v pravom uhle, kým lepidlo nevytvrdne.",
         "cs": "Podrží dvě dlaždice v pravém úhlu, dokud lepidlo nevytvrdne.",
-        "pl": "Trzyma dwie płytki pod kątem prostym, dopóki klej nie zwiąże."
+        "pl": "Trzyma dwie płytki pod kątem prostym, dopóki klej nie zwiąże.",
+        "en": "Holds two tiles at a right angle until the adhesive sets.",
+        "hu": "Két lapot derékszögben tart, amíg a ragasztó meg nem köt."
       },
       "popis": {
         "sk": "Uhlový držiak na lepenie dlažby do 90°. Rohy, schody a police z dlažby lepíš rýchlejšie a bez podopierania. Po zafixovaní môžeš spoj lepiť dvojzložkovým epoxidom.",
         "cs": "Úhlový držák na lepení dlažby do 90°. Rohy, schody a police z dlažby lepíš rychleji a bez podpírání. Po zafixování můžeš spoj lepit dvousložkovým epoxidem.",
-        "pl": "Uchwyt kątowy do klejenia płytek pod kątem 90°. Narożniki, stopnie i półki z płytek kleisz szybciej i bez podpierania. Po zamocowaniu możesz kleić spoinę dwuskładnikowym epoksydem."
+        "pl": "Uchwyt kątowy do klejenia płytek pod kątem 90°. Narożniki, stopnie i półki z płytek kleisz szybciej i bez podpierania. Po zamocowaniu możesz kleić spoinę dwuskładnikowym epoksydem.",
+        "en": "An angle holder for gluing tiles at 90°. Corners, steps and tile shelves go together faster and without propping. Once it's clamped you can bond the joint with two-part epoxy.",
+        "hu": "Saroktartó lapok 90°-os ragasztásához. A sarkokat, lépcsőket és csempe polcokat gyorsabban és alátámasztás nélkül ragasztod. Rögzítés után a fugát kétkomponensű epoxival ragaszthatod."
       },
       "parametre": {
         "sk": [
@@ -1113,6 +1545,14 @@
         "pl": [
           "Grubość płytki: 8 / 8,5 / 9 / 9,5 / 10 mm",
           "Zestaw: 2 uchwyty kątowe + 2 wsporniki do dłuższych płytek"
+        ],
+        "en": [
+          "Tile thickness: 8 / 8.5 / 9 / 9.5 / 10 mm",
+          "Pack: 2 angle holders + 2 brackets for longer tiles"
+        ],
+        "hu": [
+          "Lapvastagság: 8 / 8,5 / 9 / 9,5 / 10 mm",
+          "Csomag: 2 saroktartó + 2 konzol hosszabb lapokhoz"
         ]
       }
     },
@@ -1124,22 +1564,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/uchyt-drziak-na-skosenie-dlazdic-45-extra-pevna-d095c1c2-6986-4b92-8e9a-333e5f7abf1b?offerId=18494408641",
         "cs": "https://allegro.cz/nabidka/18494408641",
-        "pl": "https://allegro.pl/oferta/18494408641"
+        "pl": "https://allegro.pl/oferta/18494408641",
+        "en": "https://allegro.sk/produkt/uchyt-drziak-na-skosenie-dlazdic-45-extra-pevna-d095c1c2-6986-4b92-8e9a-333e5f7abf1b?offerId=18494408641",
+        "hu": "https://allegro.hu/ajanlat/18494408641"
       },
       "nazov": {
         "sk": "Držiak na skosenie dlaždíc 45° – extra pevný",
         "cs": "Držák na zkosení dlaždic 45° – extra pevný",
-        "pl": "Uchwyt do szlifowania płytek pod 45° – extra mocny"
+        "pl": "Uchwyt do szlifowania płytek pod 45° – extra mocny",
+        "en": "45° tile mitring holder – extra strong",
+        "hu": "Tartó 45°-os gérelt csiszoláshoz – extra erős"
       },
       "kratky": {
         "sk": "Drží dlaždicu pri brúsení hrany na 45°. Pripevníš ho k stolu.",
         "cs": "Drží dlaždici při broušení hrany na 45°. Připevníš ho ke stolu.",
-        "pl": "Trzyma płytkę przy szlifowaniu krawędzi pod 45°. Mocujesz go do stołu."
+        "pl": "Trzyma płytkę przy szlifowaniu krawędzi pod 45°. Mocujesz go do stołu.",
+        "en": "Holds the tile while you grind a 45° edge. Clamps to your bench.",
+        "hu": "Tartja a lapot, amíg 45°-ra csiszolod az élét. Az asztalhoz rögzíted."
       },
       "popis": {
         "sk": "Úchytka sa pripevní na pracovný stôl a dlaždicu drží pod uhlom 45°. Hranu zbrúsiš rovno aj na dlhšom kuse a nemusíš ju držať v ruke.",
         "cs": "Úchytka se připevní na pracovní stůl a dlaždici drží pod úhlem 45°. Hranu zbrousíš rovně i na delším kusu a nemusíš ji držet v ruce.",
-        "pl": "Uchwyt mocuje się do stołu roboczego i trzyma płytkę pod kątem 45°. Krawędź zeszlifujesz równo nawet na dłuższym kawałku i nie musisz trzymać jej w ręce."
+        "pl": "Uchwyt mocuje się do stołu roboczego i trzyma płytkę pod kątem 45°. Krawędź zeszlifujesz równo nawet na dłuższym kawałku i nie musisz trzymać jej w ręce.",
+        "en": "The holder mounts on your workbench and keeps the tile at 45°. You get a straight edge even on longer pieces without holding the tile by hand.",
+        "hu": "A tartó a munkaasztalra rögzíthető, és 45°-os szögben tartja a lapot. Hosszabb darabon is egyenes élt csiszolsz, és nem kell kézben tartanod."
       },
       "parametre": {
         "sk": [
@@ -1156,6 +1604,16 @@
           "Kąt: 45°",
           "Montaż do stołu roboczego",
           "Zestaw: 2 szt."
+        ],
+        "en": [
+          "Angle: 45°",
+          "Mounts on a workbench",
+          "Pack: 2 pcs"
+        ],
+        "hu": [
+          "Szög: 45°",
+          "Munkaasztalra szerelhető",
+          "Csomag: 2 db"
         ]
       }
     },
@@ -1167,22 +1625,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/uholnik-na-stabilizaciu-praveho-uhla-fd8c191b-6842-46d4-b2bf-fb07ce6347e1?offerId=18475696896",
         "cs": "https://allegro.cz/nabidka/18475696896",
-        "pl": "https://allegro.pl/oferta/18475696896"
+        "pl": "https://allegro.pl/oferta/18475696896",
+        "en": "https://allegro.sk/produkt/uholnik-na-stabilizaciu-praveho-uhla-fd8c191b-6842-46d4-b2bf-fb07ce6347e1?offerId=18475696896",
+        "hu": "https://allegro.hu/ajanlat/18475696896"
       },
       "nazov": {
         "sk": "Uholník na stabilizáciu pravého uhla",
         "cs": "Úhelník pro stabilizaci pravého úhlu",
-        "pl": "Kątownik do stabilizacji kąta prostego"
+        "pl": "Kątownik do stabilizacji kąta prostego",
+        "en": "Right-angle support square",
+        "hu": "Derékszög-tartó sarokelem"
       },
       "kratky": {
         "sk": "Pevný obkladačský uholník. Drží pravý uhol pri lepení dlaždíc.",
         "cs": "Pevný obkladačský úhelník. Drží pravý úhel při lepení dlaždic.",
-        "pl": "Mocny kątownik glazurniczy. Trzyma kąt prosty przy klejeniu płytek."
+        "pl": "Mocny kątownik glazurniczy. Trzyma kąt prosty przy klejeniu płytek.",
+        "en": "A sturdy tiler's square. Keeps a right angle while you glue tiles.",
+        "hu": "Erős burkolós derékszög. Ragasztáskor tartja a derékszöget."
       },
       "popis": {
         "sk": "Plastový uholník na stabilizáciu pravého uhla pri lepení a montáži dlaždíc. Je hrubší ako bežné uholníky, takže sa neprehne.",
         "cs": "Plastový úhelník pro stabilizaci pravého úhlu při lepení a montáži dlaždic. Je silnější než běžné úhelníky, takže se neprohne.",
-        "pl": "Plastikowy kątownik do stabilizacji kąta prostego przy klejeniu i montażu płytek. Jest grubszy niż zwykłe kątowniki, więc się nie wygina."
+        "pl": "Plastikowy kątownik do stabilizacji kąta prostego przy klejeniu i montażu płytek. Jest grubszy niż zwykłe kątowniki, więc się nie wygina.",
+        "en": "A plastic square for holding a right angle while gluing and fitting tiles. It's thicker than standard squares, so it doesn't flex.",
+        "hu": "Műanyag derékszög a lapok ragasztásához és szereléséhez. Vastagabb a szokásosnál, így nem hajlik el."
       },
       "parametre": {
         "sk": [
@@ -1202,6 +1668,18 @@
           "Wymiar wewnętrzny: 75 × 75 mm",
           "Szerokość × wysokość ramienia: 25 × 18 mm",
           "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+        ],
+        "en": [
+          "Outer size: 100 × 100 mm",
+          "Inner size: 75 × 75 mm",
+          "Arm width × height: 25 × 18 mm",
+          "Material: plastic, 3D printed, colour depends on available material"
+        ],
+        "hu": [
+          "Külső méret: 100 × 100 mm",
+          "Belső méret: 75 × 75 mm",
+          "Szár szélessége × magassága: 25 × 18 mm",
+          "Anyag: műanyag, 3D nyomtatás, a szín a rendelkezésre álló anyagtól függ"
         ]
       }
     },
@@ -1213,22 +1691,30 @@
       "allegro": {
         "sk": "https://allegro.sk/produkt/magneticky-drziak-pre-diamantove-brusne-dosticky-81b750dd-c888-4ff1-88eb-96ea9b0575fc?offerId=18745018066",
         "cs": "https://allegro.cz/nabidka/18745018066",
-        "pl": "https://allegro.pl/oferta/18745018066"
+        "pl": "https://allegro.pl/oferta/18745018066",
+        "en": "https://allegro.sk/produkt/magneticky-drziak-pre-diamantove-brusne-dosticky-81b750dd-c888-4ff1-88eb-96ea9b0575fc?offerId=18745018066",
+        "hu": "https://allegro.hu/ajanlat/18745018066"
       },
       "nazov": {
         "sk": "Magnetický držiak pre diamantové brúsne doštičky",
         "cs": "Magnetický držák na diamantové brusné destičky",
-        "pl": "Magnetyczny uchwyt do diamentowych płytek szlifierskich"
+        "pl": "Magnetyczny uchwyt do diamentowych płytek szlifierskich",
+        "en": "Magnetic holder for diamond hand pads",
+        "hu": "Mágneses tartó gyémánt csiszolólapokhoz"
       },
       "kratky": {
         "sk": "Rukoväť na diamantové doštičky. Magnety ich držia, výmena trvá sekundu.",
         "cs": "Rukojeť na diamantové destičky. Magnety je drží, výměna trvá vteřinu.",
-        "pl": "Uchwyt na płytki diamentowe. Magnesy je trzymają, wymiana trwa sekundę."
+        "pl": "Uchwyt na płytki diamentowe. Magnesy je trzymają, wymiana trwa sekundę.",
+        "en": "A handle for diamond hand pads. Magnets hold them, swapping takes a second.",
+        "hu": "Fogantyú gyémánt csiszolólapokhoz. Mágnesek tartják, a csere egy másodperc."
       },
       "popis": {
         "sk": "Držiak dobre sedí v ruke a silné magnety držia brúsnu doštičku pevne aj pri brúsení. Cez výrez ju rýchlo vyberieš a dáš inú zrnitosť.",
         "cs": "Držák dobře sedí v ruce a silné magnety drží brusnou destičku pevně i při broušení. Výřezem ji rychle vyndáš a dáš jinou zrnitost.",
-        "pl": "Uchwyt dobrze leży w dłoni, a mocne magnesy trzymają płytkę szlifierską pewnie nawet przy szlifowaniu. Przez wycięcie szybko ją wyjmiesz i założysz inną gradację."
+        "pl": "Uchwyt dobrze leży w dłoni, a mocne magnesy trzymają płytkę szlifierską pewnie nawet przy szlifowaniu. Przez wycięcie szybko ją wyjmiesz i założysz inną gradację.",
+        "en": "The holder sits well in the hand and strong magnets keep the pad in place while you sand. The cut-out lets you pull it off quickly and fit another grit.",
+        "hu": "A tartó jól fekszik a kézben, és az erős mágnesek csiszolás közben is stabilan tartják a lapot. A kivágáson át gyorsan kiveszed, és másik szemcsét teszel be."
       },
       "parametre": {
         "sk": [
@@ -1245,276 +1731,16 @@
           "Do płytek 153 × 63 mm",
           "Materiał: PETG",
           "Płytki szlifierskie nie są w zestawie"
-        ]
-      }
-    },
-    {
-      "id": "18595337381",
-      "kategoria": "doplnky",
-      "cena": 119.0,
-      "obrazok": "img/produkty/18595337381.jpg",
-      "allegro": {
-        "sk": "https://allegro.sk/produkt/luxusny-davkovac-na-tekute-mydlo-z-keramickej-dlazby-fb4cb205-ca81-4871-adea-7aef15e1ca67?offerId=18595337381",
-        "cs": "https://allegro.cz/nabidka/18595337381",
-        "pl": "https://allegro.pl/oferta/18595337381"
-      },
-      "nazov": {
-        "sk": "Dávkovač na tekuté mydlo z keramickej dlažby",
-        "cs": "Dávkovač na tekuté mýdlo z keramické dlažby",
-        "pl": "Dozownik do mydła z płytki ceramicznej"
-      },
-      "kratky": {
-        "sk": "Ručne robený z dlažby. Váži cez kilo, takže sa neprevráti.",
-        "cs": "Ručně dělaný z dlažby. Váží přes kilo, takže se nepřevrhne.",
-        "pl": "Ręcznie robiony z płytki. Waży ponad kilogram, więc się nie przewróci."
-      },
-      "popis": {
-        "sk": "Dávkovač je ručne vyrobený z keramickej dlažby. Na fotke je zo sivej dlažby. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
-        "cs": "Dávkovač je ručně vyrobený z keramické dlažby. Na fotce je ze šedé dlažby. Dá se udělat i v jiné barvě nebo z dlažby, kterou máš v koupelně. Vyrábí se většinou na objednávku.",
-        "pl": "Dozownik jest ręcznie wykonany z płytki ceramicznej. Na zdjęciu z szarej płytki. Można go zrobić w innym kolorze albo z płytek, które masz w łazience. Wykonywany głównie na zamówienie."
-      },
-      "parametre": {
-        "sk": [
-          "Rozmer: 8 × 8 × 19 cm",
-          "Hmotnosť: viac ako 1 kg",
-          "Farba a dekor na želanie",
-          "Do sady: pohár na kefky, držiak na WC kefu, kryt na vreckovky"
         ],
-        "cs": [
-          "Rozměr: 8 × 8 × 19 cm",
-          "Hmotnost: více než 1 kg",
-          "Barva a dekor na přání",
-          "Do sady: kelímek na kartáčky, držák WC štětky, kryt na kapesníky"
+        "en": [
+          "For 153 × 63 mm pads",
+          "Material: PETG",
+          "Pads not included"
         ],
-        "pl": [
-          "Wymiary: 8 × 8 × 19 cm",
-          "Waga: ponad 1 kg",
-          "Kolor i dekor na życzenie",
-          "Do kompletu: kubek na szczoteczki, stojak na szczotkę WC, osłona na chusteczki"
-        ]
-      }
-    },
-    {
-      "id": "18598294919",
-      "kategoria": "doplnky",
-      "cena": 119.0,
-      "obrazok": "img/produkty/18598294919.jpg",
-      "allegro": {
-        "sk": "https://allegro.sk/produkt/luxusny-pohar-na-zubne-kefky-z-keramickej-dlazby-a9ac440e-3773-4e48-85e7-968f55014951?offerId=18598294919",
-        "cs": "https://allegro.cz/nabidka/18598294919",
-        "pl": "https://allegro.pl/oferta/18598294919"
-      },
-      "nazov": {
-        "sk": "Pohár na zubné kefky z keramickej dlažby",
-        "cs": "Kelímek na zubní kartáčky z keramické dlažby",
-        "pl": "Kubek na szczoteczki z płytki ceramicznej"
-      },
-      "kratky": {
-        "sk": "Ručne robený z dlažby. Ťažký a stabilný, neprevráti sa.",
-        "cs": "Ručně dělaný z dlažby. Těžký a stabilní, nepřevrhne se.",
-        "pl": "Ręcznie robiony z płytki. Ciężki i stabilny, nie przewróci się."
-      },
-      "popis": {
-        "sk": "Pohár je ručne vyrobený z keramickej dlažby. Na fotke je zo sivej dlažby. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
-        "cs": "Kelímek je ručně vyrobený z keramické dlažby. Na fotce je ze šedé dlažby. Dá se udělat i v jiné barvě nebo z dlažby, kterou máš v koupelně. Vyrábí se většinou na objednávku.",
-        "pl": "Kubek jest ręcznie wykonany z płytki ceramicznej. Na zdjęciu z szarej płytki. Można go zrobić w innym kolorze albo z płytek, które masz w łazience. Wykonywany głównie na zamówienie."
-      },
-      "parametre": {
-        "sk": [
-          "Rozmer: 8 × 8 × 12 cm",
-          "Hmotnosť: viac ako 1 kg",
-          "Farba a dekor na želanie",
-          "Do sady: dávkovač mydla, držiak na WC kefu, kryt na vreckovky"
-        ],
-        "cs": [
-          "Rozměr: 8 × 8 × 12 cm",
-          "Hmotnost: více než 1 kg",
-          "Barva a dekor na přání",
-          "Do sady: dávkovač mýdla, držák WC štětky, kryt na kapesníky"
-        ],
-        "pl": [
-          "Wymiary: 8 × 8 × 12 cm",
-          "Waga: ponad 1 kg",
-          "Kolor i dekor na życzenie",
-          "Do kompletu: dozownik do mydła, stojak na szczotkę WC, osłona na chusteczki"
-        ]
-      }
-    },
-    {
-      "id": "18951553927",
-      "kategoria": "doplnky",
-      "cena": 109.0,
-      "obrazok": "img/produkty/18951553927.jpg",
-      "allegro": {
-        "sk": "https://allegro.sk/produkt/luxusny-drziak-na-wc-kefu-z-keramickej-dlazby-255dfb2b-db67-40d4-9b9b-64f14013161a?offerId=18951553927",
-        "cs": "https://allegro.cz/nabidka/18951553927",
-        "pl": "https://allegro.pl/oferta/18951553927"
-      },
-      "nazov": {
-        "sk": "Držiak na WC kefu z keramickej dlažby",
-        "cs": "Držák WC štětky z keramické dlažby",
-        "pl": "Stojak na szczotkę WC z płytki ceramicznej"
-      },
-      "kratky": {
-        "sk": "Ručne robený z dlažby, vnútro z odolného plastu.",
-        "cs": "Ručně dělaný z dlažby, vnitřek z odolného plastu.",
-        "pl": "Ręcznie robiony z płytki, wnętrze z wytrzymałego tworzywa."
-      },
-      "popis": {
-        "sk": "Držiak je ručne vyrobený z keramickej dlažby, vnútro je z plastu z 3D tlače. Vďaka hmotnosti stojí pevne. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
-        "cs": "Držák je ručně vyrobený z keramické dlažby, vnitřek je z plastu z 3D tisku. Díky hmotnosti stojí pevně. Dá se udělat i v jiné barvě nebo z dlažby, kterou máš v koupelně. Vyrábí se většinou na objednávku.",
-        "pl": "Stojak jest ręcznie wykonany z płytki ceramicznej, wnętrze z tworzywa z druku 3D. Dzięki wadze stoi stabilnie. Można go zrobić w innym kolorze albo z płytek, które masz w łazience. Wykonywany głównie na zamówienie."
-      },
-      "parametre": {
-        "sk": [
-          "Rozmer: 10,5 × 10,5 × 12 cm",
-          "Hmotnosť: viac ako 1 kg",
-          "Farba a dekor na želanie",
-          "Do sady: dávkovač mydla, pohár na kefky, kryt na vreckovky"
-        ],
-        "cs": [
-          "Rozměr: 10,5 × 10,5 × 12 cm",
-          "Hmotnost: více než 1 kg",
-          "Barva a dekor na přání",
-          "Do sady: dávkovač mýdla, kelímek na kartáčky, kryt na kapesníky"
-        ],
-        "pl": [
-          "Wymiary: 10,5 × 10,5 × 12 cm",
-          "Waga: ponad 1 kg",
-          "Kolor i dekor na życzenie",
-          "Do kompletu: dozownik do mydła, kubek na szczoteczki, osłona na chusteczki"
-        ]
-      }
-    },
-    {
-      "id": "18598304077",
-      "kategoria": "doplnky",
-      "cena": 139.0,
-      "obrazok": "img/produkty/18598304077.jpg",
-      "allegro": {
-        "sk": "https://allegro.sk/produkt/luxusny-kryt-na-papierove-vreckovky-z-keramickej-dlazby-4ce85c52-5b20-45f4-a535-4cfd2d67a7de?offerId=18598304077",
-        "cs": "https://allegro.cz/nabidka/18598304077",
-        "pl": "https://allegro.pl/oferta/18598304077"
-      },
-      "nazov": {
-        "sk": "Kryt na papierové vreckovky z keramickej dlažby",
-        "cs": "Kryt na papírové kapesníky z keramické dlažby",
-        "pl": "Osłona na chusteczki z płytki ceramicznej"
-      },
-      "kratky": {
-        "sk": "Položíš na krabičku vreckoviek a tá sa už nepohne.",
-        "cs": "Položíš na krabičku kapesníků a ta se už nepohne.",
-        "pl": "Kładziesz na pudełko chusteczek i ono już się nie przesunie."
-      },
-      "popis": {
-        "sk": "Kryt je ručne vyrobený z keramickej dlažby. Položí sa na papierový box s vreckovkami, ktorý sa potom pri ťahaní nehýbe a vietor ho nezhodí zo stola. Hodí sa domov, na terasu aj do kancelárie.",
-        "cs": "Kryt je ručně vyrobený z keramické dlažby. Položí se na papírový box s kapesníky, který se pak při tahání nehýbe a vítr ho neshodí ze stolu. Hodí se domů, na terasu i do kanceláře.",
-        "pl": "Osłona jest ręcznie wykonana z płytki ceramicznej. Kładzie się ją na kartonik z chusteczkami, który potem nie przesuwa się przy wyciąganiu i wiatr nie zrzuci go ze stołu. Pasuje do domu, na taras i do biura."
-      },
-      "parametre": {
-        "sk": [
-          "Rozmer: 26 × 14 × 9 cm",
-          "Hmotnosť: približne 1,7 kg",
-          "Farba a dekor na želanie"
-        ],
-        "cs": [
-          "Rozměr: 26 × 14 × 9 cm",
-          "Hmotnost: přibližně 1,7 kg",
-          "Barva a dekor na přání"
-        ],
-        "pl": [
-          "Wymiary: 26 × 14 × 9 cm",
-          "Waga: około 1,7 kg",
-          "Kolor i dekor na życzenie"
-        ]
-      }
-    },
-    {
-      "id": "18563328581",
-      "kategoria": "prislusenstvo",
-      "cena": 250.0,
-      "obrazok": "img/produkty/18563328581.jpg",
-      "allegro": {
-        "sk": "https://allegro.sk/produkt/sopro-sb-113-nerezova-paska-1abd233c-40e7-4f3f-b1dc-f03843767e13?offerId=18563328581",
-        "cs": "https://allegro.cz/nabidka/18563328581",
-        "pl": "https://allegro.pl/oferta/18563328581"
-      },
-      "nazov": {
-        "sk": "Sopro SB 113 – nerezová ochranná páska",
-        "cs": "Sopro SB 113 – nerezová ochranná páska",
-        "pl": "Sopro SB 113 – taśma ochronna ze stali nierdzewnej"
-      },
-      "kratky": {
-        "sk": "Chráni hydroizoláciu pred prerezaním, keď meníš silikónovú škáru.",
-        "cs": "Chrání hydroizolaci před proříznutím, když měníš silikonovou spáru.",
-        "pl": "Chroni hydroizolację przed przecięciem przy wymianie fugi silikonowej."
-      },
-      "popis": {
-        "sk": "Pružná páska z nerezovej ocele V4A sa vkladá do spojovacích a dilatačných škár. Keď neskôr vyrezávaš starý silikón, nôž neprereže hydroizoláciu pod ním. Do interiéru aj exteriéru, na steny aj podlahy.",
-        "cs": "Pružná páska z nerezové oceli V4A se vkládá do spojovacích a dilatačních spár. Když později vyřezáváš starý silikon, nůž neprořízne hydroizolaci pod ním. Do interiéru i exteriéru, na stěny i podlahy.",
-        "pl": "Elastyczna taśma ze stali nierdzewnej V4A układana w spoinach łączących i dylatacyjnych. Gdy później wycinasz stary silikon, nóż nie przetnie hydroizolacji pod nim. Do wnętrz i na zewnątrz, na ściany i podłogi."
-      },
-      "parametre": {
-        "sk": [
-          "Šírka: 30 mm, dĺžka 20 m",
-          "Materiál: nerez V4A, odolná voči kyselinám a chlórovanej vode",
-          "Veľkosť ôk: 1,1 × 1,1 mm",
-          "Bez organických zložiek, neplesnivie"
-        ],
-        "cs": [
-          "Šířka: 30 mm, délka 20 m",
-          "Materiál: nerez V4A, odolná vůči kyselinám a chlorované vodě",
-          "Velikost ok: 1,1 × 1,1 mm",
-          "Bez organických složek, neplesniví"
-        ],
-        "pl": [
-          "Szerokość: 30 mm, długość 20 m",
-          "Materiał: stal nierdzewna V4A, odporna na kwasy i wodę chlorowaną",
-          "Wielkość oczek: 1,1 × 1,1 mm",
-          "Bez składników organicznych, nie pleśnieje"
-        ]
-      }
-    },
-    {
-      "id": "18811656078",
-      "kategoria": "prislusenstvo",
-      "cena": 160.0,
-      "obrazok": "img/produkty/18811656078.jpg",
-      "allegro": {
-        "sk": "https://allegro.sk/produkt/akemi-pistol-na-vytlacanie-dvojpiestova-na-zivicove-lepidlo-colour-bond-250-ml-89f57029-26e2-4bf1-9645-5b27d0b4fa1a?offerId=18811656078",
-        "cs": "https://allegro.cz/nabidka/18811656078",
-        "pl": "https://allegro.pl/oferta/18811656078"
-      },
-      "nazov": {
-        "sk": "Aplikačná pištoľ Akemi pre lepidlá Colour Bond 250 ml",
-        "cs": "Aplikační pistole Akemi pro lepidla Colour Bond 250 ml",
-        "pl": "Pistolet aplikacyjny Akemi do klejów Colour Bond 250 ml"
-      },
-      "kratky": {
-        "sk": "Ručná dvojpiestová pištoľ na kartuše Colour Bond 250 ml.",
-        "cs": "Ruční dvoupístová pistole na kartuše Colour Bond 250 ml.",
-        "pl": "Ręczny pistolet dwutłokowy do kartuszy Colour Bond 250 ml."
-      },
-      "popis": {
-        "sk": "Pištoľ na vytláčanie dvojzložkových lepidiel v kartušiach Akemi Colour Bond 250 ml.",
-        "cs": "Pistole na vytlačování dvousložkových lepidel v kartuších Akemi Colour Bond 250 ml.",
-        "pl": "Pistolet do wyciskania klejów dwuskładnikowych w kartuszach Akemi Colour Bond 250 ml."
-      },
-      "parametre": {
-        "sk": [
-          "Model: MR200X manual",
-          "Pomer: 10 : 1",
-          "Pre kartuše Colour Bond 250 ml"
-        ],
-        "cs": [
-          "Model: MR200X manual",
-          "Poměr: 10 : 1",
-          "Pro kartuše Colour Bond 250 ml"
-        ],
-        "pl": [
-          "Model: MR200X manual",
-          "Proporcja: 10 : 1",
-          "Do kartuszy Colour Bond 250 ml"
+        "hu": [
+          "153 × 63 mm-es lapokhoz",
+          "Anyag: PETG",
+          "Csiszolólapok nem tartozékok"
         ]
       }
     }

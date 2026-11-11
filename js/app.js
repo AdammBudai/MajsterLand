@@ -48,7 +48,7 @@
   const tr = obj => (obj && typeof obj === "object" && !Array.isArray(obj)) ? (obj[lang] ?? obj.sk) : obj;
   const katNazov = id => { const k = kategorie.find(x => x.id === id); return k ? tr(k.nazov) : ""; };
   const odkaz = p => tr(p.allegro);
-  const cena = n => n.toLocaleString(lang === "cs" ? "cs-CZ" : lang === "pl" ? "pl-PL" : "sk-SK",
+  const cena = n => n.toLocaleString(i18n.jazyky.find(j => j.id === lang).locale,
     { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
 
   const plural = new Map();
@@ -68,7 +68,10 @@
 
     const profil = i18n.profil[lang];
     document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
-    document.querySelectorAll("[data-i18n-html]").forEach(el => { el.innerHTML = t(el.dataset.i18nHtml).replace("{profil}", profil); });
+    document.querySelectorAll("[data-i18n-html]").forEach(el => {
+      el.innerHTML = t(el.dataset.i18nHtml).replaceAll("{profil}", profil).replaceAll("{email}", i18n.email);
+    });
+    document.querySelectorAll("[data-email]").forEach(el => { el.href = "mailto:" + i18n.email; el.textContent = i18n.email; });
     document.querySelectorAll("[data-i18n-aria]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
     document.querySelectorAll("[data-i18n-alt]").forEach(el => { el.alt = t(el.dataset.i18nAlt); });
     document.querySelectorAll("[data-profil]").forEach(el => { el.href = profil; });
