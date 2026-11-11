@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Majster Land – komponenty a prípravky pre obkladačov</title>
+  <meta name="description" content="Skryté podobkladové zásuvky, vypínače a ventilátory, šablóny na vŕtanie, držiaky na 45° skosenie. Vyrobené pre obkladačov, predaj cez Allegro.">
+  <meta property="og:title" content="Majster Land – komponenty pre obkladačov">
+  <meta property="og:image" content="../img/hero.jpg">
+  <link rel="alternate" hreflang="sk" href="?lang=sk">
+  <link rel="alternate" hreflang="cs" href="?lang=cs">
+  <link rel="alternate" hreflang="pl" href="?lang=pl">
+  <link rel="alternate" hreflang="hu" href="?lang=hu">
+  <link rel="alternate" hreflang="en" href="?lang=en">
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=c6f8c9d7">
+</head>
+<body>
+
+<header class="top">
+  <div class="top__inner wrap">
+    <a href="#" class="logo" aria-label="Majster Land"><span class="logo__tile" aria-hidden="true"></span>Majster Land</a>
+    <nav id="nav" class="nav">
+      <a href="#sortiment" data-i18n="nav.produkty">Produkty</a>
+      <a href="#dielna" data-i18n="nav.dielna">O dielni</a>
+      <a href="#objednavka" data-i18n="nav.objednavka">Ako objednať</a>
+      <a href="#kontakt" data-i18n="hero.cta2">Napíš mi</a>
+    </nav>
+    <label class="lang">
+      <span class="sr-only" data-i18n="lang.label">Jazyk</span>
+      <select id="lang">
+        <option value="sk">SK – Slovenčina</option>
+        <option value="cs">CZ – Čeština</option>
+        <option value="pl">PL – Polski</option>
+        <option value="hu">HU – Magyar</option>
+        <option value="en">EN – English</option>
+      </select>
+    </label>
+    <button class="burger" aria-label="Menu" data-i18n-aria="menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- ÚVOD: obkladová stena, jedna dlaždica skrýva zásuvku -->
+  <section class="hero">
+    <div class="hero__content wrap">
+      <div class="hero__text">
+        <h1 class="hero__title" data-i18n-html="hero.title">Komponenty, ktoré obkladač naozaj použije</h1>
+        <p class="hero__lead" data-i18n="hero.lead"></p>
+        <div class="hero__cta">
+          <a href="#sortiment" class="btn btn--blue" data-i18n="hero.cta1">Pozrieť sortiment</a>
+          <a href="#kontakt" class="btn btn--tile" data-i18n="hero.cta2">Napíš mi</a>
+        </div>
+        <p class="push__note" id="push-note" aria-live="polite" data-i18n="hero.hint"></p>
+      </div>
+    </div>
+    <div class="wall" id="wall">
+      <button type="button" class="push__tile" id="push" aria-pressed="false" data-i18n-aria="tile.open">
+          <span class="push__socket" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <rect x="6" y="6" width="108" height="108" rx="6" fill="#2b2f33"/>
+              <rect x="18" y="18" width="84" height="84" rx="10" fill="#e9eaeb"/>
+              <circle cx="60" cy="60" r="31" fill="#d4d7da"/>
+              <circle cx="60" cy="60" r="31" fill="none" stroke="#b8bcc0" stroke-width="2"/>
+              <circle cx="47" cy="62" r="5" fill="#2b2f33"/>
+              <circle cx="73" cy="62" r="5" fill="#2b2f33"/>
+              <rect x="57" y="31" width="6" height="12" rx="2" fill="#9aa0a6"/>
+            </svg>
+          </span>
+          <span class="push__face" aria-hidden="true"><span class="push__mark"></span></span>
+        </button>
+    </div>
+  </section>
+
+  <section class="intro wrap">
+    <div class="intro__text">
+      <h2 class="h2" data-i18n="intro.title">Čo tu nájdeš</h2>
+      <p data-i18n="intro.p1"></p>
+      <p data-i18n="intro.p2"></p>
+    </div>
+    <ul class="facts">
+      <li><strong id="fact-count">26</strong><span data-i18n="fact.produkty"></span></li>
+      <li><strong>SK</strong><span data-i18n="fact.sk"></span></li>
+      <li><strong>PETG</strong><span data-i18n="fact.petg"></span></li>
+    </ul>
+  </section>
+
+  <section class="shop wrap" id="sortiment">
+    <div class="shop__head">
+      <h2 class="h2" data-i18n="shop.title">Sortiment</h2>
+      <p class="shop__count"><span id="count" aria-live="polite"></span> <span class="shop__mena" id="mena"></span></p>
+    </div>
+    <div class="filters" id="filters" role="group" data-i18n-aria="shop.filter"></div>
+    <div class="grid" id="grid"></div>
+    <noscript><p>Na zobrazenie produktov treba zapnúť JavaScript. Celú ponuku nájdeš aj na <a href="https://allegro.sk/pouzivatel/Majster_Land">Allegre</a>.</p></noscript>
+  </section>
+
+  <section class="workshop wrap" id="dielna">
+    <img class="workshop__img" src="../img/produkty/18585178853.jpg" data-i18n-alt="dielna.alt" alt="" loading="lazy">
+    <div class="workshop__text">
+      <h2 class="h2" data-i18n="dielna.title">Navrhnuté pri práci, nie pri stole</h2>
+      <p data-i18n="dielna.p1"></p>
+      <p data-i18n-html="dielna.p2"></p>
+      <ul class="checks">
+        <li data-i18n="dielna.c1"></li>
+        <li data-i18n="dielna.c2"></li>
+        <li data-i18n="dielna.c3"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="how wrap" id="objednavka">
+    <h2 class="h2" data-i18n="how.title">Ako objednať</h2>
+    <ol class="steps">
+      <li><h3 data-i18n="how.1t"></h3><p data-i18n="how.1p"></p></li>
+      <li><h3 data-i18n="how.2t"></h3><p data-i18n="how.2p"></p></li>
+      <li><h3 data-i18n="how.3t"></h3><p data-i18n="how.3p"></p></li>
+    </ol>
+  </section>
+
+  <section class="contact wrap" id="kontakt">
+    <h2 class="h2" data-i18n="kontakt.title">Máš otázku k produktu?</h2>
+    <p data-i18n="kontakt.p"></p>
+    <a href="mailto:info@majsterland.com" class="contact__mail" data-email>info@majsterland.com</a>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <p data-i18n-html="foot.text"></p>
+  <p>© <span id="year">2026</span> Majster Land</p>
+</footer>
+
+<dialog class="modal" id="modal" aria-labelledby="m-title">
+  <button class="modal__close" id="m-close" data-i18n-aria="close" aria-label="Zavrieť">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2.2" fill="none"/></svg>
+  </button>
+  <div class="modal__body">
+    <div class="modal__img"><img id="m-img" alt=""></div>
+    <div class="modal__info">
+      <p class="modal__cat" id="m-cat"></p>
+      <h3 class="modal__title" id="m-title"></h3>
+      <p class="modal__price" id="m-price"></p>
+      <p class="modal__mena" id="m-mena"></p>
+      <p class="modal__desc" id="m-desc"></p>
+      <ul class="specs" id="m-specs"></ul>
+      <a class="btn btn--blue btn--wide" id="m-buy" target="_blank" rel="noopener" data-i18n="buy">Kúpiť na Allegre</a>
+    </div>
+  </div>
+</dialog>
+
+<script src="../data/produkty.js?v=39919f74"></script>
+<script src="../js/i18n.js?v=f74f9107"></script>
+<script src="../js/dizajny.js?v=2ddf4bb0" data-dizajn="3" data-root="../"></script>
+<script src="js/app.js?v=0f84e2be"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Majster Land – komponenty a prípravky pre obkladačov</title>
+  <meta name="description" content="Skryté podobkladové zásuvky, vypínače a ventilátory, šablóny na vŕtanie, držiaky na 45° skosenie. Vyrobené pre obkladačov, predaj cez Allegro.">
+  <meta property="og:title" content="Majster Land – komponenty pre obkladačov">
+  <meta property="og:image" content="../img/hero.jpg">
+  <link rel="alternate" hreflang="sk" href="?lang=sk">
+  <link rel="alternate" hreflang="cs" href="?lang=cs">
+  <link rel="alternate" hreflang="pl" href="?lang=pl">
+  <link rel="alternate" hreflang="hu" href="?lang=hu">
+  <link rel="alternate" hreflang="en" href="?lang=en">
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=40fd78f3">
+</head>
+<body>
+
+<header class="top">
+  <div class="top__inner wrap">
+    <a href="#" class="logo" aria-label="Majster Land"><b>Majster</b>Land</a>
+    <nav id="nav" class="nav">
+      <a href="#sortiment" data-i18n="nav.produkty">Produkty</a>
+      <a href="#dielna" data-i18n="nav.dielna">O dielni</a>
+      <a href="#objednavka" data-i18n="nav.objednavka">Ako objednať</a>
+      <a href="#kontakt" data-i18n="hero.cta2">Napíš mi</a>
+    </nav>
+    <div class="lang" id="lang" role="group" data-i18n-aria="lang.label"></div>
+    <button class="burger" aria-label="Menu" data-i18n-aria="menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero__text">
+      <h1 class="hero__title" data-i18n-html="hero.title">Komponenty, ktoré obkladač naozaj použije</h1>
+      <p class="hero__lead" data-i18n="hero.lead"></p>
+      <div class="hero__cta">
+        <a href="#sortiment" class="btn btn--buy" data-i18n="hero.cta1">Pozrieť sortiment</a>
+        <a href="#kontakt" class="btn btn--line" data-i18n="hero.cta2">Napíš mi</a>
+      </div>
+    </div>
+    <div class="hero__photos" aria-hidden="true">
+      <img src="../img/produkty/18480112063.jpg" alt="" class="hero__p1">
+      <img src="../img/produkty/19057999417.jpg" alt="" class="hero__p2">
+      <img src="../img/produkty/19082053794.jpg" alt="" class="hero__p3">
+    </div>
+  </section>
+
+  <section class="intro wrap">
+    <div class="intro__text">
+      <h2 class="h2" data-i18n="intro.title">Čo tu nájdeš</h2>
+      <p data-i18n="intro.p1"></p>
+      <p data-i18n="intro.p2"></p>
+    </div>
+    <ul class="facts">
+      <li><strong id="fact-count">26</strong> <span data-i18n="fact.produkty"></span></li>
+      <li><strong>SK</strong> <span data-i18n="fact.sk"></span></li>
+      <li><strong>PETG</strong> <span data-i18n="fact.petg"></span></li>
+    </ul>
+  </section>
+
+  <section class="shop wrap" id="sortiment">
+    <div class="shop__head">
+      <h2 class="h2" data-i18n="shop.title">Sortiment</h2>
+      <p class="shop__count"><span id="count" aria-live="polite"></span> <span class="shop__mena" id="mena"></span></p>
+    </div>
+    <div class="filters" id="filters" role="group" data-i18n-aria="shop.filter"></div>
+    <div class="grid" id="grid"></div>
+    <noscript><p>Na zobrazenie produktov treba zapnúť JavaScript. Celú ponuku nájdeš aj na <a href="https://allegro.sk/pouzivatel/Majster_Land">Allegre</a>.</p></noscript>
+  </section>
+
+  <section class="workshop" id="dielna">
+    <div class="wrap workshop__inner">
+      <img class="workshop__img" src="../img/produkty/18585178853.jpg" data-i18n-alt="dielna.alt" alt="" loading="lazy">
+      <div class="workshop__text">
+        <h2 class="h2" data-i18n="dielna.title">Navrhnuté pri práci, nie pri stole</h2>
+        <p data-i18n="dielna.p1"></p>
+        <p data-i18n-html="dielna.p2"></p>
+        <ul class="checks">
+          <li data-i18n="dielna.c1"></li>
+          <li data-i18n="dielna.c2"></li>
+          <li data-i18n="dielna.c3"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="how wrap" id="objednavka">
+    <h2 class="h2" data-i18n="how.title">Ako objednať</h2>
+    <ol class="steps">
+      <li><h3 data-i18n="how.1t"></h3><p data-i18n="how.1p"></p></li>
+      <li><h3 data-i18n="how.2t"></h3><p data-i18n="how.2p"></p></li>
+      <li><h3 data-i18n="how.3t"></h3><p data-i18n="how.3p"></p></li>
+    </ol>
+  </section>
+
+  <section class="contact" id="kontakt">
+    <div class="wrap contact__inner">
+      <h2 class="h2" data-i18n="kontakt.title">Máš otázku k produktu?</h2>
+      <p data-i18n="kontakt.p"></p>
+      <a href="mailto:info@majsterland.com" class="contact__mail" data-email>info@majsterland.com</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <a href="#" class="logo"><b>Majster</b>Land</a>
+  <p data-i18n-html="foot.text"></p>
+  <p>© <span id="year">2026</span> Majster Land</p>
+</footer>
+
+<dialog class="modal" id="modal" aria-labelledby="m-title">
+  <button class="modal__close" id="m-close" data-i18n-aria="close" aria-label="Zavrieť">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2.2" fill="none"/></svg>
+  </button>
+  <div class="modal__body">
+    <div class="modal__img"><img id="m-img" alt=""></div>
+    <div class="modal__info">
+      <p class="modal__cat" id="m-cat"></p>
+      <h3 class="modal__title" id="m-title"></h3>
+      <p class="modal__price" id="m-price"></p>
+      <p class="modal__mena" id="m-mena"></p>
+      <p class="modal__desc" id="m-desc"></p>
+      <ul class="specs" id="m-specs"></ul>
+      <a class="btn btn--buy btn--wide" id="m-buy" target="_blank" rel="noopener" data-i18n="buy">Kúpiť na Allegre</a>
+    </div>
+  </div>
+</dialog>
+
+<script src="../data/produkty.js?v=39919f74"></script>
+<script src="../js/i18n.js?v=f74f9107"></script>
+<script src="../js/dizajny.js?v=2ddf4bb0" data-dizajn="2" data-root="../"></script>
+<script src="js/app.js?v=a711a168"></script>
+</body>
+</html>

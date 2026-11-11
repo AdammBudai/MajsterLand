@@ -1,0 +1,338 @@
+/* Majster Land – jednoduchý svetlý katalóg.
+   Biela, grafit, betónová sivá. Žltá patrí len nákupným tlačidlám. */
+:root {
+  --paper: #ffffff;
+  --concrete: #eceef0;
+  --line: #d3d7db;
+  --muted: #5d646b;
+  --ink: #1d2329;
+  --yellow: #ffcf00;
+  --yellow-hover: #ffdc3d;
+  --font: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --wrap: 1180px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 17px/1.6 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+h1, h2, h3 { margin: 0; }
+.wrap { width: min(var(--wrap), 100% - 40px); margin-inline: auto; }
+
+/* nadpisy: Archivo v rozšírenom reze */
+.h2 {
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.05;
+  font-weight: 800;
+  font-stretch: 118%;
+  letter-spacing: -0.01em;
+  margin-bottom: 22px;
+}
+
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+/* ---------- tlačidlá ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 26px;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color .15s, border-color .15s;
+}
+.btn--buy { background: var(--yellow); color: var(--ink); }
+.btn--buy:hover { background: var(--yellow-hover); }
+.btn--line { border-color: var(--ink); }
+.btn--line:hover { background: var(--ink); color: var(--paper); }
+.btn--wide { width: 100%; }
+
+/* ---------- hlavička ---------- */
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255,255,255,.96);
+  border-bottom: 1px solid var(--line);
+}
+.top__inner { display: flex; align-items: center; gap: 32px; height: 68px; }
+
+.logo {
+  font-size: 22px;
+  font-stretch: 125%;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.logo b { font-weight: 900; margin-right: .18em; }
+
+.nav { display: flex; gap: 26px; margin-left: auto; }
+.nav a { text-decoration: none; font-weight: 500; }
+.nav a:hover { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
+
+.lang { display: flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.lang button {
+  border: 0;
+  background: none;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+}
+.lang button:hover { color: var(--ink); }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+.burger { display: none; background: none; border: 0; padding: 10px 4px; cursor: pointer; }
+.burger span { display: block; width: 24px; height: 2px; background: var(--ink); margin: 6px 0; }
+
+/* ---------- úvod ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 56px;
+  align-items: center;
+  padding: 64px 0 72px;
+}
+.hero__title {
+  font-size: clamp(40px, 6vw, 76px);
+  line-height: .98;
+  font-weight: 900;
+  font-stretch: 112%;
+  letter-spacing: -0.025em;
+  margin-bottom: 26px;
+}
+.hero__title em { font-style: normal; }
+.hero__lead { font-size: 19px; color: var(--muted); max-width: 34em; margin: 0 0 32px; }
+.hero__cta { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.hero__photos {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  aspect-ratio: 1 / 1;
+}
+.hero__photos img { width: 100%; height: 100%; object-fit: cover; background: var(--concrete); }
+.hero__p1 { grid-row: 1 / 3; }
+
+/* ---------- čo tu nájdeš ---------- */
+.intro {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 64px;
+  padding: 56px 0;
+  border-top: 1px solid var(--line);
+}
+.intro__text p { max-width: 36em; margin: 0 0 14px; }
+.facts { list-style: none; margin: 8px 0 0; padding: 0; }
+.facts li { padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--muted); }
+.facts li:first-child { border-top: 1px solid var(--line); }
+.facts strong { color: var(--ink); font-weight: 800; font-stretch: 118%; margin-right: 6px; }
+
+/* ---------- sortiment ---------- */
+.shop { padding: 40px 0 96px; }
+.shop__head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; }
+.shop__head .h2 { margin-bottom: 12px; }
+.shop__count { margin: 0; color: var(--muted); font-size: 15px; }
+.shop__mena:empty { display: none; }
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 28px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 36px;
+}
+.filter {
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+  padding: 12px 0;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+}
+.filter span { font-weight: 400; font-size: 14px; margin-left: 2px; }
+.filter:hover { color: var(--ink); }
+.filter.is-on { color: var(--ink); border-bottom-color: var(--ink); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); gap: 48px 28px; }
+.card { display: flex; flex-direction: column; min-width: 0; }
+.card[hidden] { display: none; }
+.card__img {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: var(--concrete);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  cursor: zoom-in;
+  margin-bottom: 14px;
+}
+.card__img img { width: 100%; height: 100%; object-fit: cover; }
+.card__cat { margin: 0 0 4px; font-size: 14px; color: var(--muted); }
+.card__title { font-size: 19px; line-height: 1.25; font-weight: 700; margin-bottom: 6px; }
+.card__title button { padding: 0; border: 0; background: none; text-align: left; font: inherit; cursor: pointer; }
+.card__title button:hover { text-decoration: underline; text-underline-offset: 4px; }
+.card__desc { margin: 0 0 14px; font-size: 15px; line-height: 1.5; color: var(--muted); flex: 1; }
+.card__foot { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 12px; }
+.card__price { font-size: 24px; font-weight: 800; font-stretch: 112%; }
+.card__more {
+  border: 0; background: none; padding: 0;
+  font-size: 15px; font-weight: 600;
+  text-decoration: underline; text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+/* ---------- o dielni ---------- */
+.workshop { background: var(--concrete); }
+.workshop__inner { display: grid; grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: center; padding: 88px 0; }
+.workshop__img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.workshop__text p { max-width: 36em; }
+.workshop__text a { font-weight: 700; }
+.checks { list-style: none; margin: 22px 0 0; padding: 0; }
+.checks li { position: relative; padding: 8px 0 8px 30px; font-weight: 600; }
+.checks li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 16px;
+  height: 9px;
+  border-left: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+  transform: rotate(-45deg);
+}
+
+/* ---------- ako objednať (skutočné poradie krokov) ---------- */
+.how { padding: 88px 0; }
+.steps { list-style: none; counter-reset: krok; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+.steps li { counter-increment: krok; border-top: 3px solid var(--ink); padding-top: 18px; }
+.steps li::before {
+  content: counter(krok);
+  display: block;
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 900;
+  font-stretch: 125%;
+  margin-bottom: 14px;
+}
+.steps h3 { font-size: 21px; font-weight: 800; margin-bottom: 6px; }
+.steps p { margin: 0; color: var(--muted); }
+
+/* ---------- kontakt ---------- */
+.contact { background: var(--ink); color: var(--paper); }
+.contact__inner { padding: 80px 0; }
+.contact .h2 { margin-bottom: 10px; }
+.contact p { margin: 0 0 22px; color: #c9ced3; font-size: 19px; }
+.contact__mail {
+  display: inline-block;
+  font-size: clamp(26px, 5vw, 56px);
+  font-weight: 800;
+  font-stretch: 112%;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  border-bottom: 5px solid var(--yellow);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+.contact__mail:hover { color: var(--yellow); }
+.contact :focus-visible { outline-color: var(--yellow); }
+
+/* ---------- pätička ---------- */
+.foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 30px 0 40px; font-size: 15px; color: var(--muted); }
+.foot p { margin: 0; }
+.foot a { color: var(--ink); }
+.foot .logo { font-size: 18px; color: var(--ink); }
+
+/* ---------- detail ---------- */
+.modal {
+  width: min(960px, 100% - 24px);
+  max-height: calc(100vh - 24px);
+  padding: 0;
+  border: 0;
+  background: var(--paper);
+  color: var(--ink);
+}
+.modal::backdrop { background: rgba(29,35,41,.6); }
+.modal__close {
+  position: absolute; top: 10px; right: 10px; z-index: 2;
+  width: 44px; height: 44px;
+  display: grid; place-items: center;
+  border: 0; border-radius: 999px;
+  background: var(--paper);
+  cursor: pointer;
+}
+.modal__close:hover { background: var(--concrete); }
+.modal__body { display: grid; grid-template-columns: 1fr 1fr; }
+.modal__img { background: var(--concrete); }
+.modal__img img { width: 100%; height: 100%; max-height: 640px; object-fit: contain; }
+.modal__info { padding: 40px 32px 32px; }
+.modal__cat { margin: 0 0 6px; color: var(--muted); font-size: 15px; }
+.modal__title { font-size: 28px; line-height: 1.1; font-weight: 800; font-stretch: 110%; margin-bottom: 12px; }
+.modal__price { font-size: 30px; font-weight: 800; font-stretch: 112%; margin: 0 0 4px; }
+.modal__mena { margin: 0 0 12px; font-size: 14px; color: var(--muted); }
+.modal__mena:empty { display: none; }
+.modal__desc { font-size: 16px; }
+.specs { list-style: none; margin: 18px 0 26px; padding: 0; font-size: 15px; }
+.specs li { padding: 9px 0; border-top: 1px solid var(--line); }
+.specs li:last-child { border-bottom: 1px solid var(--line); }
+
+/* ---------- menšie obrazovky ---------- */
+@media (max-width: 960px) {
+  .hero { grid-template-columns: 1fr; gap: 36px; padding-top: 40px; }
+  .hero__photos { max-width: 560px; }
+  .intro, .workshop__inner { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 860px) {
+  .top__inner { gap: 12px; }
+  .burger { display: block; }
+  .lang { margin-left: auto; }
+  .nav {
+    position: absolute; top: 68px; left: 0; right: 0;
+    display: none; flex-direction: column; gap: 0;
+    padding: 6px 20px 16px;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav.is-open { display: flex; }
+  .nav a { padding: 13px 0; border-bottom: 1px solid var(--concrete); }
+  .steps { grid-template-columns: 1fr; gap: 28px; }
+  .modal__body { grid-template-columns: 1fr; }
+  .modal__img img { max-height: 340px; }
+  .modal__info { padding: 24px 20px; }
+}
+@media (max-width: 520px) {
+  body { font-size: 16px; }
+  .logo { font-size: 18px; }
+  .lang button { padding: 5px 6px; font-size: 12px; }
+  .grid { gap: 40px 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .filters { flex-wrap: nowrap; overflow-x: auto; gap: 22px; scrollbar-width: none; }
+  .filter { white-space: nowrap; }
+  .card__title { font-size: 16px; }
+  .card__desc { display: none; }
+  .card__price { font-size: 19px; }
+  .card__foot { flex-direction: column; gap: 2px; }
+  .card .btn { min-height: 44px; font-size: 14px; padding: 8px 10px; line-height: 1.2; text-align: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}

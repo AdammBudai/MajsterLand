@@ -2,6 +2,16 @@
 
 Statická stránka s produktmi Majster Land v slovenčine, češtine, poľštine, maďarčine a angličtine. Každý produkt má tlačidlo **Kúpiť na Allegre**, ktoré vedie na ponuku na Allegro podľa jazyka (allegro.sk / allegro.cz / allegro.pl / allegro.hu; anglická verzia vedie na allegro.sk).
 
+## Tri návrhy dizajnu
+
+Na porovnanie bežia naživo tri verzie s rovnakými produktmi a textami:
+
+- `/` – návrh 1, tmavý s oranžovou
+- `/v2/` – návrh 2, jednoduchý svetlý katalóg
+- `/v3/` – návrh 3, obkladová stena s odklápacou dlaždicou
+
+Medzi nimi sa prepína tlačidlami 1 2 3 vľavo dole (`js/dizajny.js`). Produkty (`data/`), fotky (`img/`) a preklady (`js/i18n.js`) zdieľajú všetky tri. Keď sa vyberie finálny dizajn, presunie sa do koreňa a priečinky `v2/`, `v3/` a `js/dizajny.js` sa zmažú.
+
 ## Štruktúra
 
 ```

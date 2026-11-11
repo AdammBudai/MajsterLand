@@ -57,12 +57,22 @@ dst.write_text(
     "window.MAJSTERLAND = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n",
     encoding="utf-8",
 )
-# Verzia súborov v index.html (?v=...), aby prehliadač po zmene nevzal starý súbor z cache.
-index = root / "index.html"
-html = index.read_text(encoding="utf-8")
-for rel in ("css/style.css", "js/i18n.js", "js/app.js", "data/produkty.js"):
-    h = hashlib.sha1((root / rel).read_bytes()).hexdigest()[:8]
-    html = re.sub(re.escape(rel) + r"\?v=[0-9a-z]+", f"{rel}?v={h}", html)
-index.write_text(html, encoding="utf-8", newline="\n")
+# Verzia súborov (?v=...) vo všetkých troch stránkach, aby prehliadač po zmene
+# nevzal starý súbor z cache. Cesty sa berú relatívne k priečinku danej stránky.
+STRANKY = ["index.html", "v2/index.html", "v3/index.html"]
+ref = re.compile(r'((?:src|href)=")([^"?#:]+)\?v=[0-9a-z]+"')
+for stranka in STRANKY:
+    index = root / stranka
+    if not index.exists():
+        continue
+    html = index.read_text(encoding="utf-8")
 
-print(f"OK: {len(data['produkty'])} produktov -> {dst.relative_to(root)}, verzie v index.html aktualizované")
+    def nova_verzia(m):
+        subor = (index.parent / m.group(2)).resolve()
+        h = hashlib.sha1(subor.read_bytes()).hexdigest()[:8]
+        return f'{m.group(1)}{m.group(2)}?v={h}"'
+
+    html = ref.sub(nova_verzia, html)
+    index.write_text(html, encoding="utf-8", newline="\n")
+
+print(f"OK: {len(data['produkty'])} produktov -> {dst.relative_to(root)}, verzie v stránkach aktualizované")
