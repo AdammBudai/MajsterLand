@@ -128,23 +128,23 @@ button { font: inherit; color: inherit; }
   z-index: -1;
   background:
     repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 1px, transparent 1px 3px),
-    linear-gradient(90deg, rgba(14,14,14,.94) 0%, rgba(14,14,14,.78) 45%, rgba(14,14,14,.35) 100%),
+    radial-gradient(ellipse at center, rgba(14,14,14,.82) 0%, rgba(14,14,14,.6) 60%, rgba(14,14,14,.45) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 30%),
     url("../img/hero.jpg") center / cover no-repeat;
   filter: saturate(.6) contrast(1.05);
 }
-.hero__inner { padding: 70px 0 150px; }
+.hero__inner { padding: 70px 0 150px; text-align: center; }
 .hero__title {
   font: 800 clamp(48px, 8.4vw, 104px)/.92 var(--font-head);
   text-transform: uppercase;
   letter-spacing: .005em;
-  max-width: 12ch;
-  margin: 0 0 26px;
+  max-width: 14ch;
+  margin: 0 auto 26px;
   text-shadow: 3px 3px 0 rgba(0,0,0,.45);
 }
 .hero__title em { font-style: normal; color: var(--orange); }
-.hero__lead { max-width: 520px; font-size: 18px; color: #d6d1c9; margin: 0 0 34px; }
-.hero__cta { display: flex; flex-wrap: wrap; gap: 14px; }
+.hero__lead { max-width: 560px; font-size: 18px; color: #d6d1c9; margin: 0 auto 34px; }
+.hero__cta { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
 
 /* ---------- kategórie ---------- */
 .cats { position: relative; z-index: 2; margin-top: -96px; }
