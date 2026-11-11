@@ -8,6 +8,9 @@
   <meta property="og:title" content="Majster Land – komponenty pre obkladačov">
   <meta property="og:description" content="Skryté zásuvky, vypínače, ventilátory, šablóny a prípravky. Veci, ktoré fungujú na stavbe.">
   <meta property="og:image" content="img/hero.jpg">
+  <link rel="alternate" hreflang="sk" href="?lang=sk">
+  <link rel="alternate" hreflang="cs" href="?lang=cs">
+  <link rel="alternate" hreflang="pl" href="?lang=pl">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,14 +22,18 @@
 <header class="top">
   <div class="stripe" aria-hidden="true"></div>
   <div class="top__inner wrap">
-    <a href="#" class="logo" aria-label="Majster Land – domov"><span class="logo__a">Majster</span> <span class="logo__b">Land</span></a>
-    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <a href="#" class="logo" aria-label="Majster Land"><span class="logo__a">Majster</span> <span class="logo__b">Land</span></a>
     <nav id="nav" class="nav">
-      <a href="#sortiment">Produkty</a>
-      <a href="#dielna">O dielni</a>
-      <a href="#objednavka">Ako objednať</a>
-      <a href="https://allegro.sk/pouzivatel/Majster_Land" class="btn btn--outline" target="_blank" rel="noopener">Objednať</a>
+      <a href="#sortiment" data-i18n="nav.produkty">Produkty</a>
+      <a href="#dielna" data-i18n="nav.dielna">O dielni</a>
+      <a href="#objednavka" data-i18n="nav.objednavka">Ako objednať</a>
+      <a href="https://allegro.sk/pouzivatel/Majster_Land" class="btn btn--outline" data-profil target="_blank" rel="noopener" data-i18n="nav.objednat">Objednať</a>
     </nav>
+    <div class="lang">
+      <label for="lang" class="sr-only" data-i18n="lang.label">Jazyk</label>
+      <select id="lang" class="lang__select"></select>
+    </div>
+    <button class="burger" aria-label="Menu" data-i18n-aria="menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
   </div>
 </header>
 
@@ -35,42 +42,42 @@
   <section class="hero">
     <div class="hero__bg" aria-hidden="true"></div>
     <div class="hero__inner wrap">
-      <p class="eyebrow">Vyrobené pre remeslo</p>
-      <h1 class="hero__title">Komponenty, ktoré <em>obkladač</em> naozaj použije</h1>
-      <p class="hero__lead">Skryté podobkladové zásuvky a vypínače, šablóny na presné vŕtanie, držiaky na 45° skosenie. Bez marketingu – len veci, ktoré fungujú na stavbe.</p>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Vyrobené pre remeslo</p>
+      <h1 class="hero__title" data-i18n-html="hero.title">Komponenty, ktoré <em>obkladač</em> naozaj použije</h1>
+      <p class="hero__lead" data-i18n="hero.lead">Skryté podobkladové zásuvky a vypínače, šablóny na presné vŕtanie, držiaky na 45° skosenie. Bez marketingu – len veci, ktoré fungujú na stavbe.</p>
       <div class="hero__cta">
-        <a href="#sortiment" class="btn btn--solid">Pozrieť sortiment</a>
-        <a href="#kontakt" class="btn btn--dark">Napíš mi</a>
+        <a href="#sortiment" class="btn btn--solid" data-i18n="hero.cta1">Pozrieť sortiment</a>
+        <a href="#kontakt" class="btn btn--dark" data-i18n="hero.cta2">Napíš mi</a>
       </div>
     </div>
   </section>
 
   <!-- KATEGÓRIE -->
-  <section class="cats wrap" aria-label="Kategórie">
+  <section class="cats wrap">
     <div class="cats__grid" id="cats"></div>
   </section>
 
   <!-- ÚVOD -->
   <section class="intro wrap">
     <div class="intro__text">
-      <h2 class="h2">Čo tu nájdeš</h2>
-      <p>Predávam veci, ktoré obkladačovi ušetria čas alebo mu umožnia spraviť čistejšiu robotu. Zásuvku, vypínač, ventilátor aj splachovanie schováš pod dlaždicu. So šablónou vyvŕtaš otvory na prvý raz. Prípravky podržia dlažbu v 45° alebo 90°, kým lepidlo nevytvrdne.</p>
-      <p>Väčšinu dielov tlačím na 3D tlačiarni z PETG, ktorý vydrží vlhko aj teplo v kúpeľni. Doplnky do kúpeľne robím ručne z keramickej dlažby.</p>
+      <h2 class="h2" data-i18n="intro.title">Čo tu nájdeš</h2>
+      <p data-i18n="intro.p1"></p>
+      <p data-i18n="intro.p2"></p>
     </div>
     <ul class="intro__facts">
-      <li><strong id="fact-count">32</strong><span>produktov v ponuke</span></li>
-      <li><strong>SK</strong><span>odoslanie zo Slovenska</span></li>
-      <li><strong>PETG</strong><span>3D tlač, ktorá vydrží vlhko</span></li>
+      <li><strong id="fact-count">32</strong><span data-i18n="fact.produkty">produktov v ponuke</span></li>
+      <li><strong>SK</strong><span data-i18n="fact.sk">odoslanie zo Slovenska</span></li>
+      <li><strong>PETG</strong><span data-i18n="fact.petg">3D tlač, ktorá vydrží vlhko</span></li>
     </ul>
   </section>
 
   <!-- SORTIMENT -->
   <section class="shop wrap" id="sortiment">
     <div class="shop__head">
-      <h2 class="h2">Sortiment</h2>
-      <div class="filters" id="filters" role="group" aria-label="Filter produktov"></div>
+      <h2 class="h2" data-i18n="shop.title">Sortiment</h2>
+      <div class="filters" id="filters" role="group" data-i18n-aria="shop.filter"></div>
     </div>
-    <p class="shop__count" id="count" aria-live="polite"></p>
+    <p class="shop__count"><span id="count" aria-live="polite"></span> <span class="shop__mena" id="mena"></span></p>
     <div class="grid" id="grid"></div>
     <noscript><p class="shop__count">Na zobrazenie produktov treba zapnúť JavaScript. Celú ponuku nájdeš aj na <a href="https://allegro.sk/pouzivatel/Majster_Land">Allegre</a>.</p></noscript>
   </section>
@@ -79,17 +86,17 @@
   <section class="workshop" id="dielna">
     <div class="wrap workshop__inner">
       <div class="workshop__img">
-        <img src="img/produkty/18585178853.jpg" alt="Roh z dlažby lepený v 90° držiaku" loading="lazy">
+        <img src="img/produkty/18585178853.jpg" data-i18n-alt="dielna.alt" alt="Roh z dlažby lepený v 90° držiaku" loading="lazy">
       </div>
       <div class="workshop__text">
-        <p class="eyebrow">O dielni</p>
-        <h2 class="h2">Navrhnuté pri práci, nie pri stole</h2>
-        <p>Robím obklady a dlažby. Veľa vecí, ktoré na stavbe potrebujem, sa kúpiť nedá, alebo nesedia tak, ako by mali. Tak si ich kreslím a tlačím sám. Čo obstojí v mojej vlastnej robote, ide do predaja.</p>
-        <p>Keď niečo nesedí na tvoj systém alebo potrebuješ inú farbu či rozmer, napíš. Veľa vecí viem upraviť na mieru.</p>
+        <p class="eyebrow" data-i18n="dielna.eyebrow">O dielni</p>
+        <h2 class="h2" data-i18n="dielna.title">Navrhnuté pri práci, nie pri stole</h2>
+        <p data-i18n="dielna.p1"></p>
+        <p data-i18n="dielna.p2"></p>
         <ul class="checks">
-          <li>Skúšané na reálnych stavbách</li>
-          <li>Farby a rozmery na objednávku</li>
-          <li>Doplnky z dlažby aj z tvojej vlastnej</li>
+          <li data-i18n="dielna.c1"></li>
+          <li data-i18n="dielna.c2"></li>
+          <li data-i18n="dielna.c3"></li>
         </ul>
       </div>
     </div>
@@ -97,11 +104,11 @@
 
   <!-- AKO OBJEDNAŤ -->
   <section class="how wrap" id="objednavka">
-    <h2 class="h2">Ako objednať</h2>
+    <h2 class="h2" data-i18n="how.title">Ako objednať</h2>
     <ol class="steps">
-      <li><span class="steps__n">01</span><h3>Vyber produkt</h3><p>Pozri si sortiment a otvor detail, ak potrebuješ rozmery.</p></li>
-      <li><span class="steps__n">02</span><h3>Klikni na Kúpiť</h3><p>Otvorí sa ponuka na Allegre. Tam zaplatíš a vyberieš doručenie.</p></li>
-      <li><span class="steps__n">03</span><h3>Pošlem ti to</h3><p>Balík odchádza zo Slovenska. Veci na objednávku trvajú dlhšie.</p></li>
+      <li><span class="steps__n">01</span><h3 data-i18n="how.1t"></h3><p data-i18n="how.1p"></p></li>
+      <li><span class="steps__n">02</span><h3 data-i18n="how.2t"></h3><p data-i18n="how.2p"></p></li>
+      <li><span class="steps__n">03</span><h3 data-i18n="how.3t"></h3><p data-i18n="how.3p"></p></li>
     </ol>
   </section>
 
@@ -109,10 +116,10 @@
   <section class="contact" id="kontakt">
     <div class="wrap contact__inner">
       <div>
-        <h2 class="h2">Potrebuješ niečo na mieru?</h2>
-        <p>Napíš mi správu cez Allegro. Odpíšem, či sa to dá spraviť a za koľko.</p>
+        <h2 class="h2" data-i18n="kontakt.title">Potrebuješ niečo na mieru?</h2>
+        <p data-i18n="kontakt.p"></p>
       </div>
-      <a href="https://allegro.sk/pouzivatel/Majster_Land" class="btn btn--solid" target="_blank" rel="noopener">Môj profil na Allegre</a>
+      <a href="https://allegro.sk/pouzivatel/Majster_Land" class="btn btn--solid" data-profil target="_blank" rel="noopener" data-i18n="kontakt.btn">Môj profil na Allegre</a>
     </div>
   </section>
 </main>
@@ -121,28 +128,30 @@
   <div class="stripe" aria-hidden="true"></div>
   <div class="wrap foot__inner">
     <a href="#" class="logo"><span class="logo__a">Majster</span> <span class="logo__b">Land</span></a>
-    <p>Komponenty a prípravky pre obkladačov. Predaj cez <a href="https://allegro.sk/pouzivatel/Majster_Land" target="_blank" rel="noopener">Allegro</a>.</p>
+    <p data-i18n-html="foot.text"></p>
     <p class="foot__copy">© <span id="year">2026</span> Majster Land</p>
   </div>
 </footer>
 
 <!-- DETAIL PRODUKTU -->
 <dialog class="modal" id="modal" aria-labelledby="m-title">
-  <button class="modal__close" id="m-close" aria-label="Zavrieť">×</button>
+  <button class="modal__close" id="m-close" data-i18n-aria="close" aria-label="Zavrieť">×</button>
   <div class="modal__body">
     <div class="modal__img"><img id="m-img" alt=""></div>
     <div class="modal__info">
       <p class="eyebrow" id="m-cat"></p>
       <h3 class="modal__title" id="m-title"></h3>
       <p class="modal__price" id="m-price"></p>
+      <p class="modal__mena" id="m-mena"></p>
       <p id="m-desc"></p>
       <ul class="specs" id="m-specs"></ul>
-      <a class="btn btn--solid btn--wide" id="m-buy" target="_blank" rel="noopener">Kúpiť na Allegre</a>
+      <a class="btn btn--solid btn--wide" id="m-buy" target="_blank" rel="noopener" data-i18n="buy">Kúpiť na Allegre</a>
     </div>
   </div>
 </dialog>
 
 <script src="data/produkty.js"></script>
+<script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

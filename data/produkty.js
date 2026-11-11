@@ -3,535 +3,1521 @@ window.MAJSTERLAND = {
  "kategorie": [
   {
    "id": "podobkladove",
-   "nazov": "Podobkladové systémy",
-   "popis": "Zásuvky, vypínače, revízne dvierka, ventilácia"
+   "nazov": {
+    "sk": "Podobkladové systémy",
+    "cs": "Systémy pod obklad",
+    "pl": "Systemy pod płytki"
+   },
+   "popis": {
+    "sk": "Zásuvky, vypínače, revízne dvierka, ventilácia",
+    "cs": "Zásuvky, vypínače, revizní dvířka, ventilace",
+    "pl": "Gniazdka, włączniki, drzwiczki rewizyjne, wentylacja"
+   }
   },
   {
    "id": "sablony",
-   "nazov": "Šablóny",
-   "popis": "Presné vŕtanie krabíc a prestupov"
+   "nazov": {
+    "sk": "Šablóny",
+    "cs": "Šablony",
+    "pl": "Szablony"
+   },
+   "popis": {
+    "sk": "Presné vŕtanie krabíc a prestupov",
+    "cs": "Přesné vrtání krabic a prostupů",
+    "pl": "Precyzyjne wiercenie puszek i przepustów"
+   }
   },
   {
    "id": "pripravky",
-   "nazov": "Prípravky a držiaky",
-   "popis": "45° skosenie, pravé uhly, Jolly hrany"
+   "nazov": {
+    "sk": "Prípravky a držiaky",
+    "cs": "Přípravky a držáky",
+    "pl": "Przyrządy i uchwyty"
+   },
+   "popis": {
+    "sk": "45° skosenie, pravé uhly, Jolly hrany",
+    "cs": "Zkosení 45°, pravé úhly, Jolly hrany",
+    "pl": "Szlif 45°, kąty proste, narożniki Jolly"
+   }
   },
   {
    "id": "doplnky",
-   "nazov": "Doplnky z dlažby",
-   "popis": "Kúpeľňové doplnky ručne z dlažby"
+   "nazov": {
+    "sk": "Doplnky z dlažby",
+    "cs": "Doplňky z dlažby",
+    "pl": "Dodatki z płytek"
+   },
+   "popis": {
+    "sk": "Kúpeľňové doplnky ručne z dlažby",
+    "cs": "Koupelnové doplňky ručně z dlažby",
+    "pl": "Dodatki łazienkowe ręcznie z płytek"
+   }
   },
   {
    "id": "prislusenstvo",
-   "nazov": "Príslušenstvo",
-   "popis": "Pásky, pištole, drobnosti do kufra"
+   "nazov": {
+    "sk": "Príslušenstvo",
+    "cs": "Příslušenství",
+    "pl": "Akcesoria"
+   },
+   "popis": {
+    "sk": "Pásky, pištole, drobnosti do kufra",
+    "cs": "Pásky, pistole, drobnosti do kufru",
+    "pl": "Taśmy, pistolety, drobiazgi do skrzynki"
+   }
   }
  ],
  "produkty": [
   {
    "id": "18480112063",
-   "nazov": "Skryté tlačidlo pre Geberit a iné značky",
    "kategoria": "podobkladove",
    "cena": 70.0,
-   "allegro": "https://allegro.sk/produkt/3d-tlaciaren-milan-gorol-3855f496-d561-4f4c-a306-cefeefc1322d?offerId=18480112063",
    "obrazok": "img/produkty/18480112063.jpg",
-   "kratky": "Splachovanie schované pod obkladom. Na stene nie je žiadny plastový panel.",
-   "popis": "Set obsahuje všetky diely na skryté ovládanie splachovania. Funguje s bežnými podomietkovými modulmi, nielen s Geberitom. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Kompatibilné: Geberit Delta, Sigma, TECE, Omega, Alcaplast, Jomo, OLI, Viega",
-    "Materiál: PETG, 3D tlač",
-    "Farba: čierna alebo sivá",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/3d-tlaciaren-milan-gorol-3855f496-d561-4f4c-a306-cefeefc1322d?offerId=18480112063",
+    "cs": "https://allegro.cz/nabidka/18480112063",
+    "pl": "https://allegro.pl/oferta/18480112063"
+   },
+   "nazov": {
+    "sk": "Skryté tlačidlo pre Geberit a iné značky",
+    "cs": "Skryté tlačítko pro Geberit a jiné značky",
+    "pl": "Ukryty przycisk do Geberit i innych marek"
+   },
+   "kratky": {
+    "sk": "Splachovanie schované pod obkladom. Na stene nie je žiadny plastový panel.",
+    "cs": "Splachování schované pod obkladem. Na stěně není žádný plastový panel.",
+    "pl": "Spłukiwanie ukryte pod płytkami. Na ścianie nie ma plastikowego panelu."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na skryté ovládanie splachovania. Funguje s bežnými podomietkovými modulmi, nielen s Geberitom. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro skryté ovládání splachování. Funguje s běžnými podomítkovými moduly, nejen s Geberitem. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do ukrytego przycisku spłukiwania. Pasuje do popularnych stelaży podtynkowych, nie tylko Geberit. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Kompatibilné: Geberit Delta, Sigma, TECE, Omega, Alcaplast, Jomo, OLI, Viega",
+     "Materiál: PETG, 3D tlač",
+     "Farba: čierna alebo sivá",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Kompatibilní: Geberit Delta, Sigma, TECE, Omega, Alcaplast, Jomo, OLI, Viega",
+     "Materiál: PETG, 3D tisk",
+     "Barva: černá nebo šedá",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Pasuje do: Geberit Delta, Sigma, TECE, Omega, Alcaplast, Jomo, OLI, Viega",
+     "Materiał: PETG, druk 3D",
+     "Kolor: czarny lub szary",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18489687339",
-   "nazov": "Push-to-open systém pre skryté revízne dvierka",
    "kategoria": "podobkladove",
    "cena": 22.0,
-   "allegro": "https://allegro.sk/produkt/push-up-system-pre-revizne-dvierka-a02f3b93-65be-400b-97fb-1c4113f13268?offerId=18489687339",
    "obrazok": "img/produkty/18489687339.jpg",
-   "kratky": "Revízne dvierka z obkladu bez kľučky. Zatlačíš a vyskočia.",
-   "popis": "Štyri rohové diely sa nalepia dovnútra otvoru. Hore je push mechanizmus, dole magnety. Na zadnú stranu dlaždice sa nalepia protikusy. Keď zatlačíš na hornú časť, dvierka sa vysunú a dajú sa vybrať.",
-   "parametre": [
-    "Balenie: 4 rohové diely (push + magnety)",
-    "Farba: sivá",
-    "Materiál: plast, 3D tlač",
-    "Lepidlo nie je súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/push-up-system-pre-revizne-dvierka-a02f3b93-65be-400b-97fb-1c4113f13268?offerId=18489687339",
+    "cs": "https://allegro.cz/nabidka/18489687339",
+    "pl": "https://allegro.pl/oferta/18489687339"
+   },
+   "nazov": {
+    "sk": "Push-to-open systém pre skryté revízne dvierka",
+    "cs": "Push-to-open systém pro skrytá revizní dvířka",
+    "pl": "System push-to-open do ukrytych drzwiczek rewizyjnych"
+   },
+   "kratky": {
+    "sk": "Revízne dvierka z obkladu bez kľučky. Zatlačíš a vyskočia.",
+    "cs": "Revizní dvířka z obkladu bez kliky. Zatlačíš a vyskočí.",
+    "pl": "Drzwiczki rewizyjne z płytki bez uchwytu. Naciskasz i się otwierają."
+   },
+   "popis": {
+    "sk": "Štyri rohové diely sa nalepia dovnútra otvoru. Hore je push mechanizmus, dole magnety. Na zadnú stranu dlaždice sa nalepia protikusy. Keď zatlačíš na hornú časť, dvierka sa vysunú a dajú sa vybrať.",
+    "cs": "Čtyři rohové díly se nalepí dovnitř otvoru. Nahoře je push mechanismus, dole magnety. Na zadní stranu dlaždice se nalepí protikusy. Když zatlačíš na horní část, dvířka se vysunou a dají se vyndat.",
+    "pl": "Cztery narożniki przykleja się wewnątrz otworu. Na górze jest mechanizm push, na dole magnesy. Na tył płytki przykleja się elementy przeciwne. Gdy naciśniesz górną część, drzwiczki się wysuną i można je wyjąć."
+   },
+   "parametre": {
+    "sk": [
+     "Balenie: 4 rohové diely (push + magnety)",
+     "Farba: sivá",
+     "Materiál: plast, 3D tlač",
+     "Lepidlo nie je súčasťou"
+    ],
+    "cs": [
+     "Balení: 4 rohové díly (push + magnety)",
+     "Barva: šedá",
+     "Materiál: plast, 3D tisk",
+     "Lepidlo není součástí"
+    ],
+    "pl": [
+     "Zestaw: 4 narożniki (push + magnesy)",
+     "Kolor: szary",
+     "Materiał: tworzywo, druk 3D",
+     "Klej nie jest w zestawie"
+    ]
+   }
   },
   {
    "id": "18510831098",
-   "nazov": "Skrytá zásuvka pod obklad – biela",
    "kategoria": "podobkladove",
    "cena": 25.0,
-   "allegro": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18510831098",
    "obrazok": "img/produkty/18510831098.jpg",
-   "kratky": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
-   "popis": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Stred zásuvky: biely",
-    "Materiál: plast, 3D tlač",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18510831098",
+    "cs": "https://allegro.cz/nabidka/18510831098",
+    "pl": "https://allegro.pl/oferta/18510831098"
+   },
+   "nazov": {
+    "sk": "Skrytá zásuvka pod obklad – biela",
+    "cs": "Skrytá zásuvka pod obklad – bílá",
+    "pl": "Ukryte gniazdko pod płytki – białe"
+   },
+   "kratky": {
+    "sk": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
+    "cs": "Zásuvka osazená pod obkladem. Kompletní sada i s přístrojem Schneider Asfora.",
+    "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky včetně elektrické části Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Stred zásuvky: biely",
+     "Materiál: plast, 3D tlač",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Střed zásuvky: bílý",
+     "Materiál: plast, 3D tisk",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Środek gniazdka: biały",
+     "Materiał: tworzywo, druk 3D",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18863147932",
-   "nazov": "Skrytá zásuvka pod obklad – sivá",
    "kategoria": "podobkladove",
    "cena": 25.0,
-   "allegro": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863147932",
    "obrazok": "img/produkty/18863147932.jpg",
-   "kratky": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
-   "popis": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Stred zásuvky: sivý",
-    "Materiál: plast, 3D tlač",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863147932",
+    "cs": "https://allegro.cz/nabidka/18863147932",
+    "pl": "https://allegro.pl/oferta/18863147932"
+   },
+   "nazov": {
+    "sk": "Skrytá zásuvka pod obklad – sivá",
+    "cs": "Skrytá zásuvka pod obklad – šedá",
+    "pl": "Ukryte gniazdko pod płytki – szare"
+   },
+   "kratky": {
+    "sk": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
+    "cs": "Zásuvka osazená pod obkladem. Kompletní sada i s přístrojem Schneider Asfora.",
+    "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky včetně elektrické části Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Stred zásuvky: sivý",
+     "Materiál: plast, 3D tlač",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Střed zásuvky: šedý",
+     "Materiál: plast, 3D tisk",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Środek gniazdka: szary",
+     "Materiał: tworzywo, druk 3D",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18863155026",
-   "nazov": "Skrytá zásuvka pod obklad – čierna",
    "kategoria": "podobkladove",
    "cena": 25.0,
-   "allegro": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863155026",
    "obrazok": "img/produkty/18863155026.jpg",
-   "kratky": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
-   "popis": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Stred zásuvky: čierny",
-    "Materiál: plast, 3D tlač",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryta-zasuvka-podobkladova-zasuvka-pre-keramicke-obklady-siva-0474041a-ec57-4c58-8174-b74beac67b48?offerId=18863155026",
+    "cs": "https://allegro.cz/nabidka/18863155026",
+    "pl": "https://allegro.pl/oferta/18863155026"
+   },
+   "nazov": {
+    "sk": "Skrytá zásuvka pod obklad – čierna",
+    "cs": "Skrytá zásuvka pod obklad – černá",
+    "pl": "Ukryte gniazdko pod płytki – czarne"
+   },
+   "kratky": {
+    "sk": "Zásuvka osadená pod obkladom. Kompletný set aj s prístrojom Schneider Asfora.",
+    "cs": "Zásuvka osazená pod obkladem. Kompletní sada i s přístrojem Schneider Asfora.",
+    "pl": "Gniazdko osadzone pod płytką. Kompletny zestaw z osprzętem Schneider Asfora."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky vrátane elektrickej časti Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky včetně elektrické části Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Stred zásuvky: čierny",
+     "Materiál: plast, 3D tlač",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Střed zásuvky: černý",
+     "Materiál: plast, 3D tisk",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Środek gniazdka: czarny",
+     "Materiał: tworzywo, druk 3D",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18475919161",
-   "nazov": "Skrytá dvojzásuvka pod obklad – sivá",
    "kategoria": "podobkladove",
    "cena": 45.0,
-   "allegro": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18475919161",
    "obrazok": "img/produkty/18475919161.jpg",
-   "kratky": "Dve zásuvky vedľa seba, schované pod jednou dlaždicou.",
-   "popis": "Set obsahuje všetky diely na montáž skrytej dvojzásuvky vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Stred zásuviek: sivý",
-    "PVC šablóna: hranatá aj oblá",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18475919161",
+    "cs": "https://allegro.cz/nabidka/18475919161",
+    "pl": "https://allegro.pl/oferta/18475919161"
+   },
+   "nazov": {
+    "sk": "Skrytá dvojzásuvka pod obklad – sivá",
+    "cs": "Skrytá dvojzásuvka pod obklad – šedá",
+    "pl": "Ukryte gniazdko podwójne pod płytki – szare"
+   },
+   "kratky": {
+    "sk": "Dve zásuvky vedľa seba, schované pod jednou dlaždicou.",
+    "cs": "Dvě zásuvky vedle sebe, schované pod jednou dlaždicí.",
+    "pl": "Dwa gniazdka obok siebie, ukryte pod jedną płytką."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytej dvojzásuvky vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skryté dvojzásuvky včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka podwójnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Stred zásuviek: sivý",
+     "PVC šablóna: hranatá aj oblá",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Střed zásuvek: šedý",
+     "PVC šablona: hranatá i oblá",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Środek gniazdek: szary",
+     "Szablon PVC: kwadratowy i okrągły",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18510847461",
-   "nazov": "Skrytá zásuvka s vypínačom pod obklad – sivá",
    "kategoria": "podobkladove",
    "cena": 45.0,
-   "allegro": "https://allegro.sk/produkt/skryta-podobkladova-zasuvka-s-vypinacom-pre-keramicke-obklady-e28f74a9-e0ea-4dc9-b5a7-05729d5a6264?offerId=18510847461",
    "obrazok": "img/produkty/18510847461.jpg",
-   "kratky": "Zásuvka a vypínač v jednom ráme, obe schované pod obkladom.",
-   "popis": "Set obsahuje všetky diely na montáž skrytej zásuvky s vypínačom vrátane elektrických častí Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrické časti: Schneider Asfora",
-    "Stred zásuvky: sivý",
-    "Materiál: plast, 3D tlač",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryta-podobkladova-zasuvka-s-vypinacom-pre-keramicke-obklady-e28f74a9-e0ea-4dc9-b5a7-05729d5a6264?offerId=18510847461",
+    "cs": "https://allegro.cz/nabidka/18510847461",
+    "pl": "https://allegro.pl/oferta/18510847461"
+   },
+   "nazov": {
+    "sk": "Skrytá zásuvka s vypínačom pod obklad – sivá",
+    "cs": "Skrytá zásuvka s vypínačem pod obklad – šedá",
+    "pl": "Ukryte gniazdko z włącznikiem pod płytki – szare"
+   },
+   "kratky": {
+    "sk": "Zásuvka a vypínač v jednom ráme, obe schované pod obkladom.",
+    "cs": "Zásuvka a vypínač v jednom rámečku, obojí schované pod obkladem.",
+    "pl": "Gniazdko i włącznik w jednej ramce, oba ukryte pod płytką."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytej zásuvky s vypínačom vrátane elektrických častí Schneider Asfora. Hodí sa do kúpeľne, kuchyne aj obývačky. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skryté zásuvky s vypínačem včetně elektrických částí Schneider Asfora. Hodí se do koupelny, kuchyně i obýváku. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego gniazdka z włącznikiem razem z osprzętem Schneider Asfora. Nadaje się do łazienki, kuchni i salonu. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrické časti: Schneider Asfora",
+     "Stred zásuvky: sivý",
+     "Materiál: plast, 3D tlač",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrické části: Schneider Asfora",
+     "Střed zásuvky: šedý",
+     "Materiál: plast, 3D tisk",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Środek gniazdka: szary",
+     "Materiał: tworzywo, druk 3D",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18510732693",
-   "nazov": "Skrytý vypínač pod obklad",
    "kategoria": "podobkladove",
    "cena": 23.0,
-   "allegro": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510732693",
    "obrazok": "img/produkty/18510732693.jpg",
-   "kratky": "Jednoduchý vypínač schovaný pod dlaždicou.",
-   "popis": "Set obsahuje všetky diely na montáž skrytého vypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Farba: čierna alebo sivá",
-    "PVC šablóna: hranatá aj oblá",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510732693",
+    "cs": "https://allegro.cz/nabidka/18510732693",
+    "pl": "https://allegro.pl/oferta/18510732693"
+   },
+   "nazov": {
+    "sk": "Skrytý vypínač pod obklad",
+    "cs": "Skrytý vypínač pod obklad",
+    "pl": "Ukryty włącznik pod płytki"
+   },
+   "kratky": {
+    "sk": "Jednoduchý vypínač schovaný pod dlaždicou.",
+    "cs": "Jednoduchý vypínač schovaný pod dlaždicí.",
+    "pl": "Pojedynczy włącznik ukryty pod płytką."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytého vypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skrytého vypínače včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Farba: čierna alebo sivá",
+     "PVC šablóna: hranatá aj oblá",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Barva: černá nebo šedá",
+     "PVC šablona: hranatá i oblá",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Kolor: czarny lub szary",
+     "Szablon PVC: kwadratowy i okrągły",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18510794683",
-   "nazov": "Skrytý dvojpáčkový vypínač pod obklad",
    "kategoria": "podobkladove",
    "cena": 24.0,
-   "allegro": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510794683",
    "obrazok": "img/produkty/18510794683.jpg",
-   "kratky": "Dvojpáčkový vypínač pod dlaždicou. Dve svetlá, jeden výrez.",
-   "popis": "Set obsahuje všetky diely na montáž skrytého dvojvypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Farba: čierna alebo sivá",
-    "PVC šablóna: hranatá aj oblá",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510794683",
+    "cs": "https://allegro.cz/nabidka/18510794683",
+    "pl": "https://allegro.pl/oferta/18510794683"
+   },
+   "nazov": {
+    "sk": "Skrytý dvojpáčkový vypínač pod obklad",
+    "cs": "Skrytý dvojitý vypínač pod obklad",
+    "pl": "Ukryty włącznik podwójny pod płytki"
+   },
+   "kratky": {
+    "sk": "Dvojpáčkový vypínač pod dlaždicou. Dve svetlá, jeden výrez.",
+    "cs": "Dvojitý vypínač pod dlaždicí. Dvě světla, jeden výřez.",
+    "pl": "Włącznik podwójny pod płytką. Dwa światła, jedno wycięcie."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytého dvojvypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skrytého dvojitého vypínače včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika podwójnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Farba: čierna alebo sivá",
+     "PVC šablóna: hranatá aj oblá",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Barva: černá nebo šedá",
+     "PVC šablona: hranatá i oblá",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Kolor: czarny lub szary",
+     "Szablon PVC: kwadratowy i okrągły",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18510838202",
-   "nazov": "Skrytý vypínač v dvojráme pod obklad",
    "kategoria": "podobkladove",
    "cena": 43.0,
-   "allegro": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510838202",
    "obrazok": "img/produkty/18510838202.jpg",
-   "kratky": "Dva vypínače vedľa seba v jednom ráme pod obkladom.",
-   "popis": "Set obsahuje všetky diely na montáž skrytého vypínača v dvojráme vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Farba: čierna alebo sivá",
-    "PVC šablóna: hranatá aj oblá",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/podobkladova-zasuvka-pre-keramicke-obklady-7fc02c20-965b-40ae-8620-789bf916f317?offerId=18510838202",
+    "cs": "https://allegro.cz/nabidka/18510838202",
+    "pl": "https://allegro.pl/oferta/18510838202"
+   },
+   "nazov": {
+    "sk": "Skrytý vypínač v dvojráme pod obklad",
+    "cs": "Skrytý vypínač ve dvojrámečku pod obklad",
+    "pl": "Ukryty włącznik w ramce podwójnej pod płytki"
+   },
+   "kratky": {
+    "sk": "Dva vypínače vedľa seba v jednom ráme pod obkladom.",
+    "cs": "Dva vypínače vedle sebe v jednom rámečku pod obkladem.",
+    "pl": "Dwa włączniki obok siebie w jednej ramce pod płytką."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytého vypínača v dvojráme vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skrytého vypínače ve dvojrámečku včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika w ramce podwójnej razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Farba: čierna alebo sivá",
+     "PVC šablóna: hranatá aj oblá",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Barva: černá nebo šedá",
+     "PVC šablona: hranatá i oblá",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Kolor: czarny lub szary",
+     "Szablon PVC: kwadratowy i okrągły",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "19075230280",
-   "nazov": "Skrytý štvorvypínač pod obklad",
    "kategoria": "podobkladove",
    "cena": 40.0,
-   "allegro": "https://allegro.sk/produkt/skryty-vypinac-stvorvypinac-podobkladovy-stvornasobny-vypinac-pre-obklady-a26a052b-fd35-4b18-a846-eca41e3a0e2d?offerId=19075230280",
    "obrazok": "img/produkty/19075230280.jpg",
-   "kratky": "Štyri okruhy svetla z jedného miesta, celé schované pod obkladom.",
-   "popis": "Set obsahuje všetky diely na montáž skrytého štvornásobného vypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
-   "parametre": [
-    "Elektrická časť: Schneider Asfora",
-    "Farba: čierna alebo sivá",
-    "PVC šablóna: hranatá aj oblá",
-    "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-vypinac-stvorvypinac-podobkladovy-stvornasobny-vypinac-pre-obklady-a26a052b-fd35-4b18-a846-eca41e3a0e2d?offerId=19075230280",
+    "cs": "https://allegro.cz/nabidka/19075230280",
+    "pl": "https://allegro.pl/oferta/19075230280"
+   },
+   "nazov": {
+    "sk": "Skrytý štvorvypínač pod obklad",
+    "cs": "Skrytý čtyřnásobný vypínač pod obklad",
+    "pl": "Ukryty włącznik poczwórny pod płytki"
+   },
+   "kratky": {
+    "sk": "Štyri okruhy svetla z jedného miesta, celé schované pod obkladom.",
+    "cs": "Čtyři okruhy světla z jednoho místa, celé schované pod obkladem.",
+    "pl": "Cztery obwody światła z jednego miejsca, całość ukryta pod płytką."
+   },
+   "popis": {
+    "sk": "Set obsahuje všetky diely na montáž skrytého štvornásobného vypínača vrátane elektrickej časti Schneider Asfora. PVC šablóna na vyznačenie výrezu je v hranatej aj oblej verzii. Montáž by mal robiť obkladač, ktorý má nástroje na rezanie dlažby.",
+    "cs": "Sada obsahuje všechny díly pro montáž skrytého čtyřnásobného vypínače včetně elektrické části Schneider Asfora. PVC šablona pro vyznačení výřezu je v hranaté i oblé verzi. Montáž by měl dělat obkladač, který má nástroje na řezání dlažby.",
+    "pl": "Zestaw zawiera wszystkie części do montażu ukrytego włącznika poczwórnego razem z osprzętem Schneider Asfora. Szablon PVC do wyznaczenia wycięcia jest w wersji kwadratowej i okrągłej. Montaż powinien wykonać glazurnik z narzędziami do cięcia płytek."
+   },
+   "parametre": {
+    "sk": [
+     "Elektrická časť: Schneider Asfora",
+     "Farba: čierna alebo sivá",
+     "PVC šablóna: hranatá aj oblá",
+     "Nástroje na rezanie, lepidlo ani diamantové vrtáky nie sú súčasťou"
+    ],
+    "cs": [
+     "Elektrická část: Schneider Asfora",
+     "Barva: černá nebo šedá",
+     "PVC šablona: hranatá i oblá",
+     "Nástroje na řezání, lepidlo ani diamantové vrtáky nejsou součástí"
+    ],
+    "pl": [
+     "Osprzęt elektryczny: Schneider Asfora",
+     "Kolor: czarny lub szary",
+     "Szablon PVC: kwadratowy i okrągły",
+     "Narzędzia do cięcia, klej ani wiertła diamentowe nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "19057891771",
-   "nazov": "Skrytý ventilátor pod obklad – hranatý 100 mm",
    "kategoria": "podobkladove",
    "cena": 75.0,
-   "allegro": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19057891771",
    "obrazok": "img/produkty/19057891771.jpg",
-   "kratky": "Ventilátor za obkladom. Na stene ostane len úzka štrbina.",
-   "popis": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
-   "parametre": [
-    "Priemer potrubia: 100 mm",
-    "Otvor na zabudovanie: 19 × 19 cm",
-    "Hĺbka: 9,5 cm",
-    "Materiál: čierny PETG (sivá alebo biela na objednávku)"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19057891771",
+    "cs": "https://allegro.cz/nabidka/19057891771",
+    "pl": "https://allegro.pl/oferta/19057891771"
+   },
+   "nazov": {
+    "sk": "Skrytý ventilátor pod obklad – hranatý 100 mm",
+    "cs": "Skrytý ventilátor pod obklad – hranatý 100 mm",
+    "pl": "Ukryty wentylator pod płytki – kwadratowy 100 mm"
+   },
+   "kratky": {
+    "sk": "Ventilátor za obkladom. Na stene ostane len úzka štrbina.",
+    "cs": "Ventilátor za obkladem. Na stěně zůstane jen úzká štěrbina.",
+    "pl": "Wentylator za płytkami. Na ścianie zostaje tylko wąska szczelina."
+   },
+   "popis": {
+    "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
+    "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
+    "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+   },
+   "parametre": {
+    "sk": [
+     "Priemer potrubia: 100 mm",
+     "Otvor na zabudovanie: 19 × 19 cm",
+     "Hĺbka: 9,5 cm",
+     "Materiál: čierny PETG (sivá alebo biela na objednávku)"
+    ],
+    "cs": [
+     "Průměr potrubí: 100 mm",
+     "Otvor pro zabudování: 19 × 19 cm",
+     "Hloubka: 9,5 cm",
+     "Materiál: černý PETG (šedá nebo bílá na objednávku)"
+    ],
+    "pl": [
+     "Średnica kanału: 100 mm",
+     "Otwór montażowy: 19 × 19 cm",
+     "Głębokość: 9,5 cm",
+     "Materiał: czarny PETG (szary lub biały na zamówienie)"
+    ]
+   }
   },
   {
    "id": "19057999417",
-   "nazov": "Skrytý ventilátor pod obklad – hranatý 100 mm (BIG BOX)",
    "kategoria": "podobkladove",
    "cena": 65.0,
-   "allegro": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-100mm-big-box-ce54da8b-64ad-495e-bb55-520c72473e9c?offerId=19057999417",
    "obrazok": "img/produkty/19057999417.jpg",
-   "kratky": "Väčší box pre 100 mm ventilátor. Na stene ostane len úzka štrbina.",
-   "popis": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
-   "parametre": [
-    "Priemer potrubia: 100 mm",
-    "Otvor na zabudovanie: 24 × 24 cm",
-    "Hĺbka: 11,5 cm",
-    "Materiál: čierny PETG (sivá alebo biela na objednávku)"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-100mm-big-box-ce54da8b-64ad-495e-bb55-520c72473e9c?offerId=19057999417",
+    "cs": "https://allegro.cz/nabidka/19057999417",
+    "pl": "https://allegro.pl/oferta/19057999417"
+   },
+   "nazov": {
+    "sk": "Skrytý ventilátor pod obklad – hranatý 100 mm (BIG BOX)",
+    "cs": "Skrytý ventilátor pod obklad – hranatý 100 mm (BIG BOX)",
+    "pl": "Ukryty wentylator pod płytki – kwadratowy 100 mm (BIG BOX)"
+   },
+   "kratky": {
+    "sk": "Väčší box pre 100 mm ventilátor. Na stene ostane len úzka štrbina.",
+    "cs": "Větší box pro 100 mm ventilátor. Na stěně zůstane jen úzká štěrbina.",
+    "pl": "Większy box na wentylator 100 mm. Na ścianie zostaje tylko wąska szczelina."
+   },
+   "popis": {
+    "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
+    "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
+    "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+   },
+   "parametre": {
+    "sk": [
+     "Priemer potrubia: 100 mm",
+     "Otvor na zabudovanie: 24 × 24 cm",
+     "Hĺbka: 11,5 cm",
+     "Materiál: čierny PETG (sivá alebo biela na objednávku)"
+    ],
+    "cs": [
+     "Průměr potrubí: 100 mm",
+     "Otvor pro zabudování: 24 × 24 cm",
+     "Hloubka: 11,5 cm",
+     "Materiál: černý PETG (šedá nebo bílá na objednávku)"
+    ],
+    "pl": [
+     "Średnica kanału: 100 mm",
+     "Otwór montażowy: 24 × 24 cm",
+     "Głębokość: 11,5 cm",
+     "Materiał: czarny PETG (szary lub biały na zamówienie)"
+    ]
+   }
   },
   {
    "id": "19055464954",
-   "nazov": "Skrytý ventilátor pod obklad – hranatý 125 mm",
    "kategoria": "podobkladove",
    "cena": 85.0,
-   "allegro": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19055464954",
    "obrazok": "img/produkty/19055464954.jpg",
-   "kratky": "Ventilátor za obkladom pre 125 mm potrubie.",
-   "popis": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
-   "parametre": [
-    "Priemer potrubia: 125 mm",
-    "Otvor na zabudovanie: 24 × 24 cm",
-    "Hĺbka: 10 cm",
-    "Materiál: čierny PETG (sivá alebo biela na objednávku)"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-hranaty-125mm-63263230-8529-4664-a125-c4f6ebf5ca8c?offerId=19055464954",
+    "cs": "https://allegro.cz/nabidka/19055464954",
+    "pl": "https://allegro.pl/oferta/19055464954"
+   },
+   "nazov": {
+    "sk": "Skrytý ventilátor pod obklad – hranatý 125 mm",
+    "cs": "Skrytý ventilátor pod obklad – hranatý 125 mm",
+    "pl": "Ukryty wentylator pod płytki – kwadratowy 125 mm"
+   },
+   "kratky": {
+    "sk": "Ventilátor za obkladom pre 125 mm potrubie.",
+    "cs": "Ventilátor za obkladem pro potrubí 125 mm.",
+    "pl": "Wentylator za płytkami do kanału 125 mm."
+   },
+   "popis": {
+    "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
+    "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
+    "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+   },
+   "parametre": {
+    "sk": [
+     "Priemer potrubia: 125 mm",
+     "Otvor na zabudovanie: 24 × 24 cm",
+     "Hĺbka: 10 cm",
+     "Materiál: čierny PETG (sivá alebo biela na objednávku)"
+    ],
+    "cs": [
+     "Průměr potrubí: 125 mm",
+     "Otvor pro zabudování: 24 × 24 cm",
+     "Hloubka: 10 cm",
+     "Materiál: černý PETG (šedá nebo bílá na objednávku)"
+    ],
+    "pl": [
+     "Średnica kanału: 125 mm",
+     "Otwór montażowy: 24 × 24 cm",
+     "Głębokość: 10 cm",
+     "Materiał: czarny PETG (szary lub biały na zamówienie)"
+    ]
+   }
   },
   {
    "id": "19057934977",
-   "nazov": "Skrytý ventilátor pod obklad – oblý 100 mm",
    "kategoria": "podobkladove",
    "cena": 75.0,
-   "allegro": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-ea689521-0fa5-4e15-a2b9-96466e105ce1?offerId=19057934977",
    "obrazok": "img/produkty/19057934977.jpg",
-   "kratky": "Ventilátor za obkladom, oblé prevedenie. Na stene ostane len štrbina.",
-   "popis": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
-   "parametre": [
-    "Priemer potrubia: 100 mm",
-    "Otvor na zabudovanie: 19 × 19 cm",
-    "Hĺbka: 9,5 cm",
-    "Materiál: čierny PETG (sivá alebo biela na objednávku)"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-ea689521-0fa5-4e15-a2b9-96466e105ce1?offerId=19057934977",
+    "cs": "https://allegro.cz/nabidka/19057934977",
+    "pl": "https://allegro.pl/oferta/19057934977"
+   },
+   "nazov": {
+    "sk": "Skrytý ventilátor pod obklad – oblý 100 mm",
+    "cs": "Skrytý ventilátor pod obklad – oblý 100 mm",
+    "pl": "Ukryty wentylator pod płytki – okrągły 100 mm"
+   },
+   "kratky": {
+    "sk": "Ventilátor za obkladom, oblé prevedenie. Na stene ostane len štrbina.",
+    "cs": "Ventilátor za obkladem, oblé provedení. Na stěně zůstane jen štěrbina.",
+    "pl": "Wentylator za płytkami, wersja okrągła. Na ścianie zostaje tylko szczelina."
+   },
+   "popis": {
+    "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
+    "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
+    "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+   },
+   "parametre": {
+    "sk": [
+     "Priemer potrubia: 100 mm",
+     "Otvor na zabudovanie: 19 × 19 cm",
+     "Hĺbka: 9,5 cm",
+     "Materiál: čierny PETG (sivá alebo biela na objednávku)"
+    ],
+    "cs": [
+     "Průměr potrubí: 100 mm",
+     "Otvor pro zabudování: 19 × 19 cm",
+     "Hloubka: 9,5 cm",
+     "Materiál: černý PETG (šedá nebo bílá na objednávku)"
+    ],
+    "pl": [
+     "Średnica kanału: 100 mm",
+     "Otwór montażowy: 19 × 19 cm",
+     "Głębokość: 9,5 cm",
+     "Materiał: czarny PETG (szary lub biały na zamówienie)"
+    ]
+   }
   },
   {
    "id": "19057985518",
-   "nazov": "Skrytý ventilátor pod obklad – oblý 100 mm (BIG BOX)",
    "kategoria": "podobkladove",
    "cena": 65.0,
-   "allegro": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-big-ff9f8dd3-9526-44d9-a1d8-6e95e6c79b17?offerId=19057985518",
    "obrazok": "img/produkty/19057985518.jpg",
-   "kratky": "Väčší oblý box pre 100 mm ventilátor.",
-   "popis": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
-   "parametre": [
-    "Priemer potrubia: 100 mm",
-    "Otvor na zabudovanie: 24 × 24 cm",
-    "Hĺbka: 11,5 cm",
-    "Materiál: čierny PETG (sivá alebo biela na objednávku)"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-100mm-big-ff9f8dd3-9526-44d9-a1d8-6e95e6c79b17?offerId=19057985518",
+    "cs": "https://allegro.cz/nabidka/19057985518",
+    "pl": "https://allegro.pl/oferta/19057985518"
+   },
+   "nazov": {
+    "sk": "Skrytý ventilátor pod obklad – oblý 100 mm (BIG BOX)",
+    "cs": "Skrytý ventilátor pod obklad – oblý 100 mm (BIG BOX)",
+    "pl": "Ukryty wentylator pod płytki – okrągły 100 mm (BIG BOX)"
+   },
+   "kratky": {
+    "sk": "Väčší oblý box pre 100 mm ventilátor.",
+    "cs": "Větší oblý box pro 100 mm ventilátor.",
+    "pl": "Większy okrągły box na wentylator 100 mm."
+   },
+   "popis": {
+    "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
+    "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
+    "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+   },
+   "parametre": {
+    "sk": [
+     "Priemer potrubia: 100 mm",
+     "Otvor na zabudovanie: 24 × 24 cm",
+     "Hĺbka: 11,5 cm",
+     "Materiál: čierny PETG (sivá alebo biela na objednávku)"
+    ],
+    "cs": [
+     "Průměr potrubí: 100 mm",
+     "Otvor pro zabudování: 24 × 24 cm",
+     "Hloubka: 11,5 cm",
+     "Materiál: černý PETG (šedá nebo bílá na objednávku)"
+    ],
+    "pl": [
+     "Średnica kanału: 100 mm",
+     "Otwór montażowy: 24 × 24 cm",
+     "Głębokość: 11,5 cm",
+     "Materiał: czarny PETG (szary lub biały na zamówienie)"
+    ]
+   }
   },
   {
    "id": "18950725137",
-   "nazov": "Skrytý ventilátor pod obklad – oblý 125 mm",
    "kategoria": "podobkladove",
    "cena": 85.0,
-   "allegro": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-125mm-6f4e6222-76db-4fd5-a71b-408fa2ee7e30?offerId=18950725137",
    "obrazok": "img/produkty/18950725137.jpg",
-   "kratky": "Oblý ventilátor za obkladom pre 125 mm potrubie.",
-   "popis": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
-   "parametre": [
-    "Priemer potrubia: 125 mm",
-    "Otvor na zabudovanie: 24 × 24 cm",
-    "Hĺbka: 10 cm",
-    "Materiál: čierny PETG (sivá alebo biela na objednávku)"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/skryty-ventilator-pod-obklad-obly-125mm-6f4e6222-76db-4fd5-a71b-408fa2ee7e30?offerId=18950725137",
+    "cs": "https://allegro.cz/nabidka/18950725137",
+    "pl": "https://allegro.pl/oferta/18950725137"
+   },
+   "nazov": {
+    "sk": "Skrytý ventilátor pod obklad – oblý 125 mm",
+    "cs": "Skrytý ventilátor pod obklad – oblý 125 mm",
+    "pl": "Ukryty wentylator pod płytki – okrągły 125 mm"
+   },
+   "kratky": {
+    "sk": "Oblý ventilátor za obkladom pre 125 mm potrubie.",
+    "cs": "Oblý ventilátor za obkladem pro potrubí 125 mm.",
+    "pl": "Okrągły wentylator za płytkami do kanału 125 mm."
+   },
+   "popis": {
+    "sk": "Potrubný ventilátor sa zabuduje priamo do obkladu, takže v kúpeľni ani na WC nevidno mriežku. Vzduch odchádza úzkou štrbinou okolo dlaždice. Dá sa osadiť na stenu aj na strop a zapína sa vypínačom.",
+    "cs": "Potrubní ventilátor se zabuduje přímo do obkladu, takže v koupelně ani na WC není vidět mřížka. Vzduch odchází úzkou štěrbinou kolem dlaždice. Dá se osadit na stěnu i na strop a zapíná se vypínačem.",
+    "pl": "Wentylator kanałowy montuje się bezpośrednio w okładzinie, więc w łazience ani w WC nie widać kratki. Powietrze uchodzi wąską szczeliną wokół płytki. Można go zamontować na ścianie lub suficie, włącza się włącznikiem."
+   },
+   "parametre": {
+    "sk": [
+     "Priemer potrubia: 125 mm",
+     "Otvor na zabudovanie: 24 × 24 cm",
+     "Hĺbka: 10 cm",
+     "Materiál: čierny PETG (sivá alebo biela na objednávku)"
+    ],
+    "cs": [
+     "Průměr potrubí: 125 mm",
+     "Otvor pro zabudování: 24 × 24 cm",
+     "Hloubka: 10 cm",
+     "Materiál: černý PETG (šedá nebo bílá na objednávku)"
+    ],
+    "pl": [
+     "Średnica kanału: 125 mm",
+     "Otwór montażowy: 24 × 24 cm",
+     "Głębokość: 10 cm",
+     "Materiał: czarny PETG (szary lub biały na zamówienie)"
+    ]
+   }
   },
   {
    "id": "18475826529",
-   "nazov": "Šablóna na vŕtanie otvorov pre Geberit",
    "kategoria": "sablony",
    "cena": 9.0,
-   "allegro": "https://allegro.sk/produkt/sablona-na-vrtanie-otvorov-pre-geberit-30bade73-64af-4089-b490-cf84cb93abc4?offerId=18475826529",
    "obrazok": "img/produkty/18475826529.jpg",
-   "kratky": "Otvory pre podomietkové WC trafíš na prvý raz.",
-   "popis": "Šablóna ukáže presné miesta otvorov v obklade alebo greste pre podomietkový WC modul Geberit. Priložíš, obkreslíš, vŕtaš.",
-   "parametre": [
-    "Pre: podomietkový WC modul Geberit",
-    "Materiál: plast, 3D tlač",
-    "Farba podľa dostupného materiálu"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/sablona-na-vrtanie-otvorov-pre-geberit-30bade73-64af-4089-b490-cf84cb93abc4?offerId=18475826529",
+    "cs": "https://allegro.cz/nabidka/18475826529",
+    "pl": "https://allegro.pl/oferta/18475826529"
+   },
+   "nazov": {
+    "sk": "Šablóna na vŕtanie otvorov pre Geberit",
+    "cs": "Šablona na vrtání otvorů pro Geberit",
+    "pl": "Szablon do wiercenia otworów pod Geberit"
+   },
+   "kratky": {
+    "sk": "Otvory pre podomietkové WC trafíš na prvý raz.",
+    "cs": "Otvory pro podomítkové WC trefíš napoprvé.",
+    "pl": "Otwory pod stelaż WC trafisz za pierwszym razem."
+   },
+   "popis": {
+    "sk": "Šablóna ukáže presné miesta otvorov v obklade alebo greste pre podomietkový WC modul Geberit. Priložíš, obkreslíš, vŕtaš.",
+    "cs": "Šablona ukáže přesná místa otvorů v obkladu nebo gresu pro podomítkový WC modul Geberit. Přiložíš, obkreslíš, vrtáš.",
+    "pl": "Szablon pokazuje dokładne miejsca otworów w płytce lub gresie pod stelaż podtynkowy WC Geberit. Przykładasz, obrysowujesz, wiercisz."
+   },
+   "parametre": {
+    "sk": [
+     "Pre: podomietkový WC modul Geberit",
+     "Materiál: plast, 3D tlač",
+     "Farba podľa dostupného materiálu"
+    ],
+    "cs": [
+     "Pro: podomítkový WC modul Geberit",
+     "Materiál: plast, 3D tisk",
+     "Barva podle dostupného materiálu"
+    ],
+    "pl": [
+     "Do: stelaż podtynkowy WC Geberit",
+     "Materiał: tworzywo, druk 3D",
+     "Kolor zależny od dostępnego materiału"
+    ]
+   }
   },
   {
    "id": "18475856716",
-   "nazov": "Šablóna pre elektroinštalačné krabičky",
    "kategoria": "sablony",
    "cena": 9.0,
-   "allegro": "https://allegro.sk/produkt/sablona-pre-elektroinstalacne-krabicky-4c46c928-9d2b-4099-916b-66378a351979?offerId=18475856716",
    "obrazok": "img/produkty/18475856716.jpg",
-   "kratky": "Vyznačí otvory pre krabičky rovno a na milimeter. Dve libely priamo v šablóne.",
-   "popis": "Šablóna na vyznačenie otvorov pre elektroinštalačné krabice. Má zabudované libely aj značky pre laserovú vodováhu, takže krabice sedia v rade a vo vodováhe. Hodí sa pre elektrikárov aj obkladačov.",
-   "parametre": [
-    "2 zabudované libely",
-    "Značky zvislej a vodorovnej osi pre laser",
-    "Značka stredu otvoru",
-    "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/sablona-pre-elektroinstalacne-krabicky-4c46c928-9d2b-4099-916b-66378a351979?offerId=18475856716",
+    "cs": "https://allegro.cz/nabidka/18475856716",
+    "pl": "https://allegro.pl/oferta/18475856716"
+   },
+   "nazov": {
+    "sk": "Šablóna pre elektroinštalačné krabičky",
+    "cs": "Šablona pro elektroinstalační krabice",
+    "pl": "Szablon do puszek elektrycznych"
+   },
+   "kratky": {
+    "sk": "Vyznačí otvory pre krabičky rovno a na milimeter. Dve libely priamo v šablóne.",
+    "cs": "Vyznačí otvory pro krabice rovně a na milimetr. Dvě libely přímo v šabloně.",
+    "pl": "Wyznacza otwory pod puszki prosto i co do milimetra. Dwie libelki w szablonie."
+   },
+   "popis": {
+    "sk": "Šablóna na vyznačenie otvorov pre elektroinštalačné krabice. Má zabudované libely aj značky pre laserovú vodováhu, takže krabice sedia v rade a vo vodováhe. Hodí sa pre elektrikárov aj obkladačov.",
+    "cs": "Šablona pro vyznačení otvorů pro elektroinstalační krabice. Má zabudované libely i značky pro laserovou vodováhu, takže krabice sedí v řadě a ve vodováze. Hodí se pro elektrikáře i obkladače.",
+    "pl": "Szablon do wyznaczania otworów pod puszki elektryczne. Ma wbudowane libelki i znaczniki pod poziomicę laserową, więc puszki są w jednej linii i w poziomie. Przyda się elektrykom i glazurnikom."
+   },
+   "parametre": {
+    "sk": [
+     "2 zabudované libely",
+     "Značky zvislej a vodorovnej osi pre laser",
+     "Značka stredu otvoru",
+     "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
+    ],
+    "cs": [
+     "2 zabudované libely",
+     "Značky svislé a vodorovné osy pro laser",
+     "Značka středu otvoru",
+     "Materiál: plast, 3D tisk, barva podle dostupného materiálu"
+    ],
+    "pl": [
+     "2 wbudowane libelki",
+     "Znaczniki osi pionowej i poziomej pod laser",
+     "Znacznik środka otworu",
+     "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+    ]
+   }
   },
   {
    "id": "18475987051",
-   "nazov": "Šablóna pre tri elektroinštalačné krabičky",
    "kategoria": "sablony",
    "cena": 7.0,
-   "allegro": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475987051",
    "obrazok": "img/produkty/18475987051.jpg",
-   "kratky": "Tri krabičky vedľa seba v presnom rozostupe a vo vodováhe.",
-   "popis": "Šablóna na vyznačenie troch otvorov pre elektroinštalačné krabice. Má libelu aj značky pre laserovú vodováhu, takže krabice sedia v rade.",
-   "parametre": [
-    "1 zabudovaná libela",
-    "Značky zvislej a vodorovnej osi pre laser",
-    "Značka stredu otvoru",
-    "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475987051",
+    "cs": "https://allegro.cz/nabidka/18475987051",
+    "pl": "https://allegro.pl/oferta/18475987051"
+   },
+   "nazov": {
+    "sk": "Šablóna pre tri elektroinštalačné krabičky",
+    "cs": "Šablona pro tři elektroinstalační krabice",
+    "pl": "Szablon do trzech puszek elektrycznych"
+   },
+   "kratky": {
+    "sk": "Tri krabičky vedľa seba v presnom rozostupe a vo vodováhe.",
+    "cs": "Tři krabice vedle sebe v přesném rozestupu a ve vodováze.",
+    "pl": "Trzy puszki obok siebie w równym rozstawie i w poziomie."
+   },
+   "popis": {
+    "sk": "Šablóna na vyznačenie troch otvorov pre elektroinštalačné krabice. Má libelu aj značky pre laserovú vodováhu, takže krabice sedia v rade.",
+    "cs": "Šablona pro vyznačení tří otvorů pro elektroinstalační krabice. Má libelu i značky pro laserovou vodováhu, takže krabice sedí v řadě.",
+    "pl": "Szablon do wyznaczania trzech otworów pod puszki elektryczne. Ma libelkę i znaczniki pod poziomicę laserową, więc puszki są w jednej linii."
+   },
+   "parametre": {
+    "sk": [
+     "1 zabudovaná libela",
+     "Značky zvislej a vodorovnej osi pre laser",
+     "Značka stredu otvoru",
+     "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
+    ],
+    "cs": [
+     "1 zabudovaná libela",
+     "Značky svislé a vodorovné osy pro laser",
+     "Značka středu otvoru",
+     "Materiál: plast, 3D tisk, barva podle dostupného materiálu"
+    ],
+    "pl": [
+     "1 wbudowana libelka",
+     "Znaczniki osi pionowej i poziomej pod laser",
+     "Znacznik środka otworu",
+     "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+    ]
+   }
   },
   {
    "id": "18475895054",
-   "nazov": "Šablóna pre štyri elektroinštalačné krabičky",
    "kategoria": "sablony",
    "cena": 8.0,
-   "allegro": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475895054",
    "obrazok": "img/produkty/18475895054.jpg",
-   "kratky": "Štyri krabičky v rade naraz, bez merania medzi nimi.",
-   "popis": "Šablóna na vyznačenie štyroch otvorov pre elektroinštalačné krabice. Má libelu aj značky pre laserovú vodováhu, takže krabice sedia v rade.",
-   "parametre": [
-    "1 zabudovaná libela",
-    "Značky zvislej a vodorovnej osi pre laser",
-    "Značka stredu otvoru",
-    "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/sablona-pre-tri-elektroinstalacne-krabicky-6b44b8d1-f614-48eb-b8ff-3f01bc090e09?offerId=18475895054",
+    "cs": "https://allegro.cz/nabidka/18475895054",
+    "pl": "https://allegro.pl/oferta/18475895054"
+   },
+   "nazov": {
+    "sk": "Šablóna pre štyri elektroinštalačné krabičky",
+    "cs": "Šablona pro čtyři elektroinstalační krabice",
+    "pl": "Szablon do czterech puszek elektrycznych"
+   },
+   "kratky": {
+    "sk": "Štyri krabičky v rade naraz, bez merania medzi nimi.",
+    "cs": "Čtyři krabice v řadě najednou, bez měření mezi nimi.",
+    "pl": "Cztery puszki w rzędzie naraz, bez mierzenia między nimi."
+   },
+   "popis": {
+    "sk": "Šablóna na vyznačenie štyroch otvorov pre elektroinštalačné krabice. Má libelu aj značky pre laserovú vodováhu, takže krabice sedia v rade.",
+    "cs": "Šablona pro vyznačení čtyř otvorů pro elektroinstalační krabice. Má libelu i značky pro laserovou vodováhu, takže krabice sedí v řadě.",
+    "pl": "Szablon do wyznaczania czterech otworów pod puszki elektryczne. Ma libelkę i znaczniki pod poziomicę laserową, więc puszki są w jednej linii."
+   },
+   "parametre": {
+    "sk": [
+     "1 zabudovaná libela",
+     "Značky zvislej a vodorovnej osi pre laser",
+     "Značka stredu otvoru",
+     "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
+    ],
+    "cs": [
+     "1 zabudovaná libela",
+     "Značky svislé a vodorovné osy pro laser",
+     "Značka středu otvoru",
+     "Materiál: plast, 3D tisk, barva podle dostupného materiálu"
+    ],
+    "pl": [
+     "1 wbudowana libelka",
+     "Znaczniki osi pionowej i poziomej pod laser",
+     "Znacznik środka otworu",
+     "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+    ]
+   }
   },
   {
    "id": "19082053794",
-   "nazov": "Fixačná svorka na Jolly hrany 90° + medzerníky",
    "kategoria": "pripravky",
    "cena": 33.0,
-   "allegro": "https://allegro.sk/produkt/fixacna-svorka-na-jolly-hrany-90-medzerniky-0-8-2mm-f593c6a4-4107-477b-80c1-d268e93d6b0e?offerId=19082053794",
    "obrazok": "img/produkty/19082053794.jpg",
-   "kratky": "Drží zrezané hrany v 90° a nechá v spoji miesto na lepidlo.",
-   "popis": "Bežná svorka pritlačí dlaždice natvrdo a lepidlo zo spoja vytlačí. Potom vznikajú bubliny a rohy sa odlamujú. Táto svorka má vymeniteľné medzerníky, takže spoj ostane rovnaký po celej dĺžke, kým lepidlo nevytvrdne. Plastové telo nepoškriabe glazúru, gres ani kameň.",
-   "parametre": [
-    "Medzerníky: 0,8 / 1,0 / 1,5 / 2,0 mm",
-    "0,8 a 1 mm na tenké epoxidové škáry, 1,5 a 2 mm na flexibilné lepidlá",
-    "Balenie: 2 svorky + 4 medzerníky",
-    "Materiál: plast, 3D tlač, farby sa môžu líšiť"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/fixacna-svorka-na-jolly-hrany-90-medzerniky-0-8-2mm-f593c6a4-4107-477b-80c1-d268e93d6b0e?offerId=19082053794",
+    "cs": "https://allegro.cz/nabidka/19082053794",
+    "pl": "https://allegro.pl/oferta/19082053794"
+   },
+   "nazov": {
+    "sk": "Fixačná svorka na Jolly hrany 90° + medzerníky",
+    "cs": "Fixační svorka na Jolly hrany 90° + distanční podložky",
+    "pl": "Ścisk do narożników Jolly 90° + dystanse"
+   },
+   "kratky": {
+    "sk": "Drží zrezané hrany v 90° a nechá v spoji miesto na lepidlo.",
+    "cs": "Drží seříznuté hrany v 90° a nechá ve spoji místo na lepidlo.",
+    "pl": "Trzyma szlifowane krawędzie pod kątem 90° i zostawia w spoinie miejsce na klej."
+   },
+   "popis": {
+    "sk": "Bežná svorka pritlačí dlaždice natvrdo a lepidlo zo spoja vytlačí. Potom vznikajú bubliny a rohy sa odlamujú. Táto svorka má vymeniteľné medzerníky, takže spoj ostane rovnaký po celej dĺžke, kým lepidlo nevytvrdne. Plastové telo nepoškriabe glazúru, gres ani kameň.",
+    "cs": "Běžná svorka přitlačí dlaždice natvrdo a lepidlo ze spoje vytlačí. Pak vznikají bubliny a rohy se odlamují. Tato svorka má vyměnitelné distanční podložky, takže spoj zůstane stejný po celé délce, dokud lepidlo nevytvrdne. Plastové tělo nepoškrábe glazuru, gres ani kámen.",
+    "pl": "Zwykły ścisk dociska płytki na sztywno i wypycha klej ze spoiny. Potem powstają pęcherze, a narożniki się odłamują. Ten ścisk ma wymienne dystanse, więc spoina jest równa na całej długości, dopóki klej nie zwiąże. Plastikowy korpus nie porysuje szkliwa, gresu ani kamienia."
+   },
+   "parametre": {
+    "sk": [
+     "Medzerníky: 0,8 / 1,0 / 1,5 / 2,0 mm",
+     "0,8 a 1 mm na tenké epoxidové škáry, 1,5 a 2 mm na flexibilné lepidlá",
+     "Balenie: 2 svorky + 4 medzerníky",
+     "Materiál: plast, 3D tlač, farby sa môžu líšiť"
+    ],
+    "cs": [
+     "Distanční podložky: 0,8 / 1,0 / 1,5 / 2,0 mm",
+     "0,8 a 1 mm na tenké epoxidové spáry, 1,5 a 2 mm na flexibilní lepidla",
+     "Balení: 2 svorky + 4 distanční podložky",
+     "Materiál: plast, 3D tisk, barvy se mohou lišit"
+    ],
+    "pl": [
+     "Dystanse: 0,8 / 1,0 / 1,5 / 2,0 mm",
+     "0,8 i 1 mm do cienkich spoin epoksydowych, 1,5 i 2 mm do klejów elastycznych",
+     "Zestaw: 2 ściski + 4 dystanse",
+     "Materiał: tworzywo, druk 3D, kolory mogą się różnić"
+    ]
+   }
   },
   {
    "id": "18585178853",
-   "nazov": "Držiak na lepenie dlažby pod uhlom 90°",
    "kategoria": "pripravky",
    "cena": 30.0,
-   "allegro": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18585178853",
    "obrazok": "img/produkty/18585178853.jpg",
-   "kratky": "Podrží dve dlaždice v pravom uhle, kým lepidlo nevytvrdne.",
-   "popis": "Uhlový držiak na lepenie dlažby do 90°. Rohy, schody a police z dlažby lepíš rýchlejšie a bez podopierania. Po zafixovaní môžeš spoj lepiť dvojzložkovým epoxidom.",
-   "parametre": [
-    "Hrúbka dlažby: 8 / 8,5 / 9 / 9,5 / 10 mm",
-    "Balenie: 2 uhlové držiaky + 2 konzoly na dlhšie dlaždice"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/univerzalny-5d-polohovac-pre-dlazbu-pod-uhlom-90-stupnov-40601a20-b6fc-4081-ac60-dbad9b17517d?offerId=18585178853",
+    "cs": "https://allegro.cz/nabidka/18585178853",
+    "pl": "https://allegro.pl/oferta/18585178853"
+   },
+   "nazov": {
+    "sk": "Držiak na lepenie dlažby pod uhlom 90°",
+    "cs": "Držák na lepení dlažby pod úhlem 90°",
+    "pl": "Uchwyt do klejenia płytek pod kątem 90°"
+   },
+   "kratky": {
+    "sk": "Podrží dve dlaždice v pravom uhle, kým lepidlo nevytvrdne.",
+    "cs": "Podrží dvě dlaždice v pravém úhlu, dokud lepidlo nevytvrdne.",
+    "pl": "Trzyma dwie płytki pod kątem prostym, dopóki klej nie zwiąże."
+   },
+   "popis": {
+    "sk": "Uhlový držiak na lepenie dlažby do 90°. Rohy, schody a police z dlažby lepíš rýchlejšie a bez podopierania. Po zafixovaní môžeš spoj lepiť dvojzložkovým epoxidom.",
+    "cs": "Úhlový držák na lepení dlažby do 90°. Rohy, schody a police z dlažby lepíš rychleji a bez podpírání. Po zafixování můžeš spoj lepit dvousložkovým epoxidem.",
+    "pl": "Uchwyt kątowy do klejenia płytek pod kątem 90°. Narożniki, stopnie i półki z płytek kleisz szybciej i bez podpierania. Po zamocowaniu możesz kleić spoinę dwuskładnikowym epoksydem."
+   },
+   "parametre": {
+    "sk": [
+     "Hrúbka dlažby: 8 / 8,5 / 9 / 9,5 / 10 mm",
+     "Balenie: 2 uhlové držiaky + 2 konzoly na dlhšie dlaždice"
+    ],
+    "cs": [
+     "Tloušťka dlažby: 8 / 8,5 / 9 / 9,5 / 10 mm",
+     "Balení: 2 úhlové držáky + 2 konzoly na delší dlaždice"
+    ],
+    "pl": [
+     "Grubość płytki: 8 / 8,5 / 9 / 9,5 / 10 mm",
+     "Zestaw: 2 uchwyty kątowe + 2 wsporniki do dłuższych płytek"
+    ]
+   }
   },
   {
    "id": "18494408641",
-   "nazov": "Držiak na skosenie dlaždíc 45° – extra pevný",
    "kategoria": "pripravky",
    "cena": 22.0,
-   "allegro": "https://allegro.sk/produkt/uchyt-drziak-na-skosenie-dlazdic-45-extra-pevna-d095c1c2-6986-4b92-8e9a-333e5f7abf1b?offerId=18494408641",
    "obrazok": "img/produkty/18494408641.jpg",
-   "kratky": "Drží dlaždicu pri brúsení hrany na 45°. Pripevníš ho k stolu.",
-   "popis": "Úchytka sa pripevní na pracovný stôl a dlaždicu drží pod uhlom 45°. Hranu zbrúsiš rovno aj na dlhšom kuse a nemusíš ju držať v ruke.",
-   "parametre": [
-    "Uhol: 45°",
-    "Montáž na pracovný stôl",
-    "Balenie: 2 ks"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/uchyt-drziak-na-skosenie-dlazdic-45-extra-pevna-d095c1c2-6986-4b92-8e9a-333e5f7abf1b?offerId=18494408641",
+    "cs": "https://allegro.cz/nabidka/18494408641",
+    "pl": "https://allegro.pl/oferta/18494408641"
+   },
+   "nazov": {
+    "sk": "Držiak na skosenie dlaždíc 45° – extra pevný",
+    "cs": "Držák na zkosení dlaždic 45° – extra pevný",
+    "pl": "Uchwyt do szlifowania płytek pod 45° – extra mocny"
+   },
+   "kratky": {
+    "sk": "Drží dlaždicu pri brúsení hrany na 45°. Pripevníš ho k stolu.",
+    "cs": "Drží dlaždici při broušení hrany na 45°. Připevníš ho ke stolu.",
+    "pl": "Trzyma płytkę przy szlifowaniu krawędzi pod 45°. Mocujesz go do stołu."
+   },
+   "popis": {
+    "sk": "Úchytka sa pripevní na pracovný stôl a dlaždicu drží pod uhlom 45°. Hranu zbrúsiš rovno aj na dlhšom kuse a nemusíš ju držať v ruke.",
+    "cs": "Úchytka se připevní na pracovní stůl a dlaždici drží pod úhlem 45°. Hranu zbrousíš rovně i na delším kusu a nemusíš ji držet v ruce.",
+    "pl": "Uchwyt mocuje się do stołu roboczego i trzyma płytkę pod kątem 45°. Krawędź zeszlifujesz równo nawet na dłuższym kawałku i nie musisz trzymać jej w ręce."
+   },
+   "parametre": {
+    "sk": [
+     "Uhol: 45°",
+     "Montáž na pracovný stôl",
+     "Balenie: 2 ks"
+    ],
+    "cs": [
+     "Úhel: 45°",
+     "Montáž na pracovní stůl",
+     "Balení: 2 ks"
+    ],
+    "pl": [
+     "Kąt: 45°",
+     "Montaż do stołu roboczego",
+     "Zestaw: 2 szt."
+    ]
+   }
   },
   {
    "id": "18475696896",
-   "nazov": "Uholník na stabilizáciu pravého uhla",
    "kategoria": "pripravky",
    "cena": 5.0,
-   "allegro": "https://allegro.sk/produkt/uholnik-na-stabilizaciu-praveho-uhla-fd8c191b-6842-46d4-b2bf-fb07ce6347e1?offerId=18475696896",
    "obrazok": "img/produkty/18475696896.jpg",
-   "kratky": "Pevný obkladačský uholník. Drží pravý uhol pri lepení dlaždíc.",
-   "popis": "Plastový uholník na stabilizáciu pravého uhla pri lepení a montáži dlaždíc. Je hrubší ako bežné uholníky, takže sa neprehne.",
-   "parametre": [
-    "Vonkajší rozmer: 100 × 100 mm",
-    "Vnútorný rozmer: 75 × 75 mm",
-    "Šírka × výška ramena: 25 × 18 mm",
-    "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/uholnik-na-stabilizaciu-praveho-uhla-fd8c191b-6842-46d4-b2bf-fb07ce6347e1?offerId=18475696896",
+    "cs": "https://allegro.cz/nabidka/18475696896",
+    "pl": "https://allegro.pl/oferta/18475696896"
+   },
+   "nazov": {
+    "sk": "Uholník na stabilizáciu pravého uhla",
+    "cs": "Úhelník pro stabilizaci pravého úhlu",
+    "pl": "Kątownik do stabilizacji kąta prostego"
+   },
+   "kratky": {
+    "sk": "Pevný obkladačský uholník. Drží pravý uhol pri lepení dlaždíc.",
+    "cs": "Pevný obkladačský úhelník. Drží pravý úhel při lepení dlaždic.",
+    "pl": "Mocny kątownik glazurniczy. Trzyma kąt prosty przy klejeniu płytek."
+   },
+   "popis": {
+    "sk": "Plastový uholník na stabilizáciu pravého uhla pri lepení a montáži dlaždíc. Je hrubší ako bežné uholníky, takže sa neprehne.",
+    "cs": "Plastový úhelník pro stabilizaci pravého úhlu při lepení a montáži dlaždic. Je silnější než běžné úhelníky, takže se neprohne.",
+    "pl": "Plastikowy kątownik do stabilizacji kąta prostego przy klejeniu i montażu płytek. Jest grubszy niż zwykłe kątowniki, więc się nie wygina."
+   },
+   "parametre": {
+    "sk": [
+     "Vonkajší rozmer: 100 × 100 mm",
+     "Vnútorný rozmer: 75 × 75 mm",
+     "Šírka × výška ramena: 25 × 18 mm",
+     "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
+    ],
+    "cs": [
+     "Vnější rozměr: 100 × 100 mm",
+     "Vnitřní rozměr: 75 × 75 mm",
+     "Šířka × výška ramene: 25 × 18 mm",
+     "Materiál: plast, 3D tisk, barva podle dostupného materiálu"
+    ],
+    "pl": [
+     "Wymiar zewnętrzny: 100 × 100 mm",
+     "Wymiar wewnętrzny: 75 × 75 mm",
+     "Szerokość × wysokość ramienia: 25 × 18 mm",
+     "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+    ]
+   }
   },
   {
    "id": "18745018066",
-   "nazov": "Magnetický držiak pre diamantové brúsne doštičky",
    "kategoria": "pripravky",
    "cena": 18.0,
-   "allegro": "https://allegro.sk/produkt/magneticky-drziak-pre-diamantove-brusne-dosticky-81b750dd-c888-4ff1-88eb-96ea9b0575fc?offerId=18745018066",
    "obrazok": "img/produkty/18745018066.jpg",
-   "kratky": "Rukoväť na diamantové doštičky. Magnety ich držia, výmena trvá sekundu.",
-   "popis": "Držiak dobre sedí v ruke a silné magnety držia brúsnu doštičku pevne aj pri brúsení. Cez výrez ju rýchlo vyberieš a dáš inú zrnitosť.",
-   "parametre": [
-    "Pre doštičky 153 × 63 mm",
-    "Materiál: PETG",
-    "Brúsne doštičky nie sú súčasťou"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/magneticky-drziak-pre-diamantove-brusne-dosticky-81b750dd-c888-4ff1-88eb-96ea9b0575fc?offerId=18745018066",
+    "cs": "https://allegro.cz/nabidka/18745018066",
+    "pl": "https://allegro.pl/oferta/18745018066"
+   },
+   "nazov": {
+    "sk": "Magnetický držiak pre diamantové brúsne doštičky",
+    "cs": "Magnetický držák na diamantové brusné destičky",
+    "pl": "Magnetyczny uchwyt do diamentowych płytek szlifierskich"
+   },
+   "kratky": {
+    "sk": "Rukoväť na diamantové doštičky. Magnety ich držia, výmena trvá sekundu.",
+    "cs": "Rukojeť na diamantové destičky. Magnety je drží, výměna trvá vteřinu.",
+    "pl": "Uchwyt na płytki diamentowe. Magnesy je trzymają, wymiana trwa sekundę."
+   },
+   "popis": {
+    "sk": "Držiak dobre sedí v ruke a silné magnety držia brúsnu doštičku pevne aj pri brúsení. Cez výrez ju rýchlo vyberieš a dáš inú zrnitosť.",
+    "cs": "Držák dobře sedí v ruce a silné magnety drží brusnou destičku pevně i při broušení. Výřezem ji rychle vyndáš a dáš jinou zrnitost.",
+    "pl": "Uchwyt dobrze leży w dłoni, a mocne magnesy trzymają płytkę szlifierską pewnie nawet przy szlifowaniu. Przez wycięcie szybko ją wyjmiesz i założysz inną gradację."
+   },
+   "parametre": {
+    "sk": [
+     "Pre doštičky 153 × 63 mm",
+     "Materiál: PETG",
+     "Brúsne doštičky nie sú súčasťou"
+    ],
+    "cs": [
+     "Pro destičky 153 × 63 mm",
+     "Materiál: PETG",
+     "Brusné destičky nejsou součástí"
+    ],
+    "pl": [
+     "Do płytek 153 × 63 mm",
+     "Materiał: PETG",
+     "Płytki szlifierskie nie są w zestawie"
+    ]
+   }
   },
   {
    "id": "18595337381",
-   "nazov": "Dávkovač na tekuté mydlo z keramickej dlažby",
    "kategoria": "doplnky",
    "cena": 119.0,
-   "allegro": "https://allegro.sk/produkt/luxusny-davkovac-na-tekute-mydlo-z-keramickej-dlazby-fb4cb205-ca81-4871-adea-7aef15e1ca67?offerId=18595337381",
    "obrazok": "img/produkty/18595337381.jpg",
-   "kratky": "Ručne robený z dlažby. Váži cez kilo, takže sa neprevráti.",
-   "popis": "Dávkovač je ručne vyrobený z keramickej dlažby. Na fotke je zo sivej dlažby. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
-   "parametre": [
-    "Rozmer: 8 × 8 × 19 cm",
-    "Hmotnosť: viac ako 1 kg",
-    "Farba a dekor na želanie",
-    "Do sady: pohár na kefky, držiak na WC kefu, kryt na vreckovky"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/luxusny-davkovac-na-tekute-mydlo-z-keramickej-dlazby-fb4cb205-ca81-4871-adea-7aef15e1ca67?offerId=18595337381",
+    "cs": "https://allegro.cz/nabidka/18595337381",
+    "pl": "https://allegro.pl/oferta/18595337381"
+   },
+   "nazov": {
+    "sk": "Dávkovač na tekuté mydlo z keramickej dlažby",
+    "cs": "Dávkovač na tekuté mýdlo z keramické dlažby",
+    "pl": "Dozownik do mydła z płytki ceramicznej"
+   },
+   "kratky": {
+    "sk": "Ručne robený z dlažby. Váži cez kilo, takže sa neprevráti.",
+    "cs": "Ručně dělaný z dlažby. Váží přes kilo, takže se nepřevrhne.",
+    "pl": "Ręcznie robiony z płytki. Waży ponad kilogram, więc się nie przewróci."
+   },
+   "popis": {
+    "sk": "Dávkovač je ručne vyrobený z keramickej dlažby. Na fotke je zo sivej dlažby. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
+    "cs": "Dávkovač je ručně vyrobený z keramické dlažby. Na fotce je ze šedé dlažby. Dá se udělat i v jiné barvě nebo z dlažby, kterou máš v koupelně. Vyrábí se většinou na objednávku.",
+    "pl": "Dozownik jest ręcznie wykonany z płytki ceramicznej. Na zdjęciu z szarej płytki. Można go zrobić w innym kolorze albo z płytek, które masz w łazience. Wykonywany głównie na zamówienie."
+   },
+   "parametre": {
+    "sk": [
+     "Rozmer: 8 × 8 × 19 cm",
+     "Hmotnosť: viac ako 1 kg",
+     "Farba a dekor na želanie",
+     "Do sady: pohár na kefky, držiak na WC kefu, kryt na vreckovky"
+    ],
+    "cs": [
+     "Rozměr: 8 × 8 × 19 cm",
+     "Hmotnost: více než 1 kg",
+     "Barva a dekor na přání",
+     "Do sady: kelímek na kartáčky, držák WC štětky, kryt na kapesníky"
+    ],
+    "pl": [
+     "Wymiary: 8 × 8 × 19 cm",
+     "Waga: ponad 1 kg",
+     "Kolor i dekor na życzenie",
+     "Do kompletu: kubek na szczoteczki, stojak na szczotkę WC, osłona na chusteczki"
+    ]
+   }
   },
   {
    "id": "18598294919",
-   "nazov": "Pohár na zubné kefky z keramickej dlažby",
    "kategoria": "doplnky",
    "cena": 119.0,
-   "allegro": "https://allegro.sk/produkt/luxusny-pohar-na-zubne-kefky-z-keramickej-dlazby-a9ac440e-3773-4e48-85e7-968f55014951?offerId=18598294919",
    "obrazok": "img/produkty/18598294919.jpg",
-   "kratky": "Ručne robený z dlažby. Ťažký a stabilný, neprevráti sa.",
-   "popis": "Pohár je ručne vyrobený z keramickej dlažby. Na fotke je zo sivej dlažby. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
-   "parametre": [
-    "Rozmer: 8 × 8 × 12 cm",
-    "Hmotnosť: viac ako 1 kg",
-    "Farba a dekor na želanie",
-    "Do sady: dávkovač mydla, držiak na WC kefu, kryt na vreckovky"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/luxusny-pohar-na-zubne-kefky-z-keramickej-dlazby-a9ac440e-3773-4e48-85e7-968f55014951?offerId=18598294919",
+    "cs": "https://allegro.cz/nabidka/18598294919",
+    "pl": "https://allegro.pl/oferta/18598294919"
+   },
+   "nazov": {
+    "sk": "Pohár na zubné kefky z keramickej dlažby",
+    "cs": "Kelímek na zubní kartáčky z keramické dlažby",
+    "pl": "Kubek na szczoteczki z płytki ceramicznej"
+   },
+   "kratky": {
+    "sk": "Ručne robený z dlažby. Ťažký a stabilný, neprevráti sa.",
+    "cs": "Ručně dělaný z dlažby. Těžký a stabilní, nepřevrhne se.",
+    "pl": "Ręcznie robiony z płytki. Ciężki i stabilny, nie przewróci się."
+   },
+   "popis": {
+    "sk": "Pohár je ručne vyrobený z keramickej dlažby. Na fotke je zo sivej dlažby. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
+    "cs": "Kelímek je ručně vyrobený z keramické dlažby. Na fotce je ze šedé dlažby. Dá se udělat i v jiné barvě nebo z dlažby, kterou máš v koupelně. Vyrábí se většinou na objednávku.",
+    "pl": "Kubek jest ręcznie wykonany z płytki ceramicznej. Na zdjęciu z szarej płytki. Można go zrobić w innym kolorze albo z płytek, które masz w łazience. Wykonywany głównie na zamówienie."
+   },
+   "parametre": {
+    "sk": [
+     "Rozmer: 8 × 8 × 12 cm",
+     "Hmotnosť: viac ako 1 kg",
+     "Farba a dekor na želanie",
+     "Do sady: dávkovač mydla, držiak na WC kefu, kryt na vreckovky"
+    ],
+    "cs": [
+     "Rozměr: 8 × 8 × 12 cm",
+     "Hmotnost: více než 1 kg",
+     "Barva a dekor na přání",
+     "Do sady: dávkovač mýdla, držák WC štětky, kryt na kapesníky"
+    ],
+    "pl": [
+     "Wymiary: 8 × 8 × 12 cm",
+     "Waga: ponad 1 kg",
+     "Kolor i dekor na życzenie",
+     "Do kompletu: dozownik do mydła, stojak na szczotkę WC, osłona na chusteczki"
+    ]
+   }
   },
   {
    "id": "18951553927",
-   "nazov": "Držiak na WC kefu z keramickej dlažby",
    "kategoria": "doplnky",
    "cena": 109.0,
-   "allegro": "https://allegro.sk/produkt/luxusny-drziak-na-wc-kefu-z-keramickej-dlazby-255dfb2b-db67-40d4-9b9b-64f14013161a?offerId=18951553927",
    "obrazok": "img/produkty/18951553927.jpg",
-   "kratky": "Ručne robený z dlažby, vnútro z odolného plastu.",
-   "popis": "Držiak je ručne vyrobený z keramickej dlažby, vnútro je z plastu z 3D tlače. Vďaka hmotnosti stojí pevne. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
-   "parametre": [
-    "Rozmer: 10,5 × 10,5 × 12 cm",
-    "Hmotnosť: viac ako 1 kg",
-    "Farba a dekor na želanie",
-    "Do sady: dávkovač mydla, pohár na kefky, kryt na vreckovky"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/luxusny-drziak-na-wc-kefu-z-keramickej-dlazby-255dfb2b-db67-40d4-9b9b-64f14013161a?offerId=18951553927",
+    "cs": "https://allegro.cz/nabidka/18951553927",
+    "pl": "https://allegro.pl/oferta/18951553927"
+   },
+   "nazov": {
+    "sk": "Držiak na WC kefu z keramickej dlažby",
+    "cs": "Držák WC štětky z keramické dlažby",
+    "pl": "Stojak na szczotkę WC z płytki ceramicznej"
+   },
+   "kratky": {
+    "sk": "Ručne robený z dlažby, vnútro z odolného plastu.",
+    "cs": "Ručně dělaný z dlažby, vnitřek z odolného plastu.",
+    "pl": "Ręcznie robiony z płytki, wnętrze z wytrzymałego tworzywa."
+   },
+   "popis": {
+    "sk": "Držiak je ručne vyrobený z keramickej dlažby, vnútro je z plastu z 3D tlače. Vďaka hmotnosti stojí pevne. Dá sa spraviť aj v inej farbe alebo z dlažby, ktorú máš v kúpeľni. Vyrába sa väčšinou na objednávku.",
+    "cs": "Držák je ručně vyrobený z keramické dlažby, vnitřek je z plastu z 3D tisku. Díky hmotnosti stojí pevně. Dá se udělat i v jiné barvě nebo z dlažby, kterou máš v koupelně. Vyrábí se většinou na objednávku.",
+    "pl": "Stojak jest ręcznie wykonany z płytki ceramicznej, wnętrze z tworzywa z druku 3D. Dzięki wadze stoi stabilnie. Można go zrobić w innym kolorze albo z płytek, które masz w łazience. Wykonywany głównie na zamówienie."
+   },
+   "parametre": {
+    "sk": [
+     "Rozmer: 10,5 × 10,5 × 12 cm",
+     "Hmotnosť: viac ako 1 kg",
+     "Farba a dekor na želanie",
+     "Do sady: dávkovač mydla, pohár na kefky, kryt na vreckovky"
+    ],
+    "cs": [
+     "Rozměr: 10,5 × 10,5 × 12 cm",
+     "Hmotnost: více než 1 kg",
+     "Barva a dekor na přání",
+     "Do sady: dávkovač mýdla, kelímek na kartáčky, kryt na kapesníky"
+    ],
+    "pl": [
+     "Wymiary: 10,5 × 10,5 × 12 cm",
+     "Waga: ponad 1 kg",
+     "Kolor i dekor na życzenie",
+     "Do kompletu: dozownik do mydła, kubek na szczoteczki, osłona na chusteczki"
+    ]
+   }
   },
   {
    "id": "18598304077",
-   "nazov": "Kryt na papierové vreckovky z keramickej dlažby",
    "kategoria": "doplnky",
    "cena": 139.0,
-   "allegro": "https://allegro.sk/produkt/luxusny-kryt-na-papierove-vreckovky-z-keramickej-dlazby-4ce85c52-5b20-45f4-a535-4cfd2d67a7de?offerId=18598304077",
    "obrazok": "img/produkty/18598304077.jpg",
-   "kratky": "Položíš na krabičku vreckoviek a tá sa už nepohne.",
-   "popis": "Kryt je ručne vyrobený z keramickej dlažby. Položí sa na papierový box s vreckovkami, ktorý sa potom pri ťahaní nehýbe a vietor ho nezhodí zo stola. Hodí sa domov, na terasu aj do kancelárie.",
-   "parametre": [
-    "Rozmer: 26 × 14 × 9 cm",
-    "Hmotnosť: približne 1,7 kg",
-    "Farba a dekor na želanie"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/luxusny-kryt-na-papierove-vreckovky-z-keramickej-dlazby-4ce85c52-5b20-45f4-a535-4cfd2d67a7de?offerId=18598304077",
+    "cs": "https://allegro.cz/nabidka/18598304077",
+    "pl": "https://allegro.pl/oferta/18598304077"
+   },
+   "nazov": {
+    "sk": "Kryt na papierové vreckovky z keramickej dlažby",
+    "cs": "Kryt na papírové kapesníky z keramické dlažby",
+    "pl": "Osłona na chusteczki z płytki ceramicznej"
+   },
+   "kratky": {
+    "sk": "Položíš na krabičku vreckoviek a tá sa už nepohne.",
+    "cs": "Položíš na krabičku kapesníků a ta se už nepohne.",
+    "pl": "Kładziesz na pudełko chusteczek i ono już się nie przesunie."
+   },
+   "popis": {
+    "sk": "Kryt je ručne vyrobený z keramickej dlažby. Položí sa na papierový box s vreckovkami, ktorý sa potom pri ťahaní nehýbe a vietor ho nezhodí zo stola. Hodí sa domov, na terasu aj do kancelárie.",
+    "cs": "Kryt je ručně vyrobený z keramické dlažby. Položí se na papírový box s kapesníky, který se pak při tahání nehýbe a vítr ho neshodí ze stolu. Hodí se domů, na terasu i do kanceláře.",
+    "pl": "Osłona jest ręcznie wykonana z płytki ceramicznej. Kładzie się ją na kartonik z chusteczkami, który potem nie przesuwa się przy wyciąganiu i wiatr nie zrzuci go ze stołu. Pasuje do domu, na taras i do biura."
+   },
+   "parametre": {
+    "sk": [
+     "Rozmer: 26 × 14 × 9 cm",
+     "Hmotnosť: približne 1,7 kg",
+     "Farba a dekor na želanie"
+    ],
+    "cs": [
+     "Rozměr: 26 × 14 × 9 cm",
+     "Hmotnost: přibližně 1,7 kg",
+     "Barva a dekor na přání"
+    ],
+    "pl": [
+     "Wymiary: 26 × 14 × 9 cm",
+     "Waga: około 1,7 kg",
+     "Kolor i dekor na życzenie"
+    ]
+   }
   },
   {
    "id": "18563328581",
-   "nazov": "Sopro SB 113 – nerezová ochranná páska",
    "kategoria": "prislusenstvo",
    "cena": 250.0,
-   "allegro": "https://allegro.sk/produkt/sopro-sb-113-nerezova-paska-1abd233c-40e7-4f3f-b1dc-f03843767e13?offerId=18563328581",
    "obrazok": "img/produkty/18563328581.jpg",
-   "kratky": "Chráni hydroizoláciu pred prerezaním, keď meníš silikónovú škáru.",
-   "popis": "Pružná páska z nerezovej ocele V4A sa vkladá do spojovacích a dilatačných škár. Keď neskôr vyrezávaš starý silikón, nôž neprereže hydroizoláciu pod ním. Do interiéru aj exteriéru, na steny aj podlahy.",
-   "parametre": [
-    "Šírka: 30 mm, dĺžka 20 m",
-    "Materiál: nerez V4A, odolná voči kyselinám a chlórovanej vode",
-    "Veľkosť ôk: 1,1 × 1,1 mm",
-    "Bez organických zložiek, neplesnivie"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/sopro-sb-113-nerezova-paska-1abd233c-40e7-4f3f-b1dc-f03843767e13?offerId=18563328581",
+    "cs": "https://allegro.cz/nabidka/18563328581",
+    "pl": "https://allegro.pl/oferta/18563328581"
+   },
+   "nazov": {
+    "sk": "Sopro SB 113 – nerezová ochranná páska",
+    "cs": "Sopro SB 113 – nerezová ochranná páska",
+    "pl": "Sopro SB 113 – taśma ochronna ze stali nierdzewnej"
+   },
+   "kratky": {
+    "sk": "Chráni hydroizoláciu pred prerezaním, keď meníš silikónovú škáru.",
+    "cs": "Chrání hydroizolaci před proříznutím, když měníš silikonovou spáru.",
+    "pl": "Chroni hydroizolację przed przecięciem przy wymianie fugi silikonowej."
+   },
+   "popis": {
+    "sk": "Pružná páska z nerezovej ocele V4A sa vkladá do spojovacích a dilatačných škár. Keď neskôr vyrezávaš starý silikón, nôž neprereže hydroizoláciu pod ním. Do interiéru aj exteriéru, na steny aj podlahy.",
+    "cs": "Pružná páska z nerezové oceli V4A se vkládá do spojovacích a dilatačních spár. Když později vyřezáváš starý silikon, nůž neprořízne hydroizolaci pod ním. Do interiéru i exteriéru, na stěny i podlahy.",
+    "pl": "Elastyczna taśma ze stali nierdzewnej V4A układana w spoinach łączących i dylatacyjnych. Gdy później wycinasz stary silikon, nóż nie przetnie hydroizolacji pod nim. Do wnętrz i na zewnątrz, na ściany i podłogi."
+   },
+   "parametre": {
+    "sk": [
+     "Šírka: 30 mm, dĺžka 20 m",
+     "Materiál: nerez V4A, odolná voči kyselinám a chlórovanej vode",
+     "Veľkosť ôk: 1,1 × 1,1 mm",
+     "Bez organických zložiek, neplesnivie"
+    ],
+    "cs": [
+     "Šířka: 30 mm, délka 20 m",
+     "Materiál: nerez V4A, odolná vůči kyselinám a chlorované vodě",
+     "Velikost ok: 1,1 × 1,1 mm",
+     "Bez organických složek, neplesniví"
+    ],
+    "pl": [
+     "Szerokość: 30 mm, długość 20 m",
+     "Materiał: stal nierdzewna V4A, odporna na kwasy i wodę chlorowaną",
+     "Wielkość oczek: 1,1 × 1,1 mm",
+     "Bez składników organicznych, nie pleśnieje"
+    ]
+   }
   },
   {
    "id": "18811656078",
-   "nazov": "Aplikačná pištoľ Akemi pre lepidlá Colour Bond 250 ml",
    "kategoria": "prislusenstvo",
    "cena": 160.0,
-   "allegro": "https://allegro.sk/produkt/akemi-pistol-na-vytlacanie-dvojpiestova-na-zivicove-lepidlo-colour-bond-250-ml-89f57029-26e2-4bf1-9645-5b27d0b4fa1a?offerId=18811656078",
    "obrazok": "img/produkty/18811656078.jpg",
-   "kratky": "Ručná dvojpiestová pištoľ na kartuše Colour Bond 250 ml.",
-   "popis": "Pištoľ na vytláčanie dvojzložkových lepidiel v kartušiach Akemi Colour Bond 250 ml.",
-   "parametre": [
-    "Model: MR200X manual",
-    "Pomer: 10 : 1",
-    "Pre kartuše Colour Bond 250 ml"
-   ]
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/akemi-pistol-na-vytlacanie-dvojpiestova-na-zivicove-lepidlo-colour-bond-250-ml-89f57029-26e2-4bf1-9645-5b27d0b4fa1a?offerId=18811656078",
+    "cs": "https://allegro.cz/nabidka/18811656078",
+    "pl": "https://allegro.pl/oferta/18811656078"
+   },
+   "nazov": {
+    "sk": "Aplikačná pištoľ Akemi pre lepidlá Colour Bond 250 ml",
+    "cs": "Aplikační pistole Akemi pro lepidla Colour Bond 250 ml",
+    "pl": "Pistolet aplikacyjny Akemi do klejów Colour Bond 250 ml"
+   },
+   "kratky": {
+    "sk": "Ručná dvojpiestová pištoľ na kartuše Colour Bond 250 ml.",
+    "cs": "Ruční dvoupístová pistole na kartuše Colour Bond 250 ml.",
+    "pl": "Ręczny pistolet dwutłokowy do kartuszy Colour Bond 250 ml."
+   },
+   "popis": {
+    "sk": "Pištoľ na vytláčanie dvojzložkových lepidiel v kartušiach Akemi Colour Bond 250 ml.",
+    "cs": "Pistole na vytlačování dvousložkových lepidel v kartuších Akemi Colour Bond 250 ml.",
+    "pl": "Pistolet do wyciskania klejów dwuskładnikowych w kartuszach Akemi Colour Bond 250 ml."
+   },
+   "parametre": {
+    "sk": [
+     "Model: MR200X manual",
+     "Pomer: 10 : 1",
+     "Pre kartuše Colour Bond 250 ml"
+    ],
+    "cs": [
+     "Model: MR200X manual",
+     "Poměr: 10 : 1",
+     "Pro kartuše Colour Bond 250 ml"
+    ],
+    "pl": [
+     "Model: MR200X manual",
+     "Proporcja: 10 : 1",
+     "Do kartuszy Colour Bond 250 ml"
+    ]
+   }
   }
  ]
 };
