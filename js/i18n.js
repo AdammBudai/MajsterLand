@@ -57,6 +57,22 @@ window.I18N = {
       hu: "Rejtett konnektorok és kapcsolók a burkolat alá, sablonok a pontos fúráshoz, tartók 45°-os géreléshez. Marketing nélkül – csak olyan dolgok, amik az építkezésen beválnak.",
       en: "Hidden under-tile sockets and switches, templates for accurate drilling, holders for 45° mitres. No marketing – just things that work on site."
     },
+    "hero.hint": {
+      sk: "Zatlač na označenú dlaždicu a uvidíš, čo je pod ňou.",
+      cs: "Zatlač na označenou dlaždici a uvidíš, co je pod ní.",
+      pl: "Naciśnij zaznaczoną płytkę i zobacz, co jest pod nią.",
+      hu: "Nyomd meg a jelölt csempét, és meglátod, mi van alatta.",
+      en: "Press the marked tile to see what's behind it."
+    },
+    "hero.reveal": {
+      sk: "Takto vyzerá skrytá zásuvka. Kým ju nepotrebuješ, je to len dlaždica.",
+      cs: "Takhle vypadá skrytá zásuvka. Dokud ji nepotřebuješ, je to jen dlaždice.",
+      pl: "Tak wygląda ukryte gniazdko. Dopóki go nie potrzebujesz, to zwykła płytka.",
+      hu: "Így néz ki a rejtett konnektor. Amíg nincs rá szükséged, csak egy csempe.",
+      en: "That's a hidden socket. Until you need it, it's just a tile."
+    },
+    "tile.open": { sk: "Odklopiť dlaždicu", cs: "Odklopit dlaždici", pl: "Odchyl płytkę", hu: "Csempe kinyitása", en: "Open the tile" },
+    "tile.close": { sk: "Zaklopiť dlaždicu", cs: "Zaklopit dlaždici", pl: "Zamknij płytkę", hu: "Csempe visszazárása", en: "Close the tile" },
     "hero.cta1": { sk: "Pozrieť sortiment", cs: "Prohlédnout sortiment", pl: "Zobacz asortyment", hu: "Termékek", en: "See the range" },
     "hero.cta2": { sk: "Napíš mi", cs: "Napiš mi", pl: "Napisz do mnie", hu: "Írj nekem", en: "Get in touch" },
 
