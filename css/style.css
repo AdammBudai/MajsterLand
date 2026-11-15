@@ -154,7 +154,7 @@ button { font: inherit; color: inherit; }
     repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 1px, transparent 1px 3px),
     radial-gradient(ellipse at center, rgba(14,14,14,.82) 0%, rgba(14,14,14,.6) 60%, rgba(14,14,14,.45) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 30%),
-    url("../img/hero.jpg") center / cover no-repeat;
+    url("../img/hero.jpg?v=2") center / cover no-repeat;
   filter: saturate(.6) contrast(1.05);
 }
 .hero__inner { padding: 70px 0 150px; text-align: center; }
@@ -415,7 +415,7 @@ button { font: inherit; color: inherit; }
     background:
       repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 1px, transparent 1px 3px),
       linear-gradient(0deg, rgba(14,14,14,.95) 0%, rgba(14,14,14,.7) 100%),
-      url("../img/hero.jpg") center / cover no-repeat;
+      url("../img/hero.jpg?v=2") center / cover no-repeat;
   }
 }
 @media (max-width: 600px) {
