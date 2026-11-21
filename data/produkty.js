@@ -187,6 +187,82 @@ window.MAJSTERLAND = {
    }
   },
   {
+   "id": "19124053025",
+   "kategoria": "podobkladove",
+   "cena": 30.0,
+   "obrazok": "img/produkty/19124053025.jpg",
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/push-to-open-system-pre-skryte-revizne-dvierka-na-pantoch-6ee81a80-055b-47d9-9a65-1364000f278c?offerId=19124053025",
+    "cs": "https://allegro.cz/nabidka/19124053025",
+    "pl": "https://allegro.pl/oferta/19124053025",
+    "en": "https://allegro.sk/produkt/push-to-open-system-pre-skryte-revizne-dvierka-na-pantoch-6ee81a80-055b-47d9-9a65-1364000f278c?offerId=19124053025",
+    "hu": "https://allegro.hu/ajanlat/19124053025"
+   },
+   "nazov": {
+    "sk": "Push-to-open systém pre skryté revízne dvierka na pántoch",
+    "cs": "Push-to-open systém pro skrytá revizní dvířka na pantech",
+    "pl": "System push-to-open do ukrytych drzwiczek rewizyjnych na zawiasach",
+    "en": "Push-to-open system for hidden hinged access panels",
+    "hu": "Push-to-open rendszer rejtett, zsanéros revíziós ajtóhoz"
+   },
+   "kratky": {
+    "sk": "Revízne dvierka z obkladu na pántoch. Zatlačíš, pootvoria sa a otvoríš ich ako dvierka skrinky.",
+    "cs": "Revizní dvířka z obkladu na pantech. Zatlačíš, pootevřou se a otevřeš je jako dvířka skříňky.",
+    "pl": "Drzwiczki rewizyjne z płytki na zawiasach. Naciskasz, uchylają się i otwierasz je jak drzwiczki szafki.",
+    "en": "A tiled access panel on hinges. Push it, it pops ajar and swings open like a cabinet door.",
+    "hu": "Csempézett revíziós ajtó zsanérokon. Megnyomod, résnyire kinyílik, és kinyitod, mint egy szekrényajtót."
+   },
+   "popis": {
+    "sk": "Skryté revízne dvierka z obkladu, ktoré sa otvárajú na pántoch. Keď zatlačíš na miesto s push-to-open mechanizmom, dvierka sa pootvoria a pohodlne ich otvoríš. Nič sa nevyberá ani neodkladá nabok. Pevné pánty udržia dvierka až do veľkosti 50 × 70 cm. Dištančné podložky a minišablóna v balení pomôžu dvierka presne osadiť, s pravým aj oblým rohom.",
+    "cs": "Skrytá revizní dvířka z obkladu, která se otevírají na pantech. Když zatlačíš na místo s push-to-open mechanismem, dvířka se pootevřou a pohodlně je otevřeš. Nic se nevyndává ani neodkládá stranou. Pevné panty udrží dvířka až do velikosti 50 × 70 cm. Distanční podložky a minišablona v balení pomohou dvířka přesně osadit, s pravým i oblým rohem.",
+    "pl": "Ukryte drzwiczki rewizyjne z płytki, które otwierają się na zawiasach. Gdy naciśniesz miejsce z mechanizmem push-to-open, drzwiczki się uchylą i wygodnie je otworzysz. Niczego nie trzeba wyjmować ani odkładać na bok. Mocne zawiasy utrzymają drzwiczki do rozmiaru 50 × 70 cm. Dystanse i mini szablon w zestawie pomogą dokładnie osadzić drzwiczki, z narożnikiem prostym lub zaokrąglonym.",
+    "en": "A hidden tiled access panel that opens on hinges. Press where the push-to-open latch sits, the panel pops ajar and you swing it open. Nothing has to be lifted off or put aside. The sturdy hinges hold panels up to 50 × 70 cm. The spacers and mini template in the pack help you fit the panel accurately, with square or rounded corners.",
+    "hu": "Rejtett, csempézett revíziós ajtó, amely zsanérokon nyílik. Ha megnyomod azt a pontot, ahol a push-to-open mechanizmus van, az ajtó résnyire kinyílik, és kényelmesen kinyitod. Semmit nem kell kivenni vagy félretenni. Az erős zsanérok legfeljebb 50 × 70 cm-es ajtót is megtartanak. A csomagban lévő távtartók és a mini sablon segítenek pontosan beilleszteni az ajtót, egyenes vagy lekerekített sarokkal."
+   },
+   "parametre": {
+    "sk": [
+     "Balenie: pár pántov + push-to-open mechanizmus",
+     "V balení aj dištančné podložky a minišablóna na pravý aj oblý roh",
+     "Dvierka do veľkosti 50 × 70 cm",
+     "Farba: sivá",
+     "Materiál: plast, 3D tlač",
+     "Lepidlo nie je súčasťou"
+    ],
+    "cs": [
+     "Balení: pár pantů + push-to-open mechanismus",
+     "V balení i distanční podložky a minišablona na pravý i oblý roh",
+     "Dvířka do velikosti 50 × 70 cm",
+     "Barva: šedá",
+     "Materiál: plast, 3D tisk",
+     "Lepidlo není součástí"
+    ],
+    "pl": [
+     "Zestaw: para zawiasów + mechanizm push-to-open",
+     "W zestawie także dystanse i mini szablon do narożnika prostego i zaokrąglonego",
+     "Drzwiczki do rozmiaru 50 × 70 cm",
+     "Kolor: szary",
+     "Materiał: tworzywo, druk 3D",
+     "Klej nie jest w zestawie"
+    ],
+    "en": [
+     "Pack: pair of hinges + push-to-open latch",
+     "Also includes spacers and a mini template for square or rounded corners",
+     "Panels up to 50 × 70 cm",
+     "Colour: grey",
+     "Material: plastic, 3D printed",
+     "Adhesive not included"
+    ],
+    "hu": [
+     "Csomag: egy pár zsanér + push-to-open mechanizmus",
+     "A csomagban távtartók és mini sablon is van egyenes és lekerekített sarokhoz",
+     "Ajtóméret legfeljebb 50 × 70 cm",
+     "Szín: szürke",
+     "Anyag: műanyag, 3D nyomtatás",
+     "Ragasztó nem tartozék"
+    ]
+   }
+  },
+  {
    "id": "18510831098",
    "kategoria": "podobkladove",
    "cena": 25.0,
@@ -1680,6 +1756,77 @@ window.MAJSTERLAND = {
      "Külső méret: 100 × 100 mm",
      "Belső méret: 75 × 75 mm",
      "Szár szélessége × magassága: 25 × 18 mm",
+     "Anyag: műanyag, 3D nyomtatás, a szín a rendelkezésre álló anyagtól függ"
+    ]
+   }
+  },
+  {
+   "id": "19123973227",
+   "kategoria": "pripravky",
+   "cena": 3.5,
+   "obrazok": "img/produkty/19123973227.jpg",
+   "allegro": {
+    "sk": "https://allegro.sk/produkt/rohovy-fixacny-uholnik-na-lepenie-obkladov-s-vymedzenim-skary-a8f4a622-a696-4b87-94de-7c97e1b11468?offerId=19123973227",
+    "cs": "https://allegro.cz/nabidka/19123973227",
+    "pl": "https://allegro.pl/oferta/19123973227",
+    "en": "https://allegro.sk/produkt/rohovy-fixacny-uholnik-na-lepenie-obkladov-s-vymedzenim-skary-a8f4a622-a696-4b87-94de-7c97e1b11468?offerId=19123973227",
+    "hu": "https://allegro.hu/ajanlat/19123973227"
+   },
+   "nazov": {
+    "sk": "Rohový fixačný uholník s vymedzením škáry",
+    "cs": "Rohový fixační úhelník s vymezením spáry",
+    "pl": "Narożny kątownik z dystansem na spoinę",
+    "en": "Corner square with built-in joint spacer",
+    "hu": "Sarokrögzítő derékszög fugatávtartóval"
+   },
+   "kratky": {
+    "sk": "Drží pravý uhol pri lepení dlaždíc a v rohu nechá 1 mm medzeru na lepidlo.",
+    "cs": "Drží pravý úhel při lepení dlaždic a v rohu nechá 1 mm mezeru na lepidlo.",
+    "pl": "Trzyma kąt prosty przy klejeniu płytek i zostawia w narożniku 1 mm szczeliny na klej.",
+    "en": "Holds a right angle while you glue tiles and leaves a 1 mm gap for adhesive in the corner.",
+    "hu": "Ragasztáskor tartja a derékszöget, és a sarokban 1 mm-es rést hagy a ragasztónak."
+   },
+   "popis": {
+    "sk": "Uholník na stabilizáciu pravého uhla pri lepení a montáži dlaždíc. V rohu má 1 mm dištančnú podložku, ktorá medzi dlaždicami vytvorí presnú medzeru na lepidlo. Spoj tak ostane rovnaký a lepidlo sa z neho nevytlačí.",
+    "cs": "Úhelník pro stabilizaci pravého úhlu při lepení a montáži dlaždic. V rohu má 1 mm distanční podložku, která mezi dlaždicemi vytvoří přesnou mezeru na lepidlo. Spoj tak zůstane stejný a lepidlo se z něj nevytlačí.",
+    "pl": "Kątownik do stabilizacji kąta prostego przy klejeniu i montażu płytek. W narożniku ma dystans 1 mm, który tworzy między płytkami dokładną szczelinę na klej. Spoina pozostaje równa, a klej nie zostaje z niej wypchnięty.",
+    "en": "A square for holding a right angle while gluing and fitting tiles. A 1 mm spacer in the corner leaves an exact gap for adhesive between the tiles, so the joint stays even and the adhesive isn't squeezed out.",
+    "hu": "Derékszögtartó a lapok ragasztásához és szereléséhez. A sarkában 1 mm-es távtartó van, amely pontos rést hagy a lapok között a ragasztónak. Így a fuga egyenletes marad, és a ragasztó nem nyomódik ki belőle."
+   },
+   "parametre": {
+    "sk": [
+     "Vonkajší rozmer: 85 × 85 mm",
+     "Vnútorný rozmer: 70 × 70 mm",
+     "Šírka × výška ramena: 15 × 15 mm",
+     "Dištančná podložka v rohu: 1 mm",
+     "Materiál: plast, 3D tlač, farba podľa dostupného materiálu"
+    ],
+    "cs": [
+     "Vnější rozměr: 85 × 85 mm",
+     "Vnitřní rozměr: 70 × 70 mm",
+     "Šířka × výška ramene: 15 × 15 mm",
+     "Distanční podložka v rohu: 1 mm",
+     "Materiál: plast, 3D tisk, barva podle dostupného materiálu"
+    ],
+    "pl": [
+     "Wymiar zewnętrzny: 85 × 85 mm",
+     "Wymiar wewnętrzny: 70 × 70 mm",
+     "Szerokość × wysokość ramienia: 15 × 15 mm",
+     "Dystans w narożniku: 1 mm",
+     "Materiał: tworzywo, druk 3D, kolor zależny od dostępnego materiału"
+    ],
+    "en": [
+     "Outer size: 85 × 85 mm",
+     "Inner size: 70 × 70 mm",
+     "Arm width × height: 15 × 15 mm",
+     "Corner spacer: 1 mm",
+     "Material: plastic, 3D printed, colour depends on available material"
+    ],
+    "hu": [
+     "Külső méret: 85 × 85 mm",
+     "Belső méret: 70 × 70 mm",
+     "Szár szélessége × magassága: 15 × 15 mm",
+     "Távtartó a sarokban: 1 mm",
      "Anyag: műanyag, 3D nyomtatás, a szín a rendelkezésre álló anyagtól függ"
     ]
    }
